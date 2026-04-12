@@ -174,7 +174,7 @@ export default function Menu() {
                           loading="lazy"
                           decoding="async"
                           referrerPolicy="no-referrer"
-                          className="w-full h-auto max-h-[70vh] object-contain saturate-95 contrast-[1.02] brightness-[1.01] transition-transform duration-700 ease-out group-hover:scale-[1.02]"
+                          className="mx-auto w-full max-w-lg aspect-[9/16] object-cover saturate-95 contrast-[1.02] brightness-[1.01] transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                         />
                       </figure>
                     )}
