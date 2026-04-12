@@ -230,12 +230,15 @@ export default function Home() {
 
           {/* Native Video Panel */}
           <div className="w-full h-[60vh] md:h-[80vh] rounded-3xl overflow-hidden relative shadow-2xl mb-32 group">
-            <iframe
-              src="https://imgur.com/a/hQPjuC6/embed?autoplay=1&mute=1&loop=1"
-              title="Signature offerings video"
-              className="absolute inset-0 w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-1000 border-0"
-              allow="autoplay; fullscreen"
-            />
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute inset-0 w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-1000"
+            >
+              <source src="https://i.imgur.com/hQPjuC6.mp4" type="video/mp4" />
+            </video>
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <div className="text-center px-4">
                 <span className="uppercase tracking-[0.2em] text-xs md:text-sm font-bold text-white/90 mb-4 block drop-shadow-md">{t('home.menu.signatureLabel')}</span>
