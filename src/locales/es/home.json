@@ -33,11 +33,11 @@
     }
   },
   "philosophy": {
-    "label": "La Filosofía",
-    "title": "Palm:",
-    "emphasis": "Mejora Continua.",
-    "description": "Cada taza es una iteración. Cada tueste es un refinamiento. Aplicamos la filosofía japonesa de Palm al arte del café, asegurando que tu ritual diario nunca sea estático, sino que siempre evolucione hacia la perfección.",
-    "cta": "La Familia Palm"
+    "label": "LOS FUNDADORES",
+    "title": "Hecho a mano,",
+    "emphasis": "moldeado con el tiempo.",
+    "description": "Palm & Light nació de una idea simple: crear una cafetería que se sienta tan bien como se ve.\n\nComo residentes de South Bay desde hace años, quisimos construir un espacio que reflejara cómo nos gusta vivir nuestras propias mañanas: buen café, luz natural y espacio para ir más despacio.\n\nCada detalle, desde el menú hasta los materiales, ha sido pensado con cuidado. No para impresionar, sino para crear algo que se sienta natural, acogedor y al que den ganas de volver.",
+    "cta": "The Palm Family →"
   },
   "menu": {
     "signatureLabel": "Ofertas de la Casa",
