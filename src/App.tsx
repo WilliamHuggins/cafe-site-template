@@ -12,9 +12,9 @@ import { isSupportedLocale, supportedLocales } from './i18n';
 const Home = lazy(() => import('./pages/Home'));
 const Menu = lazy(() => import('./pages/Menu'));
 const About = lazy(() => import('./pages/About'));
-const MobileBar = lazy(() => import('./pages/MobileBar'));
+const Catering = lazy(() => import('./pages/Catering'));
 const Careers = lazy(() => import('./pages/Careers'));
-const GiftCards = lazy(() => import('./pages/GiftCards'));
+const MerchStore = lazy(() => import('./pages/MerchStore'));
 const Subscribe = lazy(() => import('./pages/Subscribe'));
 const ComingSoon = lazy(() => import('./pages/ComingSoon'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -64,9 +64,11 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="menu" element={<Menu />} />
             <Route path="about" element={<About />} />
-            <Route path="mobile-bar" element={<MobileBar />} />
+            <Route path="catering" element={<Catering />} />
+            <Route path="mobile-bar" element={<Navigate to="../catering" replace />} />
             <Route path="careers" element={<Careers />} />
-            <Route path="gift-cards" element={<GiftCards />} />
+            <Route path="merch-store" element={<MerchStore />} />
+            <Route path="gift-cards" element={<Navigate to="../merch-store" replace />} />
             <Route path="subscribe" element={<Subscribe />} />
             <Route path="privacy" element={<ComingSoon />} />
             <Route path="terms" element={<ComingSoon />} />
@@ -77,9 +79,11 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="menu" element={<Menu />} />
             <Route path="about" element={<About />} />
-            <Route path="mobile-bar" element={<MobileBar />} />
+            <Route path="catering" element={<Catering />} />
+            <Route path="mobile-bar" element={<Navigate to="../catering" replace />} />
             <Route path="careers" element={<Careers />} />
-            <Route path="gift-cards" element={<GiftCards />} />
+            <Route path="merch-store" element={<MerchStore />} />
+            <Route path="gift-cards" element={<Navigate to="../merch-store" replace />} />
             <Route path="subscribe" element={<Subscribe />} />
             <Route path="privacy" element={<ComingSoon />} />
             <Route path="terms" element={<ComingSoon />} />

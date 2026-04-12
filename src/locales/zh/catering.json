@@ -1,0 +1,89 @@
+{
+  "seoTitle": "餐饮服务 | Palm & Light Coffee",
+  "seoDescription": "Palm & Light Coffee 精品咖啡餐饮服务，适用于婚礼、企业活动和私人聚会。",
+  "hero": {
+    "eyebrow": "CATERING",
+    "headline": "把 Palm & Light 带到你的餐桌。",
+    "body": "用心咖啡、温暖款待与阳光感呈现，为各种聚会增添氛围。"
+  },
+  "intro": {
+    "headline": "为庆典、聚会以及其间的每个时刻。",
+    "body": "从私享早午餐到婚礼、创意拍摄和企业活动，我们都以细致与诚意把 Palm & Light 体验带到现场。",
+    "categories": [
+      "早午餐",
+      "婚礼",
+      "企业活动",
+      "私人活动"
+    ]
+  },
+  "offers": {
+    "headline": "我们提供",
+    "items": [
+      {
+        "title": "精品咖啡",
+        "description": "意式、手冲批量咖啡、冷萃、抹茶与季节限定饮品。"
+      },
+      {
+        "title": "点心与轻食",
+        "description": "新鲜烘焙与简洁贴心的搭配。"
+      },
+      {
+        "title": "全程服务",
+        "description": "从布置到服务，全程保持沉稳而精致的现场呈现。"
+      }
+    ]
+  },
+  "form": {
+    "headline": "提交咨询",
+    "body": "告诉我们你的活动信息，我们会尽快回复档期与细节。",
+    "submit": "提交咨询",
+    "submitting": "提交中…",
+    "success": "感谢提交——我们会尽快联系你。",
+    "error": "提交失败。请直接发送邮件至 catering@palmandlight.co。",
+    "fields": {
+      "fullName": "姓名",
+      "email": "邮箱",
+      "phone": "电话号码",
+      "eventType": "活动类型",
+      "eventDate": "活动日期",
+      "eventLocation": "活动地点",
+      "guestCount": "预计人数",
+      "services": "感兴趣的服务",
+      "eventDetails": "活动详情",
+      "budgetRange": "预算范围（可选）"
+    },
+    "options": {
+      "eventType": {
+        "wedding": "婚礼",
+        "corporate": "企业活动",
+        "privateEvent": "私人活动",
+        "other": "其他"
+      },
+      "services": {
+        "coffee": "咖啡服务",
+        "pastries": "点心",
+        "fullService": "全套服务布置"
+      },
+      "budget": {
+        "optional": "可选",
+        "under2k": "低于 $2,000",
+        "twoToFive": "$2,000 - $5,000",
+        "fiveToTen": "$5,000 - $10,000",
+        "tenPlus": "$10,000+"
+      }
+    }
+  },
+  "offline": {
+    "headline": "想离线规划？",
+    "body": "下载我们的餐饮申请表，按你的节奏填写完成后再发送给我们。",
+    "download": "下载餐饮申请表 (PDF)",
+    "email": "给我们发邮件 →"
+  },
+  "images": {
+    "heroAlt": "自然光下的咖啡与点心活动布置",
+    "experienceAlt": "花园场景中的意式机、杯具与花艺布置",
+    "formAlt": "精致摆盘的点心与饮品",
+    "offlineAlt": "Palm & Light 餐饮资料与文具",
+    "optionalAlt": "餐饮咖啡与点心特写"
+  }
+}

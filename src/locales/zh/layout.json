@@ -4,15 +4,15 @@
     "menu": "菜单",
     "family": "Palm 家族",
     "careers": "招聘",
-    "mobileBar": "移动咖啡吧",
-    "giftCards": "礼品卡",
     "instagramLabel": "Instagram",
     "toggleTheme": "切换主题",
     "connect": "联系我们",
     "openMenu": "打开导航菜单",
     "closeMenu": "关闭导航菜单",
     "languageLabel": "语言",
-    "navigationMenu": "导航菜单"
+    "navigationMenu": "导航菜单",
+    "catering": "餐饮服务",
+    "merchStore": "周边商店"
   },
   "footer": {
     "tagline": "通过不断改进，打造每一杯理想咖啡。",

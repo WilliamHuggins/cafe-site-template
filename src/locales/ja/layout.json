@@ -4,15 +4,15 @@
     "menu": "メニュー",
     "family": "Palmファミリー",
     "careers": "採用情報",
-    "mobileBar": "モバイルバー",
-    "giftCards": "ギフトカード",
     "instagramLabel": "インスタグラム",
     "toggleTheme": "テーマを切り替え",
     "connect": "お問い合わせ",
     "openMenu": "ナビゲーションを開く",
     "closeMenu": "ナビゲーションを閉じる",
     "languageLabel": "言語",
-    "navigationMenu": "ナビゲーションメニュー"
+    "navigationMenu": "ナビゲーションメニュー",
+    "catering": "ケータリング",
+    "merchStore": "グッズストア"
   },
   "footer": {
     "tagline": "より良い一杯を目指し、絶えず改善を続けます。",

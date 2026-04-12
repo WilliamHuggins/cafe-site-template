@@ -38,8 +38,8 @@ export default function Layout() {
     { name: t('layout.nav.menu'), path: localizePath('/#menu') },
     { name: t('layout.nav.family'), path: localizePath('/about') },
     { name: t('layout.nav.careers'), path: localizePath('/careers') },
-    { name: t('layout.nav.mobileBar'), path: localizePath('/mobile-bar') },
-    { name: t('layout.nav.giftCards'), path: localizePath('/gift-cards') },
+    { name: t('layout.nav.catering'), path: localizePath('/catering') },
+    { name: t('layout.nav.merchStore'), path: localizePath('/merch-store') },
   ];
 
   const toggleTheme = () => {
@@ -464,7 +464,7 @@ export default function Layout() {
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.explore')}</span>
               <a href={localizePath("/#menu")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.menu')}</a>
               <Link to={localizePath("/about")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.family')}</Link>
-              <Link to={localizePath("/mobile-bar")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.mobileBar')}</Link>
+              <Link to={localizePath("/catering")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.catering')}</Link>
             </div>
             <div className="flex flex-col gap-4">
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.connect')}</span>
@@ -487,7 +487,7 @@ export default function Layout() {
             </div>
             <div className="flex flex-col gap-4">
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.shop')}</span>
-              <Link to={localizePath("/gift-cards")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.giftCards')}</Link>
+              <Link to={localizePath("/merch-store")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.merchStore')}</Link>
             </div>
             <div className="flex flex-col gap-4">
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.visit')}</span>

@@ -1,0 +1,89 @@
+{
+  "seoTitle": "Catering | Palm & Light Coffee",
+  "seoDescription": "Boutique coffee catering by Palm & Light Coffee for weddings, corporate gatherings, and private events.",
+  "hero": {
+    "eyebrow": "CATERING",
+    "headline": "Bring Palm & Light to the table.",
+    "body": "Thoughtful coffee, warm hospitality, and sunlit presentation for gatherings of all kinds."
+  },
+  "intro": {
+    "headline": "For celebrations, gatherings, and everything in between.",
+    "body": "From intimate brunches to weddings, creative productions, and corporate events, we bring the Palm & Light experience to you with care and intention.",
+    "categories": [
+      "Brunches",
+      "Weddings",
+      "Corporate",
+      "Private Events"
+    ]
+  },
+  "offers": {
+    "headline": "What we offer",
+    "items": [
+      {
+        "title": "Craft Coffee",
+        "description": "Espresso, batch brew, cold brew, matcha, and seasonal drinks."
+      },
+      {
+        "title": "Pastries & Light Bites",
+        "description": "Freshly prepared baked goods and simple, thoughtful pairings."
+      },
+      {
+        "title": "Full Service",
+        "description": "Setup, service, and a calm, polished presence throughout your event."
+      }
+    ]
+  },
+  "form": {
+    "headline": "Inquire",
+    "body": "Tell us a bit about your event and we'll follow up with availability and details.",
+    "submit": "Submit Inquiry",
+    "submitting": "Submitting…",
+    "success": "Thanks—we'll be in touch shortly.",
+    "error": "Something went wrong. Please email us directly at catering@palmandlight.co.",
+    "fields": {
+      "fullName": "Full Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "eventType": "Event Type",
+      "eventDate": "Event Date",
+      "eventLocation": "Event Location",
+      "guestCount": "Estimated Guest Count",
+      "services": "Services Interested In",
+      "eventDetails": "Event Details",
+      "budgetRange": "Budget Range (optional)"
+    },
+    "options": {
+      "eventType": {
+        "wedding": "Wedding",
+        "corporate": "Corporate",
+        "privateEvent": "Private Event",
+        "other": "Other"
+      },
+      "services": {
+        "coffee": "Coffee Service",
+        "pastries": "Pastries",
+        "fullService": "Full Service Setup"
+      },
+      "budget": {
+        "optional": "Optional",
+        "under2k": "Under $2,000",
+        "twoToFive": "$2,000 - $5,000",
+        "fiveToTen": "$5,000 - $10,000",
+        "tenPlus": "$10,000+"
+      }
+    }
+  },
+  "offline": {
+    "headline": "Prefer to plan offline?",
+    "body": "Download our catering request form, fill it out at your pace, and send it to us when you're ready.",
+    "download": "Download Catering Form (PDF)",
+    "email": "Email Us →"
+  },
+  "images": {
+    "heroAlt": "Coffee and pastry catering setup in natural light",
+    "experienceAlt": "Outdoor catering setup with espresso machine, florals, and citrus",
+    "formAlt": "Elegant pastries and drinks prepared for service",
+    "offlineAlt": "Palm & Light catering details and stationery",
+    "optionalAlt": "Close-up of coffee and pastries for catering"
+  }
+}
