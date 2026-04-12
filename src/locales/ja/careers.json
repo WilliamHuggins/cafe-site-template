@@ -1,33 +1,35 @@
 {
   "seoTitle": "採用情報 | Palm & Light Coffee",
-  "seoDescription": "San Mateoの Palm & Light Coffee チームに加わりませんか。おもてなしと継続的な改善を大切にする、特別なコーヒー体験を一緒に作りましょう。",
+  "seoDescription": "Palm & Light Coffee の採用情報をご覧ください。",
   "hero": {
-    "label": "チームに参加する",
-    "title": "技術、思いやり、そして",
-    "emphasis": "継続的な改善。"
+    "label": "採用情報",
+    "title": "意図を持った",
+    "emphasis": "おもてなし。"
   },
   "lookingFor": {
-    "title": "求めているのは",
-    "emphasis": "こんな仲間です。",
-    "p1": "品質へのこだわりとおもてなしへの情熱を共有できる方を常に探しています。コーヒーチャンピオンである必要はありませんが、細部を大切にする心は欠かせません。",
-    "p2": "私たちが大切にしているのは、好奇心、共感力、そして強い仕事への姿勢です。一杯のコーヒーとあたたかいやりとりが誰かの一日を変えられると信じている方、あなたの居場所がここにあります。"
+    "title": "私たちが",
+    "emphasis": "求める人材。",
+    "p1": "私たちは採用を慎重に行い、基準を高く保っています。落ち着いて行動し、技術を尊重し、体験を左右する細部に気づける方を求めています。",
+    "p2": "経験も歓迎しますが、最も重視するのは姿勢です。謙虚さ、一貫性、そして自然なおもてなしの心を大切にしています。"
   },
   "values": {
     "title": "私たちの価値観",
     "items": [
-      { "name": "Palm", "description": "学びに終わりはありません。フィードバックを求め、日々の改善に努めます。" },
-      { "name": "心からのおもてなし", "description": "すべてのお客様を、自分の家に迎えるようにお迎えします。" },
-      { "name": "精密さ", "description": "素材に敬意を持ち、妥協のない基準で調理します。" }
+      { "name": "Palm", "description": "学びに終わりはありません。フィードバックを受け、着実に磨き続けます。" },
+      { "name": "おもてなし", "description": "すべての接客が、配慮と温かさ、そして正確さを備えていること。" },
+      { "name": "クラフト", "description": "規律と集中力をもって、素材と工程に敬意を払います。" }
     ]
   },
-  "openings": {
-    "title": "現在の",
-    "emphasis": "募集職種。",
-    "applyNow": "応募する",
-    "positions": [
-      { "title": "バリスタ", "type": "フルタイム / パートタイム • San Mateo, CA" },
-      { "title": "モバイルバーリード", "type": "パートタイム（週末） • Bay Area" }
-    ],
-    "fallback": "ご希望のポジションが見つかりませんか？履歴書を careers@palmlightcoffee.com にお送りいただき、あなたがチームに加わりたい理由をお聞かせください。"
+  "application": {
+    "title": "応募",
+    "body1": "体験の質が大切だからこそ、採用を真剣に行っています。",
+    "body2": "すべての応募書類に、私たちが目を通します。",
+    "body3": "下のフォームをダウンロードし、時間をかけてご記入のうえ、準備ができたらお送りください。",
+    "body4": "応募時には、履歴書を必ず添付してください。",
+    "downloadButton": "応募フォームをダウンロード（PDF）",
+    "emailButton": "応募書類をメールで送る →",
+    "downloadHref": "/Palm-Light-Coffee-Application.pdf",
+    "emailHref": "mailto:careers@palmandlight.co?subject=Palm%20%26%20Light%20Application",
+    "email": "careers@palmandlight.co"
   }
 }
