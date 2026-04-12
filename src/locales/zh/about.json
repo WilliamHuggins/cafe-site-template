@@ -1,53 +1,48 @@
 {
   "seoTitle": "Palm 大家庭 | 我们的故事",
-  "seoDescription": "了解 Palm & Light Coffee 背后的故事——一间扎根于 San Mateo、以持续改善、匠心和社区精神为基石的家庭经营咖啡馆。",
+  "seoDescription": "以更具酒店感的方式认识 Palm & Light Coffee：关于空间、节奏与归属感的温暖故事。",
   "hero": {
-    "kanji": "改善",
-    "title": "一个家庭，一个名字，一份对\u00a0",
-    "emphasis": "更好咖啡的追求。",
-    "location": "San Mateo, California",
-    "scrollLabel": "我们的故事"
+    "eyebrow": "THE PALM FAMILY",
+    "headline": "不止是一家咖啡馆。",
+    "body": "这是一个由光线、咖啡，以及每天都会再回来的人共同塑造的空间。"
   },
-  "origin": {
-    "title": "一切始于",
-    "emphasis": "无眠的夜晚",
-    "p1": "五年前，我们并不是咖啡人。后来我们的儿子 Palm 出生了——一切都改变了。新手父母那美丽的疲惫驱使着我们，一头扎进了精品咖啡的世界。",
-    "p2": "我们在 Texas Coffee School 和 Barista Hustle 接受培训，向各地咖啡领袖请教品鉴，疫情来临后，我们加入了一个日益壮大的家庭咖啡师社群，研究每一杯咖啡背后的科学与工艺。",
-    "p3": "2023年3月31日，经过近四年的旅程，我们在 San Mateo 打开了 Palm & Light Coffee 的大门——一间以我们儿子命名的家庭咖啡馆，也承载着指引我们一切的日本哲学。",
-    "definitionLabel": "日语 · 名词",
-    "definitionName": "Palm",
-    "definitionKana": "改善 · かいぜん",
-    "definitionText": "持续改善的实践——致力于让每一天、每一杯、每一次互动都比上一次更好。"
+  "intro": {
+    "headline": "一个值得反复回来的地方。",
+    "body1": "Palm & Light 从一开始，就是为了让人慢下来。",
+    "body2": "在这里，清晨更有仪式感，午后更松弛，每一次到访都像回到熟悉之处。"
   },
-  "familyCaption": "Shane、Jason 和 Palm——咖啡馆背后的一家人",
-  "timeline": {
-    "title": "通往",
-    "emphasis": "开业之日的旅程。",
+  "people": {
+    "eyebrow": "THE PEOPLE",
+    "headline": "由在乎空间感受的人们共同打造。",
+    "body1": "我们是一支扎根 South Bay 的小团队，相信好咖啡只是体验的一部分。",
+    "body2": "窗边的光影、空间的节奏，以及再次被温柔欢迎的感觉，同样重要。"
+  },
+  "pillars": {
+    "eyebrow": "让人再来的原因",
     "items": [
-      { "year": "2018", "title": "Palm 出生", "description": "我们的儿子来到了这个世界——与他一同到来的，还有睡眠不足中对好咖啡的觉醒。" },
-      { "year": "2019", "title": "深入学习", "description": "系统培训、与烘焙师品鉴交流，以及对咖啡工艺日益增长的热忱。" },
-      { "year": "2020", "title": "家庭咖啡师时代", "description": "疫情将我们的厨房变成了实验室，咖啡科学成为日常功课。" },
-      { "year": "2023", "title": "正式开业", "description": "将一间旧音乐工作室改造成咖啡馆，历经种种波折，Palm & Light Coffee 终于在 El Camino Real 开门迎客。" }
+      {
+        "title": "Light",
+        "body": "开放、平静、充满阳光的空间设计。"
+      },
+      {
+        "title": "Coffee",
+        "body": "用心制作，克制而精致。"
+      },
+      {
+        "title": "Connection",
+        "body": "一个让人一次又一次回来的地方。"
+      }
     ]
   },
-  "values": {
-    "label": "我们的信念",
-    "title": "立足于",
-    "emphasis": "三大原则。",
-    "items": [
-      { "icon": "◯", "title": "做一座桥梁", "description": "精品咖啡有时让人望而却步。我们希望成为每一位好奇者温暖的第一步——没有门槛，没有架子，只有好咖啡和好交流。" },
-      { "icon": "△", "title": "持续改善", "description": "Palm 不仅仅是一个名字——它是我们运营的方式。每一天，我们都在精进流程、优化饮品、提升服务。变得更好永不停歇。" },
-      { "icon": "□", "title": "家庭为先", "description": "这间咖啡馆因家庭而生，也以家的方式经营。从自制糖浆到糕点柜台，这里的一切都倾注着你对自家厨房般的用心。" }
-    ]
+  "feature": {
+    "eyebrow": "PART OF YOUR DAY",
+    "headline": "成为你一天的一部分。",
+    "body1": "晨间咖啡，午间重启。无论会面、工作，还是短暂停留，都刚刚好。",
+    "body2": "Palm & Light 自然融入你的生活节奏。"
   },
-  "partners": {
-    "label": "我们的合作伙伴",
-    "title": "用心",
-    "emphasis": "甄选。"
-  },
-  "visit": {
-    "label": "来坐坐吧",
-    "title": "我们为你留了",
-    "emphasis": "一个座位。"
+  "cta": {
+    "headline": "来坐坐，慢慢待一会儿。",
+    "viewMenu": "查看菜单",
+    "visitUs": "到店访问"
   }
 }

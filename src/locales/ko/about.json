@@ -1,53 +1,48 @@
 {
   "seoTitle": "Palm 패밀리 | 우리의 이야기",
-  "seoDescription": "지속적인 개선, 장인 정신, 커뮤니티를 바탕으로 세워진 San Mateo 가족 운영 카페, Palm & Light Coffee의 이야기를 만나보세요.",
+  "seoDescription": "Palm & Light Coffee를 장소의 분위기, 리듬, 연결감을 담은 차분한 호스피탈리티 스토리로 만나보세요.",
   "hero": {
-    "kanji": "改善",
-    "title": "한 가족, 하나의 이름, 더 나은\u00a0커피를 향한",
-    "emphasis": "끊임없는 추구.",
-    "location": "San Mateo, California",
-    "scrollLabel": "우리의 이야기"
+    "eyebrow": "THE PALM FAMILY",
+    "headline": "카페 그 이상.",
+    "body": "빛과 커피, 그리고 매일 다시 찾아오는 사람들이 함께 만드는 공간입니다."
   },
-  "origin": {
-    "title": "시작은",
-    "emphasis": "잠 못 이루는 밤이었습니다",
-    "p1": "5년 전, 우리는 커피에 대해 아무것도 몰랐습니다. 그러다 아들 Palm이 태어났고, 모든 것이 바뀌었습니다. 새로운 부모가 된 아름다운 피로감에 이끌려, 스페셜티 커피의 세계에 빠져들었습니다.",
-    "p2": "Texas Coffee School과 Barista Hustle에서 교육을 받고, 지역 커피 리더들과 테이스팅을 진행했으며, 팬데믹이 찾아오자 모든 한 잔의 뒤에 숨겨진 과학과 장인 정신을 연구하는 진지한 홈 바리스타 커뮤니티에 합류했습니다.",
-    "p3": "2023년 3월 31일, 그 여정을 시작한 지 거의 4년 만에, 바로 이곳 San Mateo에 Palm & Light Coffee의 문을 열었습니다. 우리 아들의 이름이자, 우리가 하는 모든 일을 이끄는 일본 철학의 이름을 딴 가족 운영 카페입니다.",
-    "definitionLabel": "일본어 · 명사",
-    "definitionName": "Palm",
-    "definitionKana": "改善 · かいぜん",
-    "definitionText": "지속적인 개선의 실천 — 매일, 매 한 잔, 매 만남을 어제보다 조금 더 나아지게 만드는 약속."
+  "intro": {
+    "headline": "다시 돌아오고 싶은 곳.",
+    "body1": "Palm & Light는 천천히 머물 수 있는 곳으로 시작했습니다.",
+    "body2": "아침은 의도 있게, 오후는 여유롭게, 그리고 방문할 때마다 익숙함이 느껴지는 곳입니다."
   },
-  "familyCaption": "Shane, Jason & Palm — 카페 뒤의 가족",
-  "timeline": {
-    "title": "오픈까지의",
-    "emphasis": "여정.",
+  "people": {
+    "eyebrow": "THE PEOPLE",
+    "headline": "공간의 감각을 소중히 여기는 사람들이 만든 곳.",
+    "body1": "우리는 South Bay에 뿌리를 둔 작은 팀이며, 훌륭한 커피는 경험의 일부일 뿐이라고 믿습니다.",
+    "body2": "창으로 들어오는 빛, 공간의 리듬, 다시 반갑게 맞이받는 느낌이 이곳을 완성합니다."
+  },
+  "pillars": {
+    "eyebrow": "사람들이 다시 오는 이유",
     "items": [
-      { "year": "2018", "title": "Palm의 탄생", "description": "아들이 태어났고, 수면 부족 속에서 좋은 커피의 가치를 발견했습니다." },
-      { "year": "2019", "title": "본격적인 탐구", "description": "정식 교육, 로스터들과의 테이스팅, 그리고 한 잔에 담긴 장인 정신에 대한 커져가는 열정." },
-      { "year": "2020", "title": "홈 바리스타 시대", "description": "팬데믹으로 우리 주방이 연구소가 되었습니다. 커피 과학이 일상의 루틴이 되었습니다." },
-      { "year": "2023", "title": "문을 열다", "description": "옛 음악 스튜디오를 카페로 개조하고, 수차례의 지연을 견뎌낸 끝에, Palm & Light Coffee가 El Camino Real에 문을 열었습니다." }
+      {
+        "title": "Light",
+        "body": "열려 있고, 차분하며, 햇살로 가득한 공간."
+      },
+      {
+        "title": "Coffee",
+        "body": "정성스럽게 만들고, 조용히 정제한 커피."
+      },
+      {
+        "title": "Connection",
+        "body": "사람들이 다시, 또 다시 찾게 되는 장소."
+      }
     ]
   },
-  "values": {
-    "label": "우리의 신념",
-    "title": "세 가지 원칙 위에",
-    "emphasis": "세워졌습니다.",
-    "items": [
-      { "icon": "◯", "title": "다리가 되다", "description": "스페셜티 커피는 어렵게 느껴질 수 있습니다. 좋은 커피의 맛이 궁금한 모든 분께 따뜻한 첫 걸음이 되고 싶습니다. 문턱 없이, 허세 없이, 좋은 커피와 좋은 대화만 있습니다." },
-      { "icon": "△", "title": "지속적인 개선", "description": "Palm은 단순한 이름이 아닙니다. 우리가 카페를 운영하는 방식입니다. 매일 프로세스, 음료, 환대를 다듬습니다. 더 나아지는 것에는 끝이 없습니다." },
-      { "icon": "□", "title": "가족이 먼저", "description": "이 카페는 우리 가족 덕분에 존재하고, 가족처럼 운영합니다. 직접 만든 시럽부터 페이스트리 진열대까지, 여기 있는 모든 것은 자신의 부엌에 쏟는 정성으로 선택됩니다." }
-    ]
+  "feature": {
+    "eyebrow": "PART OF YOUR DAY",
+    "headline": "당신의 하루의 일부.",
+    "body1": "아침 커피. 한낮의 리셋. 만나고, 일하고, 잠시 쉬어가는 곳.",
+    "body2": "Palm & Light는 하루의 리듬 속에 자연스럽게 스며듭니다."
   },
-  "partners": {
-    "label": "파트너",
-    "title": "정성을 담아",
-    "emphasis": "소싱합니다."
-  },
-  "visit": {
-    "label": "방문하기",
-    "title": "자리를",
-    "emphasis": "마련해 두었습니다."
+  "cta": {
+    "headline": "들러서, 잠시 머물다 가세요.",
+    "viewMenu": "메뉴 보기",
+    "visitUs": "오시는 길"
   }
 }
