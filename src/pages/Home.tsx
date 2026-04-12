@@ -78,23 +78,24 @@ export default function Home() {
       <section className="relative min-h-[90vh] flex items-center pt-20">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://cdn.prod.website-files.com/67b51f7e456c7eebdc981649/6884026681d9118bfae4cfd0_3e503737d933cf16a62f589362d9b1f41b578b4b.png"
-            alt="Barista pouring latte art"
+            src="https://i.postimg.cc/7ZSKDhTW/Chat-GPT-Image-Apr-12-2026-12-19-27-PM.png"
+            alt="Palm & Light Coffee hero image"
             decoding="async"
             width={1920}
             height={1280}
             sizes="100vw"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/50 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/90 via-black/70 to-black/35"></div>
+          <div className="absolute inset-0 bg-black/20"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
-            <h1 className="font-serif font-normal text-white text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-6">
+            <h1 className="font-serif font-normal text-white text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-6 drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
               {t('home.hero.headingPrefix')} <em className="italic text-accent-olive">{t('home.hero.headingEmphasis')}</em>
             </h1>
-            <p className="text-surface-light text-lg md:text-xl mb-10 max-w-lg leading-relaxed">
+            <p className="text-surface-light text-lg md:text-xl mb-10 max-w-lg leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
               {t('home.hero.description')}
             </p>
 
