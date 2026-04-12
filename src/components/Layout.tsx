@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { Coffee, Menu as MenuIcon, X, Instagram, Moon, Sun } from 'lucide-react';
+import { Menu as MenuIcon, X, Instagram, Moon, Sun } from 'lucide-react';
 import { useState, useEffect, useRef, type MouseEvent } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
@@ -199,14 +199,14 @@ export default function Layout() {
           ref={bannerRef}
           className="fixed top-0 left-0 right-0 z-[60] bg-section-bg dark:bg-dark-section-bg border-b border-border-light dark:border-border-dark px-4 py-2 text-center text-xs sm:text-sm text-secondary-text dark:text-dark-secondary-text leading-relaxed"
         >
-          This is an independent prototype and is not affiliated with, endorsed by, or connected to Kaizen & Coffee. Visit the official site at{' '}
+          This is an independent prototype and is not affiliated with, endorsed by, or connected to Palm & Light Coffee. Visit the official site at{' '}
           <a
-            href="https://kaizenandcoffee.com"
+            href="https://palmandlightcoffee.com"
             target="_blank"
             rel="noopener noreferrer"
             className="underline font-medium hover:text-black dark:hover:text-white transition-colors"
           >
-            kaizenandcoffee.com
+            palmandlightcoffee.com
           </a>
         </div>
       )}
@@ -224,10 +224,14 @@ export default function Layout() {
         </a>
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex items-center gap-4 xl:gap-8">
           <Link to={localizePath("/")} className={`flex items-center gap-3 group shrink-0 ${transparentNav ? 'text-white' : 'text-black dark:text-white'}`}>
-            <div className={`w-10 h-10 rounded-sm flex items-center justify-center transition-colors ${transparentNav ? 'bg-white text-black group-hover:bg-surface-light' : 'bg-black dark:bg-white text-white dark:text-black group-hover:bg-cta-hover-dark dark:group-hover:bg-surface-light'}`}>
-              <Coffee size={20} />
+            <div className={`w-10 h-10 overflow-hidden rounded-sm flex items-center justify-center transition-colors ${transparentNav ? 'bg-white group-hover:bg-surface-light' : 'bg-black dark:bg-white group-hover:bg-cta-hover-dark dark:group-hover:bg-surface-light'}`}>
+              <img
+                src="https://i.postimg.cc/rp0nbjNf/Chat-GPT-Image-Apr-12-2026-12-14-15-PM.png"
+                alt="Palm and Light Coffee menu icon"
+                className="h-full w-full object-cover"
+              />
             </div>
-            <span className="hidden min-[480px]:inline text-lg xl:text-xl font-bold tracking-tight whitespace-nowrap">KAIZEN & COFFEE</span>
+            <span className="hidden min-[480px]:inline text-lg xl:text-xl font-bold tracking-tight whitespace-nowrap">PALM & LIGHT COFFEE</span>
           </Link>
 
           <div className="hidden lg:flex items-center gap-5 xl:gap-8 ml-4 xl:ml-10">
@@ -284,7 +288,7 @@ export default function Layout() {
               ))}
             </select>
             <a
-              href="https://www.instagram.com/kaizenandcoffee/"
+              href="https://www.instagram.com/palmandlightcoffee/"
               target="_blank"
               rel="noopener noreferrer"
               className={`p-2 rounded-sm transition-colors ${
@@ -406,7 +410,7 @@ export default function Layout() {
               );
             })}
             <a
-              href="https://www.instagram.com/kaizenandcoffee/"
+              href="https://www.instagram.com/palmandlightcoffee/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl font-bold tracking-tight text-black dark:text-white flex items-center gap-3"
@@ -440,10 +444,14 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-4 space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-black dark:bg-white rounded-sm flex items-center justify-center text-white dark:text-black">
-                <Coffee size={16} />
+              <div className="w-8 h-8 overflow-hidden bg-black dark:bg-white rounded-sm flex items-center justify-center">
+                <img
+                  src="https://i.postimg.cc/rp0nbjNf/Chat-GPT-Image-Apr-12-2026-12-14-15-PM.png"
+                  alt="Palm and Light Coffee footer icon"
+                  className="h-full w-full object-cover"
+                />
               </div>
-              <span className="text-lg font-bold tracking-tight text-black dark:text-white">KAIZEN & COFFEE</span>
+              <span className="text-lg font-bold tracking-tight text-black dark:text-white">PALM & LIGHT COFFEE</span>
             </div>
             <p className="text-secondary-text dark:text-dark-secondary-text text-sm max-w-xs leading-relaxed">
               {t('layout.footer.tagline')}
@@ -461,11 +469,11 @@ export default function Layout() {
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.connect')}</span>
               <Link to={localizePath("/careers")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.careers')}</Link>
               <Link to={localizePath("/subscribe")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.connect')}</Link>
-              <a href="https://www.instagram.com/kaizenandcoffee/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors flex items-center gap-1">
+              <a href="https://www.instagram.com/palmandlightcoffee/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors flex items-center gap-1">
                 {t('layout.nav.instagramLabel')} <Instagram size={14} />
               </a>
               <a
-                href="mailto:kaizenandcoffee@gmail.com"
+                href="mailto:palmandlightcoffee@gmail.com"
                 className="inline-flex w-fit items-center justify-center rounded-sm bg-black px-3 py-2 text-xs font-semibold tracking-wide text-white transition-colors hover:bg-cta-hover-dark dark:bg-white dark:text-black dark:hover:bg-surface-light"
               >
                 {t('layout.footer.emailButton')}
@@ -478,13 +486,13 @@ export default function Layout() {
             <div className="flex flex-col gap-4">
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.visit')}</span>
               <p className="text-sm text-secondary-text dark:text-dark-secondary-text">2337 S El Camino Real<br/>San Mateo, CA 94403</p>
-              <a href="https://www.google.com/maps/dir/?api=1&destination=Kaizen+and+Coffee" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-accent-green dark:hover:text-accent-green transition-colors">{t('layout.footer.getDirections')}</a>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Palm+and+Light+Coffee" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-accent-green dark:hover:text-accent-green transition-colors">{t('layout.footer.getDirections')}</a>
               <p className="text-sm text-secondary-text dark:text-dark-secondary-text">{t('layout.footer.hours')}</p>
             </div>
           </div>
         </div>
         <div className="max-w-7xl mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-border-light dark:border-border-dark flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-xs text-muted-text dark:text-dark-muted-text tracking-wider uppercase">© {new Date().getFullYear()} Kaizen & Coffee. {t('layout.footer.rights')}</p>
+          <p className="text-xs text-muted-text dark:text-dark-muted-text tracking-wider uppercase">© {new Date().getFullYear()} Palm & Light Coffee. {t('layout.footer.rights')}</p>
           <div className="flex gap-6">
             <Link to={localizePath("/privacy")} className="text-xs text-muted-text dark:text-dark-muted-text hover:text-black dark:hover:text-white transition-colors">{t('layout.footer.privacy')}</Link>
             <Link to={localizePath("/terms")} className="text-xs text-muted-text dark:text-dark-muted-text hover:text-black dark:hover:text-white transition-colors">{t('layout.footer.terms')}</Link>
@@ -493,7 +501,7 @@ export default function Layout() {
         {showPrototypeBanner && (
           <div className="max-w-7xl mx-auto px-6 md:px-12 mt-8 pt-6 border-t border-border-light dark:border-border-dark">
             <p className="text-xs text-muted-text dark:text-dark-muted-text leading-relaxed text-center">
-              Disclaimer: All brand names, logos, images, and content related to Kaizen & Coffee are the property of their respective owners. They are reproduced here solely for non-commercial prototyping and educational purposes.
+              Disclaimer: All brand names, logos, images, and content related to Palm & Light Coffee are the property of their respective owners. They are reproduced here solely for non-commercial prototyping and educational purposes.
             </p>
           </div>
         )}

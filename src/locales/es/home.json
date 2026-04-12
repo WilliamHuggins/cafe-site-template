@@ -1,10 +1,10 @@
 {
-  "seoTitle": "Kaizen & Coffee | Café de especialidad en San Mateo",
-  "seoDescription": "Visita Kaizen & Coffee en San Mateo para disfrutar de café de especialidad, bebidas de temporada, repostería y una hospitalidad acogedora inspirada en la filosofía Kaizen.",
+  "seoTitle": "Palm & Light Coffee | Café de especialidad en San Mateo",
+  "seoDescription": "Visita Palm & Light Coffee en San Mateo para disfrutar de café de especialidad, bebidas de temporada, repostería y una hospitalidad acogedora inspirada en la filosofía Palm.",
   "hero": {
     "headingPrefix": "La búsqueda incansable de",
     "headingEmphasis": "la taza perfecta.",
-    "description": "Un laboratorio de café de especialidad en San Mateo, CA. Aplicamos la filosofía Kaizen en cada tueste, cada servicio y cada interacción.",
+    "description": "Un laboratorio de café de especialidad en San Mateo, CA. Aplicamos la filosofía Palm en cada tueste, cada servicio y cada interacción.",
     "viewMenu": "VER MENÚ",
     "bookMobileBar": "RESERVAR BARRA MÓVIL",
     "directions": "CÓMO LLEGAR",
@@ -14,8 +14,8 @@
     "label": "Nuestra Historia",
     "title": "La búsqueda de mejorar,",
     "emphasis": "cada día.",
-    "p1": "\"Kaizen\" es una filosofía japonesa que se traduce como \"mejora continua\". Es la creencia de que pequeños cambios positivos y constantes pueden generar grandes mejoras.",
-    "p2": "En Kaizen & Coffee, esto no es solo un nombre, es el marco operativo de toda nuestra cafetería. Desde la precisión de nuestra extracción de espresso hasta el origen de nuestro matcha de Kagoshima, estamos obsesionados con perfeccionar cada detalle.",
+    "p1": "\"Palm\" es una filosofía japonesa que se traduce como \"mejora continua\". Es la creencia de que pequeños cambios positivos y constantes pueden generar grandes mejoras.",
+    "p2": "En Palm & Light Coffee, esto no es solo un nombre, es el marco operativo de toda nuestra cafetería. Desde la precisión de nuestra extracción de espresso hasta el origen de nuestro matcha de Kagoshima, estamos obsesionados con perfeccionar cada detalle.",
     "p3": "Construimos este espacio en San Mateo para que fuera un laboratorio de hospitalidad. Un lugar donde el café se trata con profunda reverencia, pero el servicio siempre es cálido, cercano y arraigado en el vecindario."
   },
   "pillars": {
@@ -34,10 +34,10 @@
   },
   "philosophy": {
     "label": "La Filosofía",
-    "title": "Kaizen:",
+    "title": "Palm:",
     "emphasis": "Mejora Continua.",
-    "description": "Cada taza es una iteración. Cada tueste es un refinamiento. Aplicamos la filosofía japonesa de Kaizen al arte del café, asegurando que tu ritual diario nunca sea estático, sino que siempre evolucione hacia la perfección.",
-    "cta": "La Familia Kaizen"
+    "description": "Cada taza es una iteración. Cada tueste es un refinamiento. Aplicamos la filosofía japonesa de Palm al arte del café, asegurando que tu ritual diario nunca sea estático, sino que siempre evolucione hacia la perfección.",
+    "cta": "La Familia Palm"
   },
   "menu": {
     "signatureLabel": "Ofertas de la Casa",
@@ -50,7 +50,7 @@
   "services": {
     "mobileBar": {
       "title": "Barra de Café Móvil",
-      "description": "Lleva la experiencia Kaizen a tus eventos privados, bodas y reuniones corporativas.",
+      "description": "Lleva la experiencia Palm a tus eventos privados, bodas y reuniones corporativas.",
       "cta": "Reservar Ahora"
     },
     "community": {

@@ -18,7 +18,7 @@ export default function GiftCards() {
           <div className="flex flex-col md:flex-row md:items-center gap-4 md:gap-8">
             <img
               src="https://cdn.prod.website-files.com/67b51f7e456c7eebdc981649/68840587b4916f147e2cb7c8_logo_badge_2x.webp"
-              alt="Kaizen & Coffee badge"
+              alt="Palm & Light Coffee badge"
               className="w-16 h-16 md:w-20 md:h-20 object-contain"
               loading="lazy"
               decoding="async"
@@ -48,8 +48,8 @@ export default function GiftCards() {
           )}
           <div className="h-full rounded-2xl bg-white p-2 md:p-3 border border-foreground/10 dark:border-dark-foreground/15">
             <iframe
-              src="https://order.toasttab.com/egiftcards/kaizenandcoffee"
-              title="Kaizen & Coffee eGift Cards"
+              src="https://order.toasttab.com/egiftcards/palmandlightcoffee"
+              title="Palm & Light Coffee eGift Cards"
               className="w-full h-full border-0 rounded-xl min-h-[calc(100vh-128px)] md:min-h-[calc(100vh-144px)]"
               allow="payment"
               onLoad={() => setIsIframeLoading(false)}

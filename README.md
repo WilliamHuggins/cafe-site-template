@@ -1,10 +1,10 @@
-# Kaizen & Coffee Website — Beginner Guide
+# Palm & Light Coffee Website — Beginner Guide
 
 This guide is written for **non-developers** and walks you through:
 
 1. Forking this project on GitHub
 2. Publishing it on Vercel
-3. Connecting your custom domain: **kaizenandcoffee.com**
+3. Connecting your custom domain: **palmandlightcoffee.com**
 
 ---
 
@@ -13,7 +13,7 @@ This guide is written for **non-developers** and walks you through:
 You only need:
 - A **GitHub account** (free)
 - A **Vercel account** (free)
-- Access to your domain DNS settings for **kaizenandcoffee.com** (at your domain registrar, such as GoDaddy, Namecheap, Google Domains, Cloudflare, etc.)
+- Access to your domain DNS settings for **palmandlightcoffee.com** (at your domain registrar, such as GoDaddy, Namecheap, Google Domains, Cloudflare, etc.)
 
 > Tip: Keep two browser tabs open—one for **Vercel**, one for your **domain provider**.
 
@@ -60,15 +60,15 @@ Open that URL and confirm the site loads.
 
 ## Part 3: Add Custom Domain in Vercel
 
-Now connect **kaizenandcoffee.com**.
+Now connect **palmandlightcoffee.com**.
 
 ### Step A — Add the domain in Vercel
 
 1. In Vercel, open your project.
 2. Go to **Settings** → **Domains**.
-3. Enter: `kaizenandcoffee.com`
+3. Enter: `palmandlightcoffee.com`
 4. Click **Add**.
-5. Also add: `www.kaizenandcoffee.com` (recommended)
+5. Also add: `www.palmandlightcoffee.com` (recommended)
 
 Vercel will show DNS records you need to create.
 
@@ -76,16 +76,16 @@ Vercel will show DNS records you need to create.
 
 ### Step B — Update DNS at your domain provider
 
-Go to where you bought/manage **kaizenandcoffee.com** and open DNS settings.
+Go to where you bought/manage **palmandlightcoffee.com** and open DNS settings.
 
 Create/update records to match what Vercel asks for. In most cases:
 
-#### For root domain (`kaizenandcoffee.com`)
+#### For root domain (`palmandlightcoffee.com`)
 - Type: **A**
 - Name/Host: `@`
 - Value: `76.76.21.21`
 
-#### For `www` subdomain (`www.kaizenandcoffee.com`)
+#### For `www` subdomain (`www.palmandlightcoffee.com`)
 - Type: **CNAME**
 - Name/Host: `www`
 - Value: `cname.vercel-dns.com`
@@ -105,16 +105,16 @@ Save changes.
 DNS updates can be quick (a few minutes) or take up to 24–48 hours.
 
 ✅ Once valid, your site should work on:
-- `https://kaizenandcoffee.com`
-- `https://www.kaizenandcoffee.com`
+- `https://palmandlightcoffee.com`
+- `https://www.palmandlightcoffee.com`
 
 ---
 
 ## Optional: Make one version the “main” domain
 
 In Vercel Domains settings, you can set either:
-- `kaizenandcoffee.com` as primary, or
-- `www.kaizenandcoffee.com` as primary.
+- `palmandlightcoffee.com` as primary, or
+- `www.palmandlightcoffee.com` as primary.
 
 Vercel will redirect the other one automatically.
 

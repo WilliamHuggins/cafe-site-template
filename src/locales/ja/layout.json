@@ -2,7 +2,7 @@
   "nav": {
     "skipToMain": "メインコンテンツへスキップ",
     "menu": "メニュー",
-    "family": "カイゼン・ファミリー",
+    "family": "Palmファミリー",
     "careers": "採用情報",
     "mobileBar": "モバイルバー",
     "giftCards": "ギフトカード",
@@ -25,6 +25,6 @@
     "rights": "All rights reserved.",
     "privacy": "プライバシー",
     "terms": "利用規約",
-    "emailButton": "Email Kaizen"
+    "emailButton": "Email Palm"
   }
 }

@@ -1,10 +1,10 @@
 {
-  "seoTitle": "Kaizen & Coffee | San Mateo 精品咖啡",
-  "seoDescription": "欢迎来到 San Mateo 的 Kaizen & Coffee，品尝精品咖啡、季节特饮、精致糕点，感受源自 Kaizen 理念的温暖待客之道。",
+  "seoTitle": "Palm & Light Coffee | San Mateo 精品咖啡",
+  "seoDescription": "欢迎来到 San Mateo 的 Palm & Light Coffee，品尝精品咖啡、季节特饮、精致糕点，感受源自 Palm 理念的温暖待客之道。",
   "hero": {
     "headingPrefix": "我们不断追求",
     "headingEmphasis": "完美一杯。",
-    "description": "位于加州 San Mateo 的精品咖啡实验室。我们将 Kaizen 理念融入每一次烘焙、每一次冲泡、每一次交流。",
+    "description": "位于加州 San Mateo 的精品咖啡实验室。我们将 Palm 理念融入每一次烘焙、每一次冲泡、每一次交流。",
     "viewMenu": "查看菜单",
     "bookMobileBar": "预订移动咖啡吧",
     "directions": "导航",
@@ -14,8 +14,8 @@
     "label": "我们的故事",
     "title": "追求更好，",
     "emphasis": "日复一日。",
-    "p1": "\u201cKaizen\u201d是一种日本哲学，意为\u201c持续改善\u201d。它相信微小而持续的积极改变，终能带来巨大的提升。",
-    "p2": "在 Kaizen & Coffee，这不仅仅是一个名字——它是我们整间咖啡馆的运营理念。从意式浓缩的精准萃取，到来自鹿儿岛抹茶的严选采购，我们执着于打磨每一个细节。",
+    "p1": "\u201cPalm\u201d是一种日本哲学，意为\u201c持续改善\u201d。它相信微小而持续的积极改变，终能带来巨大的提升。",
+    "p2": "在 Palm & Light Coffee，这不仅仅是一个名字——它是我们整间咖啡馆的运营理念。从意式浓缩的精准萃取，到来自鹿儿岛抹茶的严选采购，我们执着于打磨每一个细节。",
     "p3": "我们在 San Mateo 打造这个空间，使其成为一间待客实验室。一个以虔诚之心对待咖啡，同时始终保持温暖、亲切、扎根社区的地方。"
   },
   "pillars": {
@@ -34,10 +34,10 @@
   },
   "philosophy": {
     "label": "理念",
-    "title": "Kaizen：",
+    "title": "Palm：",
     "emphasis": "持续改善。",
-    "description": "每一杯都是一次迭代，每一次烘焙都是一次精进。我们将日本的 Kaizen 哲学融入咖啡艺术，确保你的日常仪式永不停滞，始终向完美进化。",
-    "cta": "Kaizen 大家庭"
+    "description": "每一杯都是一次迭代，每一次烘焙都是一次精进。我们将日本的 Palm 哲学融入咖啡艺术，确保你的日常仪式永不停滞，始终向完美进化。",
+    "cta": "Palm 大家庭"
   },
   "menu": {
     "signatureLabel": "招牌特饮",
@@ -50,7 +50,7 @@
   "services": {
     "mobileBar": {
       "title": "移动咖啡吧",
-      "description": "将 Kaizen 体验带到您的私人活动、婚礼和企业聚会。",
+      "description": "将 Palm 体验带到您的私人活动、婚礼和企业聚会。",
       "cta": "立即预约"
     },
     "community": {

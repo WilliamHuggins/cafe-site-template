@@ -45,7 +45,7 @@ export default function Home() {
           closes: '16:00',
         },
       ],
-      sameAs: ['https://www.instagram.com/kaizenandcoffee/'],
+      sameAs: ['https://www.instagram.com/palmandlightcoffee/'],
     };
 
     const script = document.createElement('script');

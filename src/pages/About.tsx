@@ -110,7 +110,7 @@ export default function About() {
         <figure className="relative rounded-2xl overflow-hidden shadow-[0_20px_60px_rgba(27,28,28,0.12)] dark:shadow-none">
           <img
             src="https://i.postimg.cc/kGgq66mS/Shane_Balasbas_Jason_Naraja_Son.webp"
-            alt="Shane Balasbas, Jason Naraja, and their son Kaizen in front of Kaizen and Coffee"
+            alt="Shane Balasbas, Jason Naraja, and their son Palm in front of Palm and Light Coffee"
             loading="lazy"
             decoding="async"
             width={1600}
@@ -231,13 +231,13 @@ export default function About() {
             2337 S El Camino Real, San Mateo, CA
           </p>
           <Button
-            href="https://instagram.com/kaizenandcoffee"
+            href="https://instagram.com/palmandlightcoffee"
             target="_blank"
             rel="noopener noreferrer"
             variant="outline"
             className="mt-8 rounded-sm border-2 px-7 py-3 text-[0.85rem] uppercase tracking-[0.08em] font-medium"
           >
-            @kaizenandcoffee
+            @palmandlightcoffee
           </Button>
         </div>
       </section>
