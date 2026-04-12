@@ -127,7 +127,7 @@ export default function About() {
       {/* Divider */}
       <div className="flex items-center justify-center gap-6 py-8 max-w-md mx-auto">
         <div className="flex-1 h-px bg-foreground/10 dark:bg-dark-foreground/10"></div>
-        <div className="w-1.5 h-1.5 rounded-full bg-accent-olive"></div>
+        <div className="w-1.5 h-1.5 rounded-full bg-accent-green/70"></div>
         <div className="flex-1 h-px bg-foreground/10 dark:bg-dark-foreground/10"></div>
       </div>
 
@@ -138,13 +138,13 @@ export default function About() {
         }}></div>
         <div className="max-w-6xl mx-auto relative z-10 fade-in-section opacity-0 translate-y-8 transition-all duration-1000 ease-out">
           <h2 className="font-serif font-normal text-3xl md:text-4xl lg:text-5xl text-center mb-16 text-dark-foreground">
-            {t('about.timeline.title')} <em className="italic text-accent-olive">{t('about.timeline.emphasis')}</em>
+            {t('about.timeline.title')} <em className="italic text-accent-green">{t('about.timeline.emphasis')}</em>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {timelineItems.map((item, i) => (
               <div key={i} className="relative pt-8">
                 <div className="absolute top-0 left-0 right-0 h-px bg-dark-foreground/15"></div>
-                <div className="absolute -top-1 left-0 w-2 h-2 rounded-full bg-accent-olive"></div>
+                <div className="absolute -top-1 left-0 w-2 h-2 rounded-full bg-accent-green/70"></div>
                 <div className="font-serif text-3xl font-medium text-accent-gold mb-3">{item.year}</div>
                 <div className="text-[0.95rem] font-medium mb-2 text-dark-foreground">{item.title}</div>
                 <div className="text-[0.85rem] leading-[1.7] text-dark-foreground/60">{item.desc}</div>
@@ -199,7 +199,7 @@ export default function About() {
             ].map((partner, i) => (
               <div key={i} className="flex flex-col items-center gap-2">
                 <div className="font-serif text-lg font-medium">
-                  <a href={partner.link} target="_blank" rel="noopener noreferrer" className="text-foreground dark:text-dark-foreground border-b border-foreground/15 dark:border-dark-foreground/15 pb-0.5 hover:text-accent-green hover:border-accent-green dark:hover:text-accent-green dark:hover:border-accent-green transition-all">
+                  <a href={partner.link} target="_blank" rel="noopener noreferrer" className="text-foreground dark:text-dark-foreground border-b border-foreground/15 dark:border-dark-foreground/15 pb-0.5 hover:text-accent-green hover:border-accent-green dark:hover:text-accent-green dark:hover:border-accent-green transition-colors duration-200 ease-in-out">
                     {partner.name}
                   </a>
                 </div>
