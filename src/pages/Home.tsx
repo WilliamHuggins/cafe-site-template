@@ -330,7 +330,7 @@ export default function Home() {
                   </div>
 
                   {menuSectionImages[category.id] && (
-                    <div className="mt-16 w-full rounded-3xl overflow-hidden shadow-2xl relative aspect-[16/9] md:aspect-[21/9] group">
+                    <div className="mt-16 w-full rounded-3xl overflow-hidden shadow-2xl relative group bg-background dark:bg-dark-bg border border-border-light/50 dark:border-border-dark/50">
                       <img
                         src={menuSectionImages[category.id].src}
                         alt={menuSectionImages[category.id].alt}
@@ -340,7 +340,7 @@ export default function Home() {
                         height={900}
                         sizes="100vw"
                         referrerPolicy="no-referrer"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                        className="w-full h-auto max-h-[70vh] object-contain group-hover:scale-[1.02] transition-transform duration-700"
                       />
                     </div>
                   )}

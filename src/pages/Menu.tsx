@@ -167,14 +167,14 @@ export default function Menu() {
                     </section>
 
                     {image && (
-                      <figure className="fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out rounded-2xl overflow-hidden bg-section-bg dark:bg-dark-section-bg group">
+                      <figure className="fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out rounded-2xl overflow-hidden bg-section-bg dark:bg-dark-section-bg group border border-border-light/50 dark:border-border-dark/50">
                         <img
                           src={image.src}
                           alt={image.alt}
                           loading="lazy"
                           decoding="async"
                           referrerPolicy="no-referrer"
-                          className="w-full h-64 md:h-80 object-cover saturate-95 contrast-[1.02] brightness-[1.01] transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                          className="w-full h-auto max-h-[70vh] object-contain saturate-95 contrast-[1.02] brightness-[1.01] transition-transform duration-700 ease-out group-hover:scale-[1.02]"
                         />
                       </figure>
                     )}
