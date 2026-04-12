@@ -125,54 +125,62 @@ export default function Menu() {
             </div>
 
             <div className="lg:w-3/4 space-y-20">
-              {menuStructure.map((category, index) => (
-                <section
-                  key={category.id}
-                  id={`category-${category.id}`}
-                  data-category={category.id}
-                  className={`scroll-mt-32 fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out ${index > 0 ? 'pt-16 border-t border-line-muted/60 dark:border-secondary-text/30' : ''}`}
-                >
-                  <div className="mb-10">
-                    <h2 className="text-sm uppercase tracking-[0.18em] text-[#7B8A7B] dark:text-[#a3b8a3] mb-8">
-                      {translateOrFallback(t, `menuData.menu.categories.${category.id}.name`, category.id)}
-                    </h2>
-                  </div>
+              {menuStructure.map((category, index) => {
+                const image = sectionImages[category.id];
 
-                  <div className="space-y-5">
-                    {category.items.map((item) => {
-                      const itemName = translateOrFallback(t, `menuData.menu.items.${item.id}.name`, item.id);
-                      const itemDescriptionKey = `menuData.menu.items.${item.id}.description`;
-                      const itemDescription = t(itemDescriptionKey);
+                return (
+                  <div key={category.id} className="space-y-12">
+                    <section
+                      id={`category-${category.id}`}
+                      data-category={category.id}
+                      className={`scroll-mt-32 fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out ${index > 0 ? 'pt-16 border-t border-line-muted/60 dark:border-secondary-text/30' : ''}`}
+                    >
+                      <div className="mb-10">
+                        <h2 className="text-sm uppercase tracking-[0.18em] text-[#7B8A7B] dark:text-[#a3b8a3] mb-8">
+                          {translateOrFallback(t, `menuData.menu.categories.${category.id}.name`, category.id)}
+                        </h2>
+                      </div>
 
-                      return (
-                        <div key={item.id} className="pb-1">
-                          <div className="flex justify-between items-baseline gap-6">
-                            <h3 className={`text-lg text-black dark:text-white ${category.id === 'signature' ? 'italic text-[#496052] dark:text-[#c7d5c7]' : ''}`}>
-                              {itemName}
-                            </h3>
-                            <span className="text-base text-black dark:text-white">{item.price}</span>
-                          </div>
-                          {itemDescription !== itemDescriptionKey && itemDescription && (
-                            <p className="text-sm mt-2 text-muted-text dark:text-dark-muted-text leading-relaxed">
-                              {itemDescription}
-                            </p>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
+                      <div className="space-y-5">
+                        {category.items.map((item) => {
+                          const itemName = translateOrFallback(t, `menuData.menu.items.${item.id}.name`, item.id);
+                          const itemDescriptionKey = `menuData.menu.items.${item.id}.description`;
+                          const itemDescription = t(itemDescriptionKey);
 
-                  <div className="mt-12 rounded-2xl overflow-hidden bg-section-bg dark:bg-dark-section-bg group">
-                    <img
-                      src={sectionImages[category.id].src}
-                      alt={sectionImages[category.id].alt}
-                      loading="lazy"
-                      decoding="async"
-                      className="w-full h-64 md:h-80 object-cover saturate-95 contrast-[1.02] brightness-[1.01] transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-                    />
+                          return (
+                            <div key={item.id} className="pb-1">
+                              <div className="flex justify-between items-baseline gap-6">
+                                <h3 className={`text-lg text-black dark:text-white ${category.id === 'signature' ? 'italic text-[#496052] dark:text-[#c7d5c7]' : ''}`}>
+                                  {itemName}
+                                </h3>
+                                <span className="text-base text-black dark:text-white">{item.price}</span>
+                              </div>
+                              {itemDescription !== itemDescriptionKey && itemDescription && (
+                                <p className="text-sm mt-2 text-muted-text dark:text-dark-muted-text leading-relaxed">
+                                  {itemDescription}
+                                </p>
+                              )}
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </section>
+
+                    {image && (
+                      <figure className="fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out rounded-2xl overflow-hidden bg-section-bg dark:bg-dark-section-bg group">
+                        <img
+                          src={image.src}
+                          alt={image.alt}
+                          loading="lazy"
+                          decoding="async"
+                          referrerPolicy="no-referrer"
+                          className="w-full h-64 md:h-80 object-cover saturate-95 contrast-[1.02] brightness-[1.01] transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                        />
+                      </figure>
+                    )}
                   </div>
-                </section>
-              ))}
+                );
+              })}
             </div>
           </div>
         </div>
