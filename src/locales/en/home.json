@@ -12,24 +12,24 @@
   },
   "story": {
     "label": "Our Story",
-    "title": "The pursuit of better,",
+    "title": "A pursuit of light,",
     "emphasis": "every single day.",
-    "p1": "\"Palm\" is a Japanese philosophy that translates to \"continuous improvement.\" It is the belief that small, ongoing positive changes can reap major improvements.",
-    "p2": "At Palm & Light Coffee, this isn't just a name—it's the operational framework for our entire café. From the precision of our espresso extraction to the sourcing of our matcha from Kagoshima, we are obsessed with refining the details.",
-    "p3": "We built this space in San Mateo to be a laboratory of hospitality. A place where the coffee is treated with deep reverence, but the service is always warm, approachable, and rooted in the neighborhood."
+    "p1": "At Palm & Light, we believe great coffee begins with how a space feels. Light, air, and intention shape everything—from the first pour to the last sip.",
+    "p2": "Our café is designed as a place to slow down. Sunlight moves through the room, greenery softens the edges, and every detail is considered but never overstated.",
+    "p3": "We approach coffee with quiet precision—sourcing thoughtfully, preparing simply, and letting each cup speak for itself. The result is an experience that feels effortless, warm, and worth returning to."
   },
   "pillars": {
     "coffee": {
       "title": "The Coffee",
-      "description": "We partner with Black & White Roasters for our core espresso and filter offerings, ensuring a consistent, chocolate-and-berry forward profile. Our single-origin rotation highlights the best seasonal harvests from around the world."
+      "description": "Thoughtfully sourced and seasonally rotating, our coffee highlights clarity, balance, and approachability. Each cup is crafted to feel as good as it tastes."
     },
     "ingredients": {
       "title": "The Ingredients",
-      "description": "Our signature lattes are built on house-made syrups and sauces. We import black sesame paste and Okinawa brown sugar directly from Japan, and craft our miso caramel from scratch to achieve the perfect umami balance."
+      "description": "We keep things simple and intentional—fresh milk, house-made elements, and flavors that complement rather than compete."
     },
     "hospitality": {
-      "title": "The Hospitality",
-      "description": "Precision in the cup means nothing without warmth in the interaction. We believe a great café is a cornerstone of its community. We are here to remember your name, your order, and make your day slightly better."
+      "title": "The Space",
+      "description": "Designed for light, calm, and connection. Whether you’re here to work, meet, or pause, the space invites you to stay a little longer."
     }
   },
   "philosophy": {

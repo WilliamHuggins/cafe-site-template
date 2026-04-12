@@ -12,24 +12,24 @@
   },
   "story": {
     "label": "우리의 이야기",
-    "title": "더 나은 내일을 향한,",
-    "emphasis": "매일의 도전.",
-    "p1": "\"Palm\"은 \"지속적인 개선\"을 의미하는 일본 철학입니다. 작지만 꾸준한 긍정적 변화가 큰 발전을 이끌어낼 수 있다는 믿음입니다.",
-    "p2": "Palm & Light Coffee에서 이 이름은 단순한 상호가 아닙니다. 우리 카페 전체를 운영하는 프레임워크입니다. 에스프레소 추출의 정밀함부터 가고시마산 말차 소싱까지, 우리는 디테일을 다듬는 데 집착합니다.",
-    "p3": "우리는 San Mateo에 환대의 연구소가 될 공간을 만들었습니다. 커피를 깊은 경의로 다루면서도, 서비스는 언제나 따뜻하고 친근하며 지역사회에 뿌리를 둔 곳입니다."
+    "title": "A pursuit of light,",
+    "emphasis": "every single day.",
+    "p1": "At Palm & Light, we believe great coffee begins with how a space feels. Light, air, and intention shape everything—from the first pour to the last sip.",
+    "p2": "Our café is designed as a place to slow down. Sunlight moves through the room, greenery softens the edges, and every detail is considered but never overstated.",
+    "p3": "We approach coffee with quiet precision—sourcing thoughtfully, preparing simply, and letting each cup speak for itself. The result is an experience that feels effortless, warm, and worth returning to."
   },
   "pillars": {
     "coffee": {
-      "title": "커피",
-      "description": "핵심 에스프레소와 필터 커피를 위해 Black & White Roasters와 협업하여, 일관된 초콜릿-베리 풍미 프로파일을 보장합니다. 싱글 오리진 로테이션으로 전 세계 최고의 시즌 수확을 선보입니다."
+      "title": "The Coffee",
+      "description": "Thoughtfully sourced and seasonally rotating, our coffee highlights clarity, balance, and approachability. Each cup is crafted to feel as good as it tastes."
     },
     "ingredients": {
-      "title": "원재료",
-      "description": "시그니처 라떼는 직접 만든 시럽과 소스를 기반으로 합니다. 흑임자 페이스트와 오키나와 흑설탕을 일본에서 직접 수입하고, 미소 캐러멜을 처음부터 직접 만들어 완벽한 우마미 밸런스를 구현합니다."
+      "title": "The Ingredients",
+      "description": "We keep things simple and intentional—fresh milk, house-made elements, and flavors that complement rather than compete."
     },
     "hospitality": {
-      "title": "환대",
-      "description": "컵 안의 정밀함은 만남의 따뜻함 없이는 아무 의미가 없습니다. 훌륭한 카페는 지역사회의 구심점이라 믿습니다. 고객님의 이름과 주문을 기억하고, 하루를 조금 더 나은 것으로 만들기 위해 여기 있습니다."
+      "title": "The Space",
+      "description": "Designed for light, calm, and connection. Whether you’re here to work, meet, or pause, the space invites you to stay a little longer."
     }
   },
   "philosophy": {

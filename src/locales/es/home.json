@@ -12,24 +12,24 @@
   },
   "story": {
     "label": "Nuestra Historia",
-    "title": "La búsqueda de mejorar,",
-    "emphasis": "cada día.",
-    "p1": "\"Palm\" es una filosofía japonesa que se traduce como \"mejora continua\". Es la creencia de que pequeños cambios positivos y constantes pueden generar grandes mejoras.",
-    "p2": "En Palm & Light Coffee, esto no es solo un nombre, es el marco operativo de toda nuestra cafetería. Desde la precisión de nuestra extracción de espresso hasta el origen de nuestro matcha de Kagoshima, estamos obsesionados con perfeccionar cada detalle.",
-    "p3": "Construimos este espacio en San Mateo para que fuera un laboratorio de hospitalidad. Un lugar donde el café se trata con profunda reverencia, pero el servicio siempre es cálido, cercano y arraigado en el vecindario."
+    "title": "A pursuit of light,",
+    "emphasis": "every single day.",
+    "p1": "At Palm & Light, we believe great coffee begins with how a space feels. Light, air, and intention shape everything—from the first pour to the last sip.",
+    "p2": "Our café is designed as a place to slow down. Sunlight moves through the room, greenery softens the edges, and every detail is considered but never overstated.",
+    "p3": "We approach coffee with quiet precision—sourcing thoughtfully, preparing simply, and letting each cup speak for itself. The result is an experience that feels effortless, warm, and worth returning to."
   },
   "pillars": {
     "coffee": {
-      "title": "El Café",
-      "description": "Nos asociamos con Black & White Roasters para nuestras ofertas principales de espresso y filtrado, asegurando un perfil consistente con notas de chocolate y frutos rojos. Nuestra rotación de orígenes únicos destaca las mejores cosechas de temporada de todo el mundo."
+      "title": "The Coffee",
+      "description": "Thoughtfully sourced and seasonally rotating, our coffee highlights clarity, balance, and approachability. Each cup is crafted to feel as good as it tastes."
     },
     "ingredients": {
-      "title": "Los Ingredientes",
-      "description": "Nuestros lattes de autor se elaboran con jarabes y salsas hechos en casa. Importamos pasta de sésamo negro y azúcar moreno de Okinawa directamente de Japón, y preparamos nuestro caramelo de miso desde cero para lograr el equilibrio perfecto de umami."
+      "title": "The Ingredients",
+      "description": "We keep things simple and intentional—fresh milk, house-made elements, and flavors that complement rather than compete."
     },
     "hospitality": {
-      "title": "La Hospitalidad",
-      "description": "La precisión en la taza no significa nada sin calidez en la interacción. Creemos que una gran cafetería es un pilar de su comunidad. Estamos aquí para recordar tu nombre, tu pedido y hacer tu día un poco mejor."
+      "title": "The Space",
+      "description": "Designed for light, calm, and connection. Whether you’re here to work, meet, or pause, the space invites you to stay a little longer."
     }
   },
   "philosophy": {
