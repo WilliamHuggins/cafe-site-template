@@ -1,33 +1,35 @@
 {
   "seoTitle": "Careers | Palm & Light Coffee",
-  "seoDescription": "Join the Palm & Light Coffee team in San Mateo and help create exceptional coffee experiences rooted in hospitality and continuous improvement.",
+  "seoDescription": "Explore career opportunities at Palm & Light Coffee in San Mateo.",
   "hero": {
-    "label": "Join The Team",
-    "title": "Craft, Care, and",
-    "emphasis": "Continuous Improvement."
+    "label": "Careers",
+    "title": "Hospitality",
+    "emphasis": "with intention."
   },
   "lookingFor": {
-    "title": "Who we are",
-    "emphasis": "looking for.",
-    "p1": "We are always looking for individuals who share our obsession with quality and our genuine love for hospitality. You don't need to be a coffee champion to work here, but you do need to care deeply about the details.",
-    "p2": "We value curiosity, empathy, and a strong work ethic. If you believe that a great cup of coffee and a warm interaction can change someone's day, you belong here."
+    "title": "Who we",
+    "emphasis": "look for.",
+    "p1": "We hire with care and keep our standards high. We look for people who move with composure, respect the craft, and notice the details that shape a guest's experience.",
+    "p2": "Experience is welcome, but mindset matters most: humility, consistency, and a genuine instinct for hospitality."
   },
   "values": {
     "title": "Our Values",
     "items": [
-      { "name": "Palm", "description": "We are never finished learning. We seek feedback and strive for daily refinement." },
-      { "name": "Radical Hospitality", "description": "We treat every guest like they are entering our home." },
-      { "name": "Precision", "description": "We respect the ingredients by preparing them with exacting standards." }
+      { "name": "Palm", "description": "We never finish learning. Feedback and steady refinement are part of the work." },
+      { "name": "Hospitality", "description": "Every guest interaction should feel considered, warm, and precise." },
+      { "name": "Craft", "description": "We honor ingredients and process through discipline and attention." }
     ]
   },
-  "openings": {
-    "title": "Current",
-    "emphasis": "Openings.",
-    "applyNow": "Apply Now",
-    "positions": [
-      { "title": "Barista", "type": "Full-time / Part-time • San Mateo, CA" },
-      { "title": "Mobile Bar Lead", "type": "Part-time (Weekends) • Bay Area" }
-    ],
-    "fallback": "Don't see a role that fits? Send your resume to careers@palmlightcoffee.com and tell us why you'd be a great addition to the team."
+  "application": {
+    "title": "Apply",
+    "body1": "We take hiring seriously because the experience matters.",
+    "body2": "We review every application personally.",
+    "body3": "Download the form below, take your time, and send it to us when you're ready.",
+    "body4": "Please attach your resume when submitting your application.",
+    "downloadButton": "Download Application (PDF)",
+    "emailButton": "Email Application →",
+    "downloadHref": "/Palm-Light-Coffee-Application.pdf",
+    "emailHref": "mailto:careers@palmandlight.co?subject=Palm%20%26%20Light%20Application",
+    "email": "careers@palmandlight.co"
   }
 }

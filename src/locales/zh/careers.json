@@ -1,33 +1,35 @@
 {
-  "seoTitle": "加入我们 | Palm & Light Coffee",
-  "seoDescription": "加入 San Mateo 的 Palm & Light Coffee 团队，与我们一起创造根植于热情好客与持续改善的卓越咖啡体验。",
+  "seoTitle": "招聘 | Palm & Light Coffee",
+  "seoDescription": "了解 Palm & Light Coffee 在 San Mateo 的招聘信息。",
   "hero": {
-    "label": "加入团队",
-    "title": "匠心、用心，",
-    "emphasis": "持续改善。"
+    "label": "招聘",
+    "title": "有分寸的",
+    "emphasis": "待客之道。"
   },
   "lookingFor": {
     "title": "我们在寻找",
-    "emphasis": "怎样的人。",
-    "p1": "我们始终在寻找与我们一样执着于品质、发自内心热爱服务的伙伴。你不需要是咖啡冠军才能在这里工作，但你需要对细节怀有深深的在意。",
-    "p2": "我们看重好奇心、同理心和踏实的工作态度。如果你相信一杯好咖啡和一次温暖的交流能改变一个人的一天，那你就属于这里。"
+    "emphasis": "这样的人。",
+    "p1": "我们谨慎招聘，并坚持高标准。我们希望你沉稳可靠，尊重手艺，也能留意影响客人体验的细节。",
+    "p2": "经验当然重要，但我们更看重心态：谦逊、稳定，以及真诚的服务意识。"
   },
   "values": {
     "title": "我们的价值观",
     "items": [
-      { "name": "Palm", "description": "我们永远在学习的路上。我们积极寻求反馈，追求每日精进。" },
-      { "name": "极致待客", "description": "我们对待每一位客人，都像迎接来到家中的朋友。" },
-      { "name": "精准", "description": "我们以严格的标准对待每一种原料，致以应有的尊重。" }
+      { "name": "Palm", "description": "学习没有终点。主动接受反馈，并持续打磨日常工作。" },
+      { "name": "待客", "description": "每一次交流都应当周到、温和、准确。" },
+      { "name": "手艺", "description": "以纪律与专注对待原料与流程。" }
     ]
   },
-  "openings": {
-    "title": "当前",
-    "emphasis": "在招职位。",
-    "applyNow": "立即申请",
-    "positions": [
-      { "title": "咖啡师", "type": "全职 / 兼职 · San Mateo, CA" },
-      { "title": "移动咖啡吧主管", "type": "兼职（周末）· Bay Area" }
-    ],
-    "fallback": "没有找到合适的职位？请将简历发送至 careers@palmlightcoffee.com，告诉我们为什么你会是团队的优秀成员。"
+  "application": {
+    "title": "申请",
+    "body1": "我们认真对待招聘，因为体验很重要。",
+    "body2": "每一份申请都会由我们亲自审阅。",
+    "body3": "请下载下方表格，认真填写，并在准备好后发送给我们。",
+    "body4": "提交申请时，请同时附上你的简历。",
+    "downloadButton": "下载申请表（PDF）",
+    "emailButton": "邮件发送申请 →",
+    "downloadHref": "/Palm-Light-Coffee-Application.pdf",
+    "emailHref": "mailto:careers@palmandlight.co?subject=Palm%20%26%20Light%20Application",
+    "email": "careers@palmandlight.co"
   }
 }
