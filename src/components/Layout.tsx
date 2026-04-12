@@ -199,14 +199,15 @@ export default function Layout() {
           ref={bannerRef}
           className="fixed top-0 left-0 right-0 z-[60] bg-section-bg dark:bg-dark-section-bg border-b border-border-light dark:border-border-dark px-4 py-2 text-center text-xs sm:text-sm text-secondary-text dark:text-dark-secondary-text leading-relaxed"
         >
-          This is an independent prototype and is not affiliated with, endorsed by, or connected to Palm & Light Coffee. Visit the official site at{' '}
+          AI-designed. Developer-built. Ready to use. This coffee shop site is a live demo of my AI-driven web design workflow.
+          Want the template? Fork it here and customize it for your own business:{' '}
           <a
-            href="https://palmandlightcoffee.com"
+            href="https://github.com/WilliamHuggins/cafe-site-template"
             target="_blank"
             rel="noopener noreferrer"
             className="underline font-medium hover:text-black dark:hover:text-white transition-colors"
           >
-            palmandlightcoffee.com
+            👉 https://github.com/WilliamHuggins/cafe-site-template
           </a>
         </div>
       )}
