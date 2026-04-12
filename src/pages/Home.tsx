@@ -175,14 +175,8 @@ export default function Home() {
             </div>
             <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-section-bg dark:bg-dark-section-bg">
               <img
-                src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1024&auto=format&fit=crop"
-                srcSet="
-                  https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=640&auto=format&fit=crop 640w,
-                  https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1024&auto=format&fit=crop 1024w,
-                  https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1600&auto=format&fit=crop 1600w
-                "
-                sizes="(min-width: 1024px) 50vw, 100vw"
-                alt="Coffee shop interior"
+                src="https://i.postimg.cc/mkVZqCQJ/Chat-GPT-Image-Apr-12-2026-01-13-09-PM.png"
+                alt="Palm & Light Coffee interior"
                 loading="lazy"
                 decoding="async"
                 width={1024}

@@ -12,24 +12,24 @@
   },
   "story": {
     "label": "我们的故事",
-    "title": "追求更好，",
-    "emphasis": "日复一日。",
-    "p1": "“Palm”是一种日本哲学，意为“持续改善”。它相信微小而持续的积极改变，终能带来巨大的提升。",
-    "p2": "在 Palm & Light Coffee，这不仅仅是一个名字——它是我们整间咖啡馆的运营理念。从意式浓缩的精准萃取，到来自鹿儿岛抹茶的严选采购，我们执着于打磨每一个细节。",
-    "p3": "我们在 San Mateo 打造这个空间，使其成为一间待客实验室。一个以虔诚之心对待咖啡，同时始终保持温暖、亲切、扎根社区的地方。"
+    "title": "A pursuit of light,",
+    "emphasis": "every single day.",
+    "p1": "At Palm & Light, we believe great coffee begins with how a space feels. Light, air, and intention shape everything—from the first pour to the last sip.",
+    "p2": "Our café is designed as a place to slow down. Sunlight moves through the room, greenery softens the edges, and every detail is considered but never overstated.",
+    "p3": "We approach coffee with quiet precision—sourcing thoughtfully, preparing simply, and letting each cup speak for itself. The result is an experience that feels effortless, warm, and worth returning to."
   },
   "pillars": {
     "coffee": {
-      "title": "咖啡",
-      "description": "我们与 Black & White Roasters 合作，提供核心的意式浓缩和手冲产品，确保稳定的巧克力与浆果风味。我们的单品轮换精选来自世界各地的当季最佳收获。"
+      "title": "The Coffee",
+      "description": "Thoughtfully sourced and seasonally rotating, our coffee highlights clarity, balance, and approachability. Each cup is crafted to feel as good as it tastes."
     },
     "ingredients": {
-      "title": "原料",
-      "description": "我们的招牌拿铁采用自制糖浆和酱料。我们从日本直接进口黑芝麻酱和冲绳黑糖，并从零开始手工制作味噌焦糖，以达到完美的鲜味平衡。"
+      "title": "The Ingredients",
+      "description": "We keep things simple and intentional—fresh milk, house-made elements, and flavors that complement rather than compete."
     },
     "hospitality": {
-      "title": "待客之道",
-      "description": "杯中的精准若没有互动中的温暖便毫无意义。我们相信一间好的咖啡馆是社区的基石。我们会记住你的名字、你的喜好，让你的每一天都更美好一点。"
+      "title": "The Space",
+      "description": "Designed for light, calm, and connection. Whether you’re here to work, meet, or pause, the space invites you to stay a little longer."
     }
   },
   "philosophy": {
