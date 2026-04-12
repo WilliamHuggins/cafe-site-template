@@ -1,0 +1,38 @@
+{
+  "seoTitle": "Mobile Espresso Bar | Kaizen & Coffee",
+  "seoDescription": "Book Kaizen & Coffee's mobile espresso bar for Bay Area weddings, corporate events, and private gatherings with specialty coffee service.",
+  "hero": {
+    "titleLine1": "The Best Part of Your Next Event?",
+    "emphasis": "The Coffee.",
+    "description": "Ready to bring a memorable coffee experience to your event? Reach out with your details, and we'll work with you to create a custom proposal.",
+    "cta": "PLAN YOUR EVENT"
+  },
+  "talkCoffee": {
+    "title": "Let's Talk Coffee",
+    "description": "Great coffee does more than just caffeinate - it brings people together and sets the tone. Kaizen & Coffee is bringing the craft coffee experience from our San Mateo café. We provide a premium mobile espresso bar that serves as the perfect hub for conversation, connection, and seriously good coffee."
+  },
+  "experience": {
+    "title": "The Experience,",
+    "emphasis": "Simplified.",
+    "description": "We obsess over the details so you don't have to. Our service is designed to be seamless, self-contained, and a guaranteed highlight for your guests. Here's what's included:",
+    "features": [
+      { "title": "Passionate, Professional Baristas", "description": "Our friendly, approachable team is skilled in their craft and dedicated to providing an exceptional and welcoming experience." },
+      { "title": "Curated Specialty Menu", "description": "A full cafe menu featuring our signature, locally-roasted beans. From classic espresso and lattes to perfectly made cortados, we have everyone covered." },
+      { "title": "All the Good Stuff", "description": "We bring everything, including our full selection of premium dairy and non-dairy milks (yes, we have oat milk), and all the essentials for a complete cafe experience." }
+    ]
+  },
+  "events": {
+    "title": "A Better Experience for",
+    "emphasis": "Any Gathering.",
+    "description": "Our professional baristas and beautifully designed mobile setup create a memorable focal point for any event. We're here to help you craft the perfect vibe.",
+    "types": [
+      { "title": "Corporate Events & Team Offsites", "description": "Fuel your team's next big idea and spark conversation. A dedicated coffee bar is the perfect upgrade for conferences, company milestones, or client appreciation events." },
+      { "title": "Weddings & Rehearsals", "description": "Add a thoughtful, modern touch to your celebration. Delight your guests with an artisan coffee experience during cocktail hour or as a perfect after-dinner treat." },
+      { "title": "Private Parties & Community Meetups", "description": "From milestone birthdays to casual get-togethers, we'll make your event stand out with a dedicated, professional coffee service." }
+    ]
+  },
+  "form": {
+    "title": "Plan Your Event",
+    "description": "Fill out the form below to request a custom proposal for your next gathering."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "seoTitle": "The Kaizen Family | Our Story",
+  "seoDescription": "Learn the story behind Kaizen & Coffee, the family-owned San Mateo cafe built on continuous improvement, craft, and community.",
+  "hero": {
+    "kanji": "改善",
+    "title": "A Family, a Name, a\u00a0Pursuit of",
+    "emphasis": "Better Coffee.",
+    "location": "San Mateo, California",
+    "scrollLabel": "Our story"
+  },
+  "origin": {
+    "title": "It started with",
+    "emphasis": "sleepless nights",
+    "p1": "Five years ago, we weren't coffee people. Then our son Kaizen was born — and everything changed. Partly driven by the beautiful exhaustion of new parenthood, we dove headfirst into the world of specialty coffee.",
+    "p2": "We trained at the Texas Coffee School and Barista Hustle, sought out tastings with regional coffee leaders, and when the pandemic arrived, we joined a growing community of serious home baristas studying the science and craft behind every cup.",
+    "p3": "On March 31, 2023, nearly four years into that journey, we opened the doors of Kaizen & Coffee right here in San Mateo — a family-run shop named for both our son and the Japanese philosophy that guides everything we do.",
+    "definitionLabel": "Japanese · noun",
+    "definitionName": "Kaizen",
+    "definitionKana": "改善 · かいぜん",
+    "definitionText": "The practice of continuous improvement — a commitment to making each day, each cup, each interaction a little better than the last."
+  },
+  "familyCaption": "Shane, Jason & Kaizen — the family behind the café",
+  "timeline": {
+    "title": "The Road to",
+    "emphasis": "Opening Day.",
+    "items": [
+      { "year": "2018", "title": "Kaizen is born", "description": "Our son arrives — and with him, the sleep-deprived discovery that great coffee matters." },
+      { "year": "2019", "title": "The deep dive", "description": "Formal training, tastings with roasters, and a growing obsession with the craft behind the cup." },
+      { "year": "2020", "title": "Home barista era", "description": "The pandemic turns our kitchen into a lab. Coffee science becomes a daily practice." },
+      { "year": "2023", "title": "Doors open", "description": "After converting a former music studio into a café — and weathering a series of delays — Kaizen & Coffee opens on El Camino Real." }
+    ]
+  },
+  "values": {
+    "label": "What We Believe",
+    "title": "Built on",
+    "emphasis": "three principles.",
+    "items": [
+      { "icon": "◯", "title": "Be the Bridge", "description": "Specialty coffee can feel intimidating. We want to be the welcoming first step for anyone curious about what great coffee tastes like — no gatekeeping, no pretension, just good cups and good conversation." },
+      { "icon": "△", "title": "Continuous Improvement", "description": "Kaizen isn't just a name — it's how we run the shop. Every day we refine our process, our drinks, our hospitality. Getting better never stops." },
+      { "icon": "□", "title": "Family First", "description": "This café exists because of our family, and we run it like one. From the housemade syrups to the pastry case, everything here is chosen with the care you'd bring to your own kitchen." }
+    ]
+  },
+  "partners": {
+    "label": "Our Partners",
+    "title": "Sourced with",
+    "emphasis": "intention."
+  },
+  "visit": {
+    "label": "Come Say Hello",
+    "title": "We saved you",
+    "emphasis": "a seat."
+  }
+}

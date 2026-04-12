@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "skipToMain": "Skip to main content",
+    "menu": "Menu",
+    "family": "The Kaizen Family",
+    "careers": "Careers",
+    "mobileBar": "Mobile Bar",
+    "giftCards": "Gift Cards",
+    "instagramLabel": "Instagram",
+    "toggleTheme": "Toggle theme",
+    "connect": "Connect with Us",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "languageLabel": "Language",
+    "navigationMenu": "Navigation menu"
+  },
+  "footer": {
+    "tagline": "Curating the perfect cup through the relentless pursuit of improvement.",
+    "explore": "Explore",
+    "connect": "Connect",
+    "shop": "Shop",
+    "visit": "Visit",
+    "getDirections": "Get Directions",
+    "hours": "Everyday 7am - 4pm",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms"
+  }
+}
