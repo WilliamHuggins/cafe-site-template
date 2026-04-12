@@ -1,0 +1,48 @@
+{
+  "categories": {
+    "signature_lattes": {
+      "title": "特色拿铁",
+      "notes": [
+        "双份浓缩",
+        "可选牛奶/植物奶",
+        "热饮或冰饮",
+        "甜度可调"
+      ]
+    },
+    "coffee": {
+      "title": "咖啡",
+      "notes": [
+        "可选牛奶/植物奶",
+        "热饮或冰饮"
+      ]
+    },
+    "espresso": {
+      "title": "浓缩咖啡",
+      "notes": [
+        "烘焙商: Black & White",
+        "Kaizen & Coffee 常年拼配",
+        "风味: 莓果、巧克力"
+      ]
+    },
+    "matcha_hojicha": {
+      "title": "抹茶 / 焙茶",
+      "notes": [
+        "Rishi Tea",
+        "日本鹿儿岛抹茶（仪式级）",
+        "可用店内糖浆调节甜度",
+        "加任意特色酱 +$1"
+      ]
+    },
+    "tea": {
+      "title": "茶",
+      "notes": []
+    },
+    "toast": {
+      "title": "吐司",
+      "notes": [
+        "供应时间 8am–3pm",
+        "加溏心蛋 +$2.5"
+      ]
+    }
+  }
+}

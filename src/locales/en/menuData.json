@@ -1,0 +1,153 @@
+{
+  "categories": {
+    "signature_lattes": {
+      "title": "Signature Lattes",
+      "notes": [
+        "double shot of espresso",
+        "choice of milk / alt milk",
+        "hot or iced",
+        "adjustable sweetness"
+      ],
+      "items": [
+        {
+          "description": "House-made syrup using Tahitian vanilla beans"
+        },
+        {
+          "description": "Caramel made from scratch with an umami, creamy finish (contains dairy)"
+        },
+        {
+          "description": "House-made sauce with purple yams (contains condensed milk)"
+        },
+        {
+          "description": "House-made sauce with black sesame paste imported from Japan"
+        },
+        {
+          "description": "House-made syrup with brown sugar imported from Japan"
+        },
+        {
+          "description": "Dandelion chocolate, Vietnamese cinnamon, and gochugaru red pepper (contains dairy)"
+        }
+      ]
+    },
+    "coffee": {
+      "title": "Coffee",
+      "notes": [
+        "choice of milk / alt milk",
+        "hot or iced"
+      ],
+      "items": [
+        {
+          "description": "Roaster: Black & White | Roast: Medium-Dark | Tasting notes: berries, chocolate"
+        },
+        {
+          "description": "Ask about current rotation"
+        },
+        {
+          "description": "Roaster: Black & White | Roast: Medium-Dark | Tasting notes: berries, chocolate"
+        },
+        {
+          "description": "Ask about current rotation"
+        }
+      ]
+    },
+    "espresso": {
+      "title": "Espresso",
+      "notes": [
+        "Roaster: Black & White",
+        "Kaizen & Coffee year-round blend",
+        "Tasting notes: berries, chocolate"
+      ],
+      "items": [
+        {
+          "description": ""
+        },
+        {
+          "description": "add-on to espresso"
+        },
+        {
+          "description": ""
+        },
+        {
+          "description": ""
+        },
+        {
+          "description": ""
+        },
+        {
+          "description": "Single-origin chocolate from Dandelion Chocolate"
+        },
+        {
+          "description": "Ask about current rotation"
+        }
+      ]
+    },
+    "matcha_hojicha": {
+      "title": "Matcha / Hojicha",
+      "notes": [
+        "Rishi Tea",
+        "Ceremonial grade matcha from Kagoshima, Japan",
+        "Sweetened with house simple syrup, adjustable",
+        "Customize with any signature sauce for +$1"
+      ],
+      "items": [
+        {
+          "description": "Matcha + water, unsweetened"
+        },
+        {
+          "description": ""
+        },
+        {
+          "description": ""
+        },
+        {
+          "description": "Iced only"
+        },
+        {
+          "description": "High caffeine content"
+        }
+      ]
+    },
+    "tea": {
+      "title": "Tea",
+      "notes": [],
+      "items": [
+        {
+          "description": "Organic black tea"
+        },
+        {
+          "description": "Oolong tea"
+        },
+        {
+          "description": "Organic green tea"
+        },
+        {
+          "description": "Botanical tea, no caffeine"
+        },
+        {
+          "description": "Earl Grey, house vanilla, steamed milk"
+        }
+      ]
+    },
+    "toast": {
+      "title": "Toast",
+      "notes": [
+        "Available from 8am to 3pm",
+        "Add soft-boiled egg +$2.5"
+      ],
+      "items": [
+        {
+          "description": "Toasted milk bread, peanut butter, organic banana, organic honey, chia seeds, Vietnamese cinnamon"
+        },
+        {
+          "description": "Toasted milk bread, ricotta cheese, organic cherry tomatoes, basil, yuzu kosho furikake, organic balsamic glaze"
+        },
+        {
+          "description": "Toasted milk bread, organic avocado, yuzu kosho furikake, organic cherry tomatoes, basil, organic balsamic glaze"
+        },
+        {
+          "description": "Toasted milk bread, smoked salmon, ricotta cheese, cucumber, organic red onion, yuzu kosho furikake, microgreens, capers"
+        }
+      ]
+    }
+  }
+}

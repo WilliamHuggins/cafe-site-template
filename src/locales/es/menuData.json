@@ -1,0 +1,48 @@
+{
+  "categories": {
+    "signature_lattes": {
+      "title": "Lattes de la casa",
+      "notes": [
+        "doble shot de espresso",
+        "elige leche o alternativa",
+        "caliente o helado",
+        "dulzor ajustable"
+      ]
+    },
+    "coffee": {
+      "title": "Café",
+      "notes": [
+        "elige leche o alternativa",
+        "caliente o helado"
+      ]
+    },
+    "espresso": {
+      "title": "Espresso",
+      "notes": [
+        "Tostador: Black & White",
+        "Mezcla anual Kaizen & Coffee",
+        "Notas: frutos rojos y chocolate"
+      ]
+    },
+    "matcha_hojicha": {
+      "title": "Matcha / Hojicha",
+      "notes": [
+        "Rishi Tea",
+        "Matcha grado ceremonial de Kagoshima, Japón",
+        "Endulzado con jarabe simple de la casa",
+        "Agrega cualquier salsa signature por +$1"
+      ]
+    },
+    "tea": {
+      "title": "Té",
+      "notes": []
+    },
+    "toast": {
+      "title": "Tostadas",
+      "notes": [
+        "Disponible de 8am a 3pm",
+        "Agregar huevo cocido +$2.5"
+      ]
+    }
+  }
+}
