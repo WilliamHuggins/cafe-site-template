@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type MouseEvent } from 'react';
-import { MapPin, Clock, Coffee, Truck, Gift, ArrowRight } from 'lucide-react';
+import { MapPin, Clock, Coffee, Truck, Gift, ArrowRight, Instagram, Facebook, Music2, Twitter } from 'lucide-react';
 import { menuStructure } from '../data/menu';
 import { Link } from 'react-router-dom';
 import SectionHeader from '../components/SectionHeader';
