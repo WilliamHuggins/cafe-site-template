@@ -1,0 +1,28 @@
+import tailwindcss from '@tailwindcss/vite';
+import react from '@vitejs/plugin-react';
+import path from 'path';
+import {defineConfig, loadEnv} from 'vite';
+
+export default defineConfig(({mode}) => {
+  const env = loadEnv(mode, '.', '');
+  return {
+    plugins: [react(), tailwindcss()],
+    define: {
+      'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
+      'process.env.NEXT_PUBLIC_SHOW_PROTOTYPE_BANNER': JSON.stringify(env.NEXT_PUBLIC_SHOW_PROTOTYPE_BANNER || ''),
+    },
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '.'),
+        i18next: path.resolve(__dirname, 'src/lib/i18next.ts'),
+        'react-i18next': path.resolve(__dirname, 'src/lib/react-i18next.ts'),
+      },
+    },
+    envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
+    server: {
+      // HMR is disabled in AI Studio via DISABLE_HMR env var.
+      // Do not modifyâfile watching is disabled to prevent flickering during agent edits.
+      hmr: process.env.DISABLE_HMR !== 'true',
+    },
+  };
+});
