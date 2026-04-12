@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState, type MouseEvent } from 'react';
-import { MapPin, Clock, Coffee, Truck, Gift, ArrowRight } from 'lucide-react';
+import { MapPin, Clock, Coffee, Truck, Gift, ArrowRight, Instagram, Facebook, Music2, Twitter } from 'lucide-react';
 import { menuStructure } from '../data/menu';
 import { Link } from 'react-router-dom';
 import SectionHeader from '../components/SectionHeader';
@@ -167,6 +167,45 @@ export default function Home() {
                 <Clock size={16} />
                 <span>{t('home.hero.hours')}</span>
               </div>
+            </div>
+
+            <div className="mt-5 flex items-center gap-3">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+              >
+                <Instagram size={16} />
+              </a>
+              <a
+                href="https://www.tiktok.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+              >
+                <Music2 size={16} />
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+              >
+                <Facebook size={16} />
+              </a>
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+              >
+                <Twitter size={16} />
+              </a>
             </div>
           </div>
 
