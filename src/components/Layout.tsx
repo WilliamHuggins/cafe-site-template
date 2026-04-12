@@ -444,8 +444,12 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-4 space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-black dark:bg-white rounded-sm flex items-center justify-center text-white dark:text-black">
-                <Coffee size={16} />
+              <div className="w-8 h-8 overflow-hidden bg-black dark:bg-white rounded-sm flex items-center justify-center">
+                <img
+                  src="https://i.postimg.cc/rp0nbjNf/Chat-GPT-Image-Apr-12-2026-12-14-15-PM.png"
+                  alt="Palm and Light Coffee footer icon"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <span className="text-lg font-bold tracking-tight text-black dark:text-white">PALM & LIGHT COFFEE</span>
             </div>
@@ -482,7 +486,7 @@ export default function Layout() {
             <div className="flex flex-col gap-4">
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.visit')}</span>
               <p className="text-sm text-secondary-text dark:text-dark-secondary-text">2337 S El Camino Real<br/>San Mateo, CA 94403</p>
-              <a href="https://www.google.com/maps/dir/?api=1&destination=Palm+and+Coffee" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-accent-green dark:hover:text-accent-green transition-colors">{t('layout.footer.getDirections')}</a>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=Palm+and+Light+Coffee" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-accent-green dark:hover:text-accent-green transition-colors">{t('layout.footer.getDirections')}</a>
               <p className="text-sm text-secondary-text dark:text-dark-secondary-text">{t('layout.footer.hours')}</p>
             </div>
           </div>
