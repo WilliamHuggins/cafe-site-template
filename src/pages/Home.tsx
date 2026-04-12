@@ -23,26 +23,30 @@ export default function Home() {
       name: 'Palm & Light Coffee',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '2337 S El Camino Real',
-        addressLocality: 'San Mateo',
+        streetAddress: '73455 Twentynine Palms Highway',
+        addressLocality: 'Twentynine Palms',
         addressRegion: 'CA',
-        postalCode: '94403',
+        postalCode: '92277',
         addressCountry: 'US',
       },
       openingHoursSpecification: [
         {
           '@type': 'OpeningHoursSpecification',
-          dayOfWeek: [
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday',
-            'Sunday',
-          ],
-          opens: '07:00',
-          closes: '16:00',
+          dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+          opens: '06:00',
+          closes: '18:00',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: 'Saturday',
+          opens: '06:00',
+          closes: '23:00',
+        },
+        {
+          '@type': 'OpeningHoursSpecification',
+          dayOfWeek: 'Sunday',
+          opens: '06:00',
+          closes: '18:00',
         },
       ],
       sameAs: ['https://www.instagram.com/palmandlightcoffee/'],
@@ -116,9 +120,9 @@ export default function Home() {
             <div className="mt-12 flex flex-wrap items-center gap-6 text-white/80 text-sm">
               <div className="flex items-center gap-3">
                 <MapPin size={16} />
-                <span>2337 S El Camino Real</span>
+                <span>73455 Twentynine Palms Highway, Twentynine Palms CA 92277</span>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Palm+and+Light+Coffee"
+                  href="https://www.google.com/maps"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center rounded-sm border border-white/40 px-3 py-1 font-semibold tracking-wide text-white transition-colors hover:border-white hover:bg-white/10"

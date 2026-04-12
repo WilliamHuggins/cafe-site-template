@@ -228,7 +228,7 @@ export default function About() {
             titleClassName="text-3xl md:text-4xl lg:text-5xl mb-0 text-foreground dark:text-dark-foreground"
           />
           <p className="text-[0.95rem] leading-[1.7] text-foreground/65 dark:text-dark-foreground/65 mb-2">
-            2337 S El Camino Real, San Mateo, CA
+            73455 Twentynine Palms Highway, Twentynine Palms, CA 92277
           </p>
           <Button
             href="https://instagram.com/palmandlightcoffee"
