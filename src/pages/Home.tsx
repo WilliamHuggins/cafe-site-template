@@ -237,7 +237,7 @@ export default function Home() {
               playsInline
               className="absolute inset-0 w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-1000"
             >
-              <source src="https://i.imgur.com/Ganpjkj.mp4" type="video/mp4" />
+              <source src="https://i.imgur.com/2vgUE0R.mp4" type="video/mp4" />
             </video>
             <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
               <div className="text-center px-4">
