@@ -49,19 +49,19 @@
   },
   "services": {
     "mobileBar": {
-      "title": "Barra de Café Móvil",
-      "description": "Lleva la experiencia Palm a tus eventos privados, bodas y reuniones corporativas.",
-      "cta": "Reservar Ahora"
+      "title": "Catering",
+      "description": "Lleva Palm & Light a tus reuniones: eventos íntimos, bodas y celebraciones organizadas con intención.",
+      "cta": "Consultar →"
     },
     "community": {
-      "title": "La Comunidad",
-      "description": "Acceso exclusivo a lanzamientos de temporada, invitaciones anticipadas a talleres de cata y eventos del vecindario.",
-      "cta": "Únete"
+      "title": "La Familia Palm",
+      "description": "Una conexión más cercana con la cafetería: acceso anticipado, propuestas de temporada y eventos pensados para nuestros habituales.",
+      "cta": "Unirme →"
     },
     "giftCards": {
-      "title": "Tarjetas de Regalo",
-      "description": "Regala la perfección. Canjeables en tienda por café en grano, accesorios de preparación o bebidas.",
-      "cta": "Comprar"
+      "title": "Merch",
+      "description": "Llévate una parte de Palm & Light: café en grano, cerámica y esenciales de todos los días diseñados para mañanas sin prisa.",
+      "cta": "Comprar →"
     }
   }
 }
