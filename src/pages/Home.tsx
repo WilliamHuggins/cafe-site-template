@@ -7,6 +7,29 @@ import Button from '../components/Button';
 import { Helmet } from '../components/Helmet';
 import { useTranslation } from 'react-i18next';
 
+const menuSectionImages: Record<string, { src: string; alt: string }> = {
+  coffee: {
+    src: 'https://i.postimg.cc/gkYpxghf/Chat-GPT-Image-Apr-12-2026-02-44-37-PM.png',
+    alt: 'Close-up of espresso being pulled',
+  },
+  specialty: {
+    src: 'https://i.postimg.cc/bNzPZmbX/Chat-GPT-Image-Apr-12-2026-02-48-29-PM.png',
+    alt: 'Matcha being prepared in soft light',
+  },
+  signature: {
+    src: 'https://i.postimg.cc/VLYwJKMQ/Chat-GPT-Image-Apr-12-2026-02-49-21-PM.png',
+    alt: 'Latte with oranges and greenery',
+  },
+  kitchen: {
+    src: 'https://i.postimg.cc/8P1G7Zv2/Chat-GPT-Image-Apr-12-2026-02-50-34-PM.png',
+    alt: 'House-made cinnamon buns on small plates',
+  },
+  savory: {
+    src: 'https://i.postimg.cc/xT0QX6H2/Chat-GPT-Image-Apr-12-2026-02-51-34-PM.png',
+    alt: 'Cheese plate and vegetables',
+  },
+};
+
 export default function Home() {
   const { t } = useTranslation();
   useEffect(() => {
@@ -306,39 +329,18 @@ export default function Home() {
                     })}
                   </div>
 
-                  {/* Interspersed Images */}
-                  {category.id === 'signature_lattes' && (
-                    <div className="mt-16 w-full rounded-3xl overflow-hidden shadow-2xl relative aspect-[16/9] md:aspect-[21/9] group">
+                  {menuSectionImages[category.id] && (
+                    <div className="mt-16 w-full rounded-3xl overflow-hidden shadow-2xl relative group bg-background dark:bg-dark-bg border border-border-light/50 dark:border-border-dark/50">
                       <img
-                        src="https://i.postimg.cc/RF5K1mpm/Mission-Mocha.png"
-                        alt="Mission Mocha"
+                        src={menuSectionImages[category.id].src}
+                        alt={menuSectionImages[category.id].alt}
                         loading="lazy"
                         decoding="async"
                         width={2100}
                         height={900}
                         sizes="100vw"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
-                      />
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent flex items-end p-8 md:p-12">
-                        <div>
-                          <span className="uppercase tracking-[0.2em] text-xs font-bold text-white/80 mb-3 block">{t('home.menu.featured')}</span>
-                          <h3 className="text-3xl md:text-5xl font-bold text-white mb-4">Mission Mocha</h3>
-                        </div>
-                      </div>
-                    </div>
-                  )}
-
-                  {category.id === 'espresso' && (
-                    <div className="mt-16 w-full rounded-3xl overflow-hidden shadow-2xl relative aspect-[16/9] md:aspect-[21/9] group">
-                      <img
-                        src="https://i.postimg.cc/8ckFwzhb/espresso-pairing-w-Royce-chocolate-from-Japan-organic-berries.png"
-                        alt="Espresso Pairing"
-                        loading="lazy"
-                        decoding="async"
-                        width={2100}
-                        height={900}
-                        sizes="100vw"
-                        className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-1000"
+                        referrerPolicy="no-referrer"
+                        className="w-full h-auto max-h-[70vh] object-contain group-hover:scale-[1.02] transition-transform duration-700"
                       />
                     </div>
                   )}
