@@ -168,7 +168,7 @@ export default function About() {
           <div className="max-w-3xl mx-auto fade-in-section opacity-0 translate-y-8 transition-all duration-1000 ease-out">
             <h3 className="font-serif text-4xl md:text-6xl mb-8">{t('about.cta.headline')}</h3>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button to="/menu" className="group inline-flex items-center gap-2">{t('about.cta.viewMenu')}</Button>
+              <Button to="/#menu" className="group inline-flex items-center gap-2">{t('about.cta.viewMenu')}</Button>
               <Button
                 href="https://www.google.com/maps"
                 target="_blank"

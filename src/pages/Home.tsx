@@ -1,4 +1,4 @@
-import { useEffect, type MouseEvent } from 'react';
+import { useEffect, useMemo, useState, type MouseEvent } from 'react';
 import { MapPin, Clock, Coffee, Truck, Gift, ArrowRight } from 'lucide-react';
 import { menuStructure } from '../data/menu';
 import { Link } from 'react-router-dom';
@@ -32,6 +32,16 @@ const menuSectionImages: Record<string, { src: string; alt: string }> = {
 
 export default function Home() {
   const { t } = useTranslation();
+  const [activeMenuFilter, setActiveMenuFilter] = useState<string>('all');
+
+  const filteredMenuCategories = useMemo(() => {
+    if (activeMenuFilter === 'all') {
+      return menuStructure;
+    }
+
+    return menuStructure.filter((category) => category.id === activeMenuFilter);
+  }, [activeMenuFilter]);
+
   useEffect(() => {
     const structuredDataScriptId = 'localbusiness-structured-data';
     const existingScript = document.getElementById(structuredDataScriptId);
@@ -272,6 +282,32 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mb-16 flex flex-wrap justify-center gap-3">
+            <button
+              onClick={() => setActiveMenuFilter('all')}
+              className={`px-5 py-2 rounded-full text-xs uppercase tracking-[0.16em] border transition-colors ${
+                activeMenuFilter === 'all'
+                  ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
+                  : 'bg-white text-black border-border-light dark:bg-dark-bg dark:text-white dark:border-border-dark hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black'
+              }`}
+            >
+              {t('home.menu.filterAll') === 'home.menu.filterAll' ? 'All Menu' : t('home.menu.filterAll')}
+            </button>
+            {menuStructure.map((category) => (
+              <button
+                key={category.id}
+                onClick={() => setActiveMenuFilter(category.id)}
+                className={`px-5 py-2 rounded-full text-xs uppercase tracking-[0.16em] border transition-colors ${
+                  activeMenuFilter === category.id
+                    ? 'bg-black text-white border-black dark:bg-white dark:text-black dark:border-white'
+                    : 'bg-white text-black border-border-light dark:bg-dark-bg dark:text-white dark:border-border-dark hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black'
+                }`}
+              >
+                {t(`menuData.menu.categories.${category.id}.name`)}
+              </button>
+            ))}
+          </div>
+
           {/* Digital Card Menu */}
           <div>
             <div className="text-center mb-24">
@@ -282,68 +318,74 @@ export default function Home() {
             </div>
 
             <div className="space-y-8">
-              {menuStructure.map((category) => (
+              {filteredMenuCategories.map((category) => (
                 <div key={category.id} className="mb-24">
-                  <div className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
-                    <h3 className="text-3xl md:text-4xl font-bold tracking-tight text-black dark:text-white">
-                      {t(`menuData.menu.categories.${category.id}.name`)}
-                    </h3>
-                    {category.noteCount > 0 && (
-                      <div className="flex flex-wrap gap-2">
-                        {Array.from({ length: category.noteCount }).map((_, idx) => {
-                          const noteKey = `menuData.menu.categories.${category.id}.notes.${idx}`;
-                          const note = t(noteKey);
-                          if (note === noteKey) {
-                            return null;
-                          }
+                  <div className="grid grid-cols-1 xl:grid-cols-[minmax(0,1.35fr)_minmax(320px,420px)] gap-10 items-start">
+                    <div>
+                      <div className="mb-10 flex flex-col md:flex-row md:items-end justify-between gap-6">
+                        <h3 className="text-3xl md:text-4xl font-bold tracking-tight text-black dark:text-white">
+                          {t(`menuData.menu.categories.${category.id}.name`)}
+                        </h3>
+                        {category.noteCount > 0 && (
+                          <div className="flex flex-wrap gap-2">
+                            {Array.from({ length: category.noteCount }).map((_, idx) => {
+                              const noteKey = `menuData.menu.categories.${category.id}.notes.${idx}`;
+                              const note = t(noteKey);
+                              if (note === noteKey) {
+                                return null;
+                              }
+
+                              return (
+                                <span key={idx} className="text-xs font-bold uppercase tracking-wider text-muted-text dark:text-dark-muted-text bg-white dark:bg-dark-bg px-3 py-1.5 rounded-sm shadow-sm border border-border-light/50 dark:border-border-dark/50">
+                                  {note}
+                                </span>
+                              );
+                            })}
+                          </div>
+                        )}
+                      </div>
+
+                      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {category.items.map((item) => {
+                          const itemName = t(`menuData.menu.items.${item.id}.name`);
+                          const itemDescriptionKey = `menuData.menu.items.${item.id}.description`;
+                          const itemDescription = t(itemDescriptionKey);
 
                           return (
-                            <span key={idx} className="text-xs font-bold uppercase tracking-wider text-muted-text dark:text-dark-muted-text bg-white dark:bg-dark-bg px-3 py-1.5 rounded-sm shadow-sm border border-border-light/50 dark:border-border-dark/50">
-                              {note}
-                            </span>
+                            <div key={item.id} className="bg-white dark:bg-dark-bg p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-border-light/50 dark:border-border-dark/50 flex flex-col group">
+                              <div className="flex justify-between items-start mb-4 gap-4">
+                                <h4 className="text-xl font-bold text-black dark:text-white group-hover:text-accent-brown transition-colors break-words">
+                                  {itemName}
+                                </h4>
+                                <span className="text-sm font-bold bg-background dark:bg-dark-section-bg px-3 py-1 rounded-sm text-black dark:text-white whitespace-nowrap">{item.price}</span>
+                              </div>
+                              {itemDescription !== itemDescriptionKey && (
+                                <p className="text-sm text-secondary-text dark:text-dark-secondary-text leading-relaxed mt-auto pt-6 border-t border-border-light/30 dark:border-border-dark/30">
+                                  {itemDescription}
+                                </p>
+                              )}
+                            </div>
                           );
                         })}
                       </div>
+                    </div>
+
+                    {menuSectionImages[category.id] && (
+                      <div className="mx-auto w-full max-w-[26rem] rounded-3xl overflow-hidden shadow-2xl relative group bg-background dark:bg-dark-bg border border-border-light/50 dark:border-border-dark/50 xl:sticky xl:top-28">
+                        <img
+                          src={menuSectionImages[category.id].src}
+                          alt={menuSectionImages[category.id].alt}
+                          loading="lazy"
+                          decoding="async"
+                          width={2100}
+                          height={900}
+                          sizes="(min-width: 1280px) 420px, 100vw"
+                          referrerPolicy="no-referrer"
+                          className="w-full aspect-[9/16] object-cover group-hover:scale-[1.02] transition-transform duration-700"
+                        />
+                      </div>
                     )}
                   </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {category.items.map((item) => {
-                      const itemName = t(`menuData.menu.items.${item.id}.name`);
-                      const itemDescriptionKey = `menuData.menu.items.${item.id}.description`;
-                      const itemDescription = t(itemDescriptionKey);
-
-                      return (
-                        <div key={item.id} className="bg-white dark:bg-dark-bg p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-border-light/50 dark:border-border-dark/50 flex flex-col group">
-                          <div className="flex justify-between items-start mb-4 gap-4">
-                            <h4 className="text-xl font-bold text-black dark:text-white group-hover:text-accent-brown transition-colors">{itemName}</h4>
-                            <span className="text-sm font-bold bg-background dark:bg-dark-section-bg px-3 py-1 rounded-sm text-black dark:text-white whitespace-nowrap">{item.price}</span>
-                          </div>
-                          {itemDescription !== itemDescriptionKey && (
-                            <p className="text-sm text-secondary-text dark:text-dark-secondary-text leading-relaxed mt-auto pt-6 border-t border-border-light/30 dark:border-border-dark/30">
-                              {itemDescription}
-                            </p>
-                          )}
-                        </div>
-                      );
-                    })}
-                  </div>
-
-                  {menuSectionImages[category.id] && (
-                    <div className="mt-16 w-full rounded-3xl overflow-hidden shadow-2xl relative group bg-background dark:bg-dark-bg border border-border-light/50 dark:border-border-dark/50">
-                      <img
-                        src={menuSectionImages[category.id].src}
-                        alt={menuSectionImages[category.id].alt}
-                        loading="lazy"
-                        decoding="async"
-                        width={2100}
-                        height={900}
-                        sizes="100vw"
-                        referrerPolicy="no-referrer"
-                        className="w-full h-auto max-h-[70vh] object-contain group-hover:scale-[1.02] transition-transform duration-700"
-                      />
-                    </div>
-                  )}
                 </div>
               ))}
             </div>
