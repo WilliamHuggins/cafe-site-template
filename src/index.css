@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:ital,wght@0,400;0,500;1,400&display=swap');
+@import "tailwindcss";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-dm: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-jp: "Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
+
+  --color-accent-green: #7A8B5E;
+  --color-accent-brown: #997f6b;
+  --color-background: #fbf9f8;
+  --color-dark-bg: #121212;
+  --color-secondary-text: #444748;
+  --color-dark-secondary-text: #c8c6c5;
+  --color-section-bg: #efeded;
+  --color-dark-section-bg: #1a1a1a;
+  --color-border-light: #dbdad9;
+  --color-border-dark: #303031;
+  --color-muted-text: #858383;
+  --color-dark-muted-text: #747878;
+
+  --color-foreground: #1b1c1c;
+  --color-dark-foreground: #f5ede3;
+  --color-heading-dark: #1a1411;
+  --color-selection-light: #e5e2e1;
+  --color-surface-light: #e4e2e2;
+  --color-cta-hover-dark: #28180a;
+  --color-accent-olive: #a3b18a;
+  --color-accent-green-hover: #6b7a52;
+  --color-line-muted: #d1d1d1;
+  --color-panel-light: #f1efee;
+  --color-panel-dark: #1f1f1f;
+  --color-panel-dark-alt: #202020;
+  --color-panel-dark-hover: #252525;
+  --color-near-black: #1c1b1b;
+  --color-gradient-dark-end: #2a2b2b;
+  --color-border-tan: #d9d4cf;
+  --color-border-deep: #3a3a3a;
+  --color-card-light: #f5f2ef;
+  --color-accent-gold: #c4956a;
+  --color-social-blue: #3897f0;
+  --color-social-muted: #c9c8cd;
+  --color-social-placeholder: #f4f4f4;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
