@@ -1,6 +1,6 @@
 {
-  "seoTitle": "採用情報 | Kaizen & Coffee",
-  "seoDescription": "San Mateoの Kaizen & Coffee チームに加わりませんか。おもてなしと継続的な改善を大切にする、特別なコーヒー体験を一緒に作りましょう。",
+  "seoTitle": "採用情報 | Palm & Light Coffee",
+  "seoDescription": "San Mateoの Palm & Light Coffee チームに加わりませんか。おもてなしと継続的な改善を大切にする、特別なコーヒー体験を一緒に作りましょう。",
   "hero": {
     "label": "チームに参加する",
     "title": "技術、思いやり、そして",
@@ -15,7 +15,7 @@
   "values": {
     "title": "私たちの価値観",
     "items": [
-      { "name": "Kaizen", "description": "学びに終わりはありません。フィードバックを求め、日々の改善に努めます。" },
+      { "name": "Palm", "description": "学びに終わりはありません。フィードバックを求め、日々の改善に努めます。" },
       { "name": "心からのおもてなし", "description": "すべてのお客様を、自分の家に迎えるようにお迎えします。" },
       { "name": "精密さ", "description": "素材に敬意を持ち、妥協のない基準で調理します。" }
     ]
@@ -28,6 +28,6 @@
       { "title": "バリスタ", "type": "フルタイム / パートタイム • San Mateo, CA" },
       { "title": "モバイルバーリード", "type": "パートタイム（週末） • Bay Area" }
     ],
-    "fallback": "ご希望のポジションが見つかりませんか？履歴書を careers@kaizencoffee.com にお送りいただき、あなたがチームに加わりたい理由をお聞かせください。"
+    "fallback": "ご希望のポジションが見つかりませんか？履歴書を careers@palmlightcoffee.com にお送りいただき、あなたがチームに加わりたい理由をお聞かせください。"
   }
 }

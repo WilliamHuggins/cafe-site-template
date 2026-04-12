@@ -1,6 +1,6 @@
 {
-  "seoTitle": "La Familia Kaizen | Nuestra Historia",
-  "seoDescription": "Conoce la historia detrás de Kaizen & Coffee, la cafetería familiar de San Mateo construida sobre la mejora continua, el oficio y la comunidad.",
+  "seoTitle": "La Familia Palm | Nuestra Historia",
+  "seoDescription": "Conoce la historia detrás de Palm & Light Coffee, la cafetería familiar de San Mateo construida sobre la mejora continua, el oficio y la comunidad.",
   "hero": {
     "kanji": "改善",
     "title": "Una familia, un nombre, una\u00a0búsqueda de",
@@ -11,23 +11,23 @@
   "origin": {
     "title": "Todo empezó con",
     "emphasis": "noches sin dormir",
-    "p1": "Hace cinco años, no éramos personas de café. Luego nació nuestro hijo Kaizen y todo cambió. Impulsados en parte por la hermosa fatiga de ser padres primerizos, nos sumergimos de lleno en el mundo del café de especialidad.",
+    "p1": "Hace cinco años, no éramos personas de café. Luego nació nuestro hijo Palm y todo cambió. Impulsados en parte por la hermosa fatiga de ser padres primerizos, nos sumergimos de lleno en el mundo del café de especialidad.",
     "p2": "Nos formamos en Texas Coffee School y Barista Hustle, buscamos catas con referentes regionales del café, y cuando llegó la pandemia, nos unimos a una creciente comunidad de baristas caseros dedicados a estudiar la ciencia y el arte detrás de cada taza.",
-    "p3": "El 31 de marzo de 2023, casi cuatro años después de iniciar ese camino, abrimos las puertas de Kaizen & Coffee aquí mismo en San Mateo — una cafetería familiar que lleva el nombre de nuestro hijo y de la filosofía japonesa que guía todo lo que hacemos.",
+    "p3": "El 31 de marzo de 2023, casi cuatro años después de iniciar ese camino, abrimos las puertas de Palm & Light Coffee aquí mismo en San Mateo — una cafetería familiar que lleva el nombre de nuestro hijo y de la filosofía japonesa que guía todo lo que hacemos.",
     "definitionLabel": "Japonés · sustantivo",
-    "definitionName": "Kaizen",
+    "definitionName": "Palm",
     "definitionKana": "改善 · かいぜん",
     "definitionText": "La práctica de la mejora continua — un compromiso de hacer cada día, cada taza, cada interacción un poco mejor que la anterior."
   },
-  "familyCaption": "Shane, Jason & Kaizen — la familia detrás de la cafetería",
+  "familyCaption": "Shane, Jason & Palm — la familia detrás de la cafetería",
   "timeline": {
     "title": "El Camino hasta el",
     "emphasis": "Día de Apertura.",
     "items": [
-      { "year": "2018", "title": "Nace Kaizen", "description": "Llega nuestro hijo — y con él, el descubrimiento (con falta de sueño) de que el buen café importa." },
+      { "year": "2018", "title": "Nace Palm", "description": "Llega nuestro hijo — y con él, el descubrimiento (con falta de sueño) de que el buen café importa." },
       { "year": "2019", "title": "La inmersión total", "description": "Formación profesional, catas con tostadores y una obsesión creciente por el oficio detrás de la taza." },
       { "year": "2020", "title": "La era del barista casero", "description": "La pandemia convierte nuestra cocina en un laboratorio. La ciencia del café se vuelve una práctica diaria." },
-      { "year": "2023", "title": "Abrimos las puertas", "description": "Tras convertir un antiguo estudio de música en cafetería — y superar una serie de retrasos — Kaizen & Coffee abre en El Camino Real." }
+      { "year": "2023", "title": "Abrimos las puertas", "description": "Tras convertir un antiguo estudio de música en cafetería — y superar una serie de retrasos — Palm & Light Coffee abre en El Camino Real." }
     ]
   },
   "values": {
@@ -36,7 +36,7 @@
     "emphasis": "tres principios.",
     "items": [
       { "icon": "◯", "title": "Ser el Puente", "description": "El café de especialidad puede resultar intimidante. Queremos ser el primer paso acogedor para cualquiera que sienta curiosidad por lo que es un gran café — sin elitismo, sin pretensiones, solo buenas tazas y buena conversación." },
-      { "icon": "△", "title": "Mejora Continua", "description": "Kaizen no es solo un nombre — es nuestra forma de gestionar la cafetería. Cada día refinamos nuestros procesos, nuestras bebidas, nuestra hospitalidad. Mejorar nunca se detiene." },
+      { "icon": "△", "title": "Mejora Continua", "description": "Palm no es solo un nombre — es nuestra forma de gestionar la cafetería. Cada día refinamos nuestros procesos, nuestras bebidas, nuestra hospitalidad. Mejorar nunca se detiene." },
       { "icon": "□", "title": "La Familia Primero", "description": "Esta cafetería existe gracias a nuestra familia, y la dirigimos como tal. Desde los jarabes hechos en casa hasta la vitrina de repostería, todo aquí está elegido con el mismo cuidado que pondrías en tu propia cocina." }
     ]
   },

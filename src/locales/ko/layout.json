@@ -2,7 +2,7 @@
   "nav": {
     "skipToMain": "메인 콘텐츠로 건너뛰기",
     "menu": "메뉴",
-    "family": "카이젠 패밀리",
+    "family": "Palm 패밀리",
     "careers": "채용",
     "mobileBar": "모바일 바",
     "giftCards": "기프트 카드",
@@ -25,6 +25,6 @@
     "rights": "모든 권리 보유.",
     "privacy": "개인정보",
     "terms": "이용약관",
-    "emailButton": "Email Kaizen"
+    "emailButton": "Email Palm"
   }
 }
