@@ -1,0 +1,33 @@
+{
+  "seoTitle": "Empleo | Kaizen & Coffee",
+  "seoDescription": "Únete al equipo de Kaizen & Coffee en San Mateo y ayúdanos a crear experiencias de café excepcionales basadas en la hospitalidad y la mejora continua.",
+  "hero": {
+    "label": "Únete al Equipo",
+    "title": "Oficio, Dedicación y",
+    "emphasis": "Mejora Continua."
+  },
+  "lookingFor": {
+    "title": "A quién",
+    "emphasis": "buscamos.",
+    "p1": "Siempre estamos buscando personas que compartan nuestra obsesión por la calidad y nuestro genuino amor por la hospitalidad. No necesitas ser un campeón de café para trabajar aquí, pero sí necesitas preocuparte profundamente por los detalles.",
+    "p2": "Valoramos la curiosidad, la empatía y una fuerte ética de trabajo. Si crees que una gran taza de café y una interacción cálida pueden cambiarle el día a alguien, este es tu lugar."
+  },
+  "values": {
+    "title": "Nuestros Valores",
+    "items": [
+      { "name": "Kaizen", "description": "Nunca dejamos de aprender. Buscamos retroalimentación y nos esforzamos por mejorar cada día." },
+      { "name": "Hospitalidad Radical", "description": "Tratamos a cada cliente como si entrara en nuestra casa." },
+      { "name": "Precisión", "description": "Respetamos los ingredientes preparándolos con estándares exigentes." }
+    ]
+  },
+  "openings": {
+    "title": "Vacantes",
+    "emphasis": "Actuales.",
+    "applyNow": "Postularse",
+    "positions": [
+      { "title": "Barista", "type": "Tiempo completo / Medio tiempo • San Mateo, CA" },
+      { "title": "Líder de Barra Móvil", "type": "Medio tiempo (Fines de semana) • Bay Area" }
+    ],
+    "fallback": "¿No encuentras un puesto que se ajuste? Envía tu currículum a careers@kaizencoffee.com y cuéntanos por qué serías una gran incorporación al equipo."
+  }
+}
