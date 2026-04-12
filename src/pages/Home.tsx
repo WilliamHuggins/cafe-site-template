@@ -138,10 +138,10 @@ export default function Home() {
               alt="Palm & Light Coffee Badge"
               loading="lazy"
               decoding="async"
-              width={320}
-              height={320}
-              sizes="320px"
-              className="w-80 h-80 object-contain drop-shadow-2xl"
+              width={420}
+              height={420}
+              sizes="420px"
+              className="w-[26rem] h-[26rem] object-contain drop-shadow-2xl"
             />
           </div>
         </div>
