@@ -168,6 +168,45 @@ export default function Home() {
                 <span>{t('home.hero.hours')}</span>
               </div>
             </div>
+
+            <div className="mt-5 flex flex-wrap items-center gap-3 text-xs font-semibold tracking-wide text-white">
+              <a
+                href="https://www.instagram.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
+              >
+                Instagram
+              </a>
+              <a
+                href="https://www.tiktok.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="TikTok"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
+              >
+                TikTok
+              </a>
+              <a
+                href="https://www.facebook.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Facebook"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
+              >
+                Facebook
+              </a>
+              <a
+                href="https://x.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="X"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
+              >
+                X
+              </a>
+            </div>
           </div>
 
           <div className="hidden lg:flex justify-end items-center flex-1">
