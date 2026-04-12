@@ -214,6 +214,7 @@ export default function Home() {
               emphasis={t('home.philosophy.emphasis')}
               align="center"
               description={t('home.philosophy.description')}
+              descriptionClassName="whitespace-pre-line"
               className="mb-8"
             />
             <Button to="/about" variant="text">
