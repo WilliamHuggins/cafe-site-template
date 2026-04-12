@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { Menu as MenuIcon, X, Instagram, Moon, Sun } from 'lucide-react';
+import { Menu as MenuIcon, X, Moon, Sun, Instagram } from 'lucide-react';
 import { useState, useEffect, useRef, type MouseEvent } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
@@ -288,19 +288,6 @@ export default function Layout() {
                 </option>
               ))}
             </select>
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className={`p-2 rounded-sm transition-colors ${
-                transparentNav
-                  ? 'text-white hover:bg-white/10'
-                  : 'text-black dark:text-white hover:bg-black/5 dark:hover:bg-white/10'
-              }`}
-              aria-label={t('layout.nav.instagramLabel')}
-            >
-              <Instagram size={20} />
-            </a>
             <button
               onClick={toggleTheme}
               className={`p-2 rounded-sm transition-colors ${
@@ -410,14 +397,6 @@ export default function Layout() {
                 </Link>
               );
             })}
-            <a
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl font-bold tracking-tight text-black dark:text-white flex items-center gap-3"
-            >
-              {t('layout.nav.instagramLabel')} <Instagram size={24} />
-            </a>
             <button
               onClick={toggleTheme}
               className="text-2xl font-bold tracking-tight text-black dark:text-white flex items-center gap-3"
