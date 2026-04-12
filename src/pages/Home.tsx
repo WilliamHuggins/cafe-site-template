@@ -97,7 +97,7 @@ export default function Home() {
         <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
             <h1 className="font-serif font-normal text-white text-5xl md:text-6xl lg:text-7xl leading-[1.1] mb-6 drop-shadow-[0_2px_10px_rgba(0,0,0,0.55)]">
-              {t('home.hero.headingPrefix')} <em className="italic text-accent-olive">{t('home.hero.headingEmphasis')}</em>
+              {t('home.hero.headingPrefix')} <em className="italic text-accent-green">{t('home.hero.headingEmphasis')}</em>
             </h1>
             <p className="text-surface-light text-lg md:text-xl mb-10 max-w-lg leading-relaxed drop-shadow-[0_1px_8px_rgba(0,0,0,0.5)]">
               {t('home.hero.description')}
@@ -243,7 +243,7 @@ export default function Home() {
               <div className="text-center px-4">
                 <span className="uppercase tracking-[0.2em] text-xs md:text-sm font-bold text-white/90 mb-4 block drop-shadow-md">{t('home.menu.signatureLabel')}</span>
                 <h2 className="font-serif font-normal text-4xl md:text-6xl lg:text-7xl text-white drop-shadow-lg">
-                  {t('home.menu.signatureTitle')} <em className="italic text-accent-olive">{t('home.menu.signatureEmphasis')}</em>
+                  {t('home.menu.signatureTitle')} <em className="italic text-accent-green">{t('home.menu.signatureEmphasis')}</em>
                 </h2>
               </div>
             </div>

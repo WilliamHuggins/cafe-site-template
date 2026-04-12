@@ -9,7 +9,7 @@
   --font-dm: "DM Sans", ui-sans-serif, system-ui, sans-serif;
   --font-jp: "Noto Sans JP", ui-sans-serif, system-ui, sans-serif;
 
-  --color-accent-green: #7A8B5E;
+  --color-accent-green: #E58A2E;
   --color-accent-brown: #997f6b;
   --color-background: #fbf9f8;
   --color-dark-bg: #121212;
@@ -25,11 +25,11 @@
   --color-foreground: #1b1c1c;
   --color-dark-foreground: #f5ede3;
   --color-heading-dark: #1a1411;
-  --color-selection-light: #e5e2e1;
+  --color-selection-light: #f7e6d3;
   --color-surface-light: #e4e2e2;
   --color-cta-hover-dark: #28180a;
-  --color-accent-olive: #a3b18a;
-  --color-accent-green-hover: #6b7a52;
+  --color-accent-olive: #F7E6D3;
+  --color-accent-green-hover: #C96F1F;
   --color-line-muted: #d1d1d1;
   --color-panel-light: #f1efee;
   --color-panel-dark: #1f1f1f;

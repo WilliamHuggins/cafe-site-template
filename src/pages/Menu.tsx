@@ -130,10 +130,10 @@ export default function Menu() {
                   key={category.id}
                   id={`category-${category.id}`}
                   data-category={category.id}
-                  className={`scroll-mt-32 fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out ${index > 0 ? 'pt-16 border-t border-line-muted/60 dark:border-secondary-text/30' : ''}`}
+                  className={`scroll-mt-32 fade-in-section opacity-0 translate-y-8 transition-all duration-700 ease-out ${index > 0 ? 'pt-16 border-t border-accent-olive dark:border-accent-olive/40' : ''}`}
                 >
                   <div className="mb-10">
-                    <h2 className="text-sm uppercase tracking-[0.18em] text-[#7B8A7B] dark:text-[#a3b8a3] mb-8">
+                    <h2 className="text-sm uppercase tracking-[0.18em] text-accent-green dark:text-accent-green mb-8">
                       {translateOrFallback(t, `menuData.menu.categories.${category.id}.name`, category.id)}
                     </h2>
                   </div>
@@ -147,7 +147,7 @@ export default function Menu() {
                       return (
                         <div key={item.id} className="pb-1">
                           <div className="flex justify-between items-baseline gap-6">
-                            <h3 className={`text-lg text-black dark:text-white ${category.id === 'signature' ? 'italic text-[#496052] dark:text-[#c7d5c7]' : ''}`}>
+                            <h3 className={`text-lg text-black dark:text-white ${category.id === 'signature' ? 'italic text-accent-green dark:text-accent-green' : ''}`}>
                               {itemName}
                             </h3>
                             <span className="text-base text-black dark:text-white">{item.price}</span>
