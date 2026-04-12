@@ -4,15 +4,15 @@
     "menu": "Menu",
     "family": "The Palm Family",
     "careers": "Careers",
-    "mobileBar": "Mobile Bar",
-    "giftCards": "Gift Cards",
     "instagramLabel": "Instagram",
     "toggleTheme": "Toggle theme",
     "connect": "Connect with Us",
     "openMenu": "Open navigation menu",
     "closeMenu": "Close navigation menu",
     "languageLabel": "Language",
-    "navigationMenu": "Navigation menu"
+    "navigationMenu": "Navigation menu",
+    "catering": "Catering",
+    "merchStore": "Merch Store"
   },
   "footer": {
     "tagline": "Curating the perfect cup through the relentless pursuit of improvement.",

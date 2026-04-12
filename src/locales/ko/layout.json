@@ -4,15 +4,15 @@
     "menu": "메뉴",
     "family": "Palm 패밀리",
     "careers": "채용",
-    "mobileBar": "모바일 바",
-    "giftCards": "기프트 카드",
     "instagramLabel": "인스타그램",
     "toggleTheme": "테마 전환",
     "connect": "문의하기",
     "openMenu": "내비게이션 메뉴 열기",
     "closeMenu": "내비게이션 메뉴 닫기",
     "languageLabel": "언어",
-    "navigationMenu": "내비게이션 메뉴"
+    "navigationMenu": "내비게이션 메뉴",
+    "catering": "케이터링",
+    "merchStore": "머치 스토어"
   },
   "footer": {
     "tagline": "끊임없는 개선으로 완벽한 한 잔을 만듭니다.",

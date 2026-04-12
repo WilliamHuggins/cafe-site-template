@@ -1,0 +1,89 @@
+{
+  "seoTitle": "케이터링 | Palm & Light Coffee",
+  "seoDescription": "Palm & Light Coffee의 부티크 커피 케이터링. 웨딩, 기업 행사, 프라이빗 이벤트에 적합합니다.",
+  "hero": {
+    "eyebrow": "CATERING",
+    "headline": "Palm & Light를 테이블로 가져오세요.",
+    "body": "정성스러운 커피, 따뜻한 환대, 햇살 같은 연출로 어떤 모임이든 특별하게."
+  },
+  "intro": {
+    "headline": "축하의 순간부터 다양한 모임까지.",
+    "body": "소규모 브런치, 웨딩, 크리에이티브 프로덕션, 기업 행사까지 Palm & Light의 경험을 세심하게 전달합니다.",
+    "categories": [
+      "브런치",
+      "웨딩",
+      "기업 행사",
+      "프라이빗 이벤트"
+    ]
+  },
+  "offers": {
+    "headline": "제공 서비스",
+    "items": [
+      {
+        "title": "크래프트 커피",
+        "description": "에스프레소, 배치 브루, 콜드브루, 말차, 시즌 음료."
+      },
+      {
+        "title": "페이스트리 & 라이트 바이트",
+        "description": "신선한 베이크와 간결하고 세심한 페어링."
+      },
+      {
+        "title": "풀 서비스",
+        "description": "세팅부터 서비스까지 차분하고 완성도 있는 운영을 제공합니다."
+      }
+    ]
+  },
+  "form": {
+    "headline": "문의하기",
+    "body": "행사 정보를 남겨주시면 일정 가능 여부와 상세 내용을 안내해 드립니다.",
+    "submit": "문의 제출",
+    "submitting": "제출 중…",
+    "success": "감사합니다—곧 연락드리겠습니다.",
+    "error": "오류가 발생했습니다. catering@palmandlight.co 로 직접 이메일 주세요.",
+    "fields": {
+      "fullName": "이름",
+      "email": "이메일",
+      "phone": "전화번호",
+      "eventType": "행사 유형",
+      "eventDate": "행사 날짜",
+      "eventLocation": "행사 장소",
+      "guestCount": "예상 인원",
+      "services": "관심 서비스",
+      "eventDetails": "행사 상세 내용",
+      "budgetRange": "예산 범위 (선택)"
+    },
+    "options": {
+      "eventType": {
+        "wedding": "웨딩",
+        "corporate": "기업 행사",
+        "privateEvent": "프라이빗 이벤트",
+        "other": "기타"
+      },
+      "services": {
+        "coffee": "커피 서비스",
+        "pastries": "페이스트리",
+        "fullService": "풀 서비스 세팅"
+      },
+      "budget": {
+        "optional": "선택",
+        "under2k": "$2,000 미만",
+        "twoToFive": "$2,000 - $5,000",
+        "fiveToTen": "$5,000 - $10,000",
+        "tenPlus": "$10,000+"
+      }
+    }
+  },
+  "offline": {
+    "headline": "오프라인으로 준비하고 싶으신가요?",
+    "body": "케이터링 요청서를 다운로드해 편한 속도로 작성한 뒤 준비되면 보내주세요.",
+    "download": "케이터링 양식 다운로드 (PDF)",
+    "email": "이메일 보내기 →"
+  },
+  "images": {
+    "heroAlt": "자연광 속 커피와 페이스트리 케이터링 세팅",
+    "experienceAlt": "정원 공간의 에스프레소 머신과 플로럴 세팅",
+    "formAlt": "서비스용으로 준비된 페이스트리와 음료",
+    "offlineAlt": "Palm & Light 케이터링 자료",
+    "optionalAlt": "케이터링 커피와 페이스트리 클로즈업"
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "seoTitle": "Catering | Palm & Light Coffee",
+  "seoDescription": "Catering de café boutique de Palm & Light Coffee para bodas, eventos corporativos y reuniones privadas.",
+  "hero": {
+    "eyebrow": "CATERING",
+    "headline": "Lleva Palm & Light a tu mesa.",
+    "body": "Café cuidado, hospitalidad cálida y una presentación luminosa para reuniones de todo tipo."
+  },
+  "intro": {
+    "headline": "Para celebraciones, encuentros y todo lo demás.",
+    "body": "Desde brunches íntimos hasta bodas, producciones creativas y eventos corporativos, llevamos la experiencia Palm & Light con cuidado e intención.",
+    "categories": [
+      "Brunches",
+      "Bodas",
+      "Corporativo",
+      "Eventos privados"
+    ]
+  },
+  "offers": {
+    "headline": "Lo que ofrecemos",
+    "items": [
+      {
+        "title": "Café de especialidad",
+        "description": "Espresso, café filtrado, cold brew, matcha y bebidas de temporada."
+      },
+      {
+        "title": "Pastelería y bocados ligeros",
+        "description": "Panadería recién preparada y maridajes simples y pensados."
+      },
+      {
+        "title": "Servicio completo",
+        "description": "Montaje, servicio y una presencia serena y pulida durante todo el evento."
+      }
+    ]
+  },
+  "form": {
+    "headline": "Consulta",
+    "body": "Cuéntanos un poco sobre tu evento y te responderemos con disponibilidad y detalles.",
+    "submit": "Enviar consulta",
+    "submitting": "Enviando…",
+    "success": "Gracias—nos pondremos en contacto pronto.",
+    "error": "Algo salió mal. Escríbenos directamente a catering@palmandlight.co.",
+    "fields": {
+      "fullName": "Nombre completo",
+      "email": "Correo electrónico",
+      "phone": "Número de teléfono",
+      "eventType": "Tipo de evento",
+      "eventDate": "Fecha del evento",
+      "eventLocation": "Ubicación del evento",
+      "guestCount": "Cantidad estimada de invitados",
+      "services": "Servicios de interés",
+      "eventDetails": "Detalles del evento",
+      "budgetRange": "Rango de presupuesto (opcional)"
+    },
+    "options": {
+      "eventType": {
+        "wedding": "Boda",
+        "corporate": "Corporativo",
+        "privateEvent": "Evento privado",
+        "other": "Otro"
+      },
+      "services": {
+        "coffee": "Servicio de café",
+        "pastries": "Pastelería",
+        "fullService": "Montaje de servicio completo"
+      },
+      "budget": {
+        "optional": "Opcional",
+        "under2k": "Menos de $2,000",
+        "twoToFive": "$2,000 - $5,000",
+        "fiveToTen": "$5,000 - $10,000",
+        "tenPlus": "$10,000+"
+      }
+    }
+  },
+  "offline": {
+    "headline": "¿Prefieres planear sin conexión?",
+    "body": "Descarga nuestro formulario de catering, complétalo a tu ritmo y envíanoslo cuando estés listo.",
+    "download": "Descargar formulario de catering (PDF)",
+    "email": "Escríbenos →"
+  },
+  "images": {
+    "heroAlt": "Montaje de catering con café y pasteles bajo luz natural",
+    "experienceAlt": "Montaje exterior con máquina de espresso, flores y cítricos",
+    "formAlt": "Pastelería y bebidas preparadas para el servicio",
+    "offlineAlt": "Detalles de catering y papelería de Palm & Light",
+    "optionalAlt": "Primer plano de café y pastelería para catering"
+  }
+}

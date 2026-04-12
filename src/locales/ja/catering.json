@@ -1,0 +1,89 @@
+{
+  "seoTitle": "ケータリング | Palm & Light Coffee",
+  "seoDescription": "Palm & Light Coffee のブティックケータリング。ウェディング、法人、プライベートイベントに。",
+  "hero": {
+    "eyebrow": "CATERING",
+    "headline": "Palm & Light を、あなたのテーブルへ。",
+    "body": "心を込めたコーヒーと温かなホスピタリティ、陽だまりのような演出をあらゆる集まりに。"
+  },
+  "intro": {
+    "headline": "お祝いにも、集まりにも、その間のすべてにも。",
+    "body": "親しいブランチから結婚式、クリエイティブ撮影、企業イベントまで。Palm & Light の体験を丁寧にお届けします。",
+    "categories": [
+      "ブランチ",
+      "ウェディング",
+      "法人",
+      "プライベートイベント"
+    ]
+  },
+  "offers": {
+    "headline": "提供内容",
+    "items": [
+      {
+        "title": "クラフトコーヒー",
+        "description": "エスプレッソ、バッチブリュー、コールドブリュー、抹茶、季節のドリンク。"
+      },
+      {
+        "title": "ペストリー＆ライトバイト",
+        "description": "焼きたてのペストリーと、シンプルで気の利いたペアリング。"
+      },
+      {
+        "title": "フルサービス",
+        "description": "設営から提供まで、落ち着いた上質なサービスでイベントを支えます。"
+      }
+    ]
+  },
+  "form": {
+    "headline": "お問い合わせ",
+    "body": "イベント内容をお知らせください。空き状況と詳細をご案内します。",
+    "submit": "問い合わせを送信",
+    "submitting": "送信中…",
+    "success": "ありがとうございます。近日中にご連絡します。",
+    "error": "送信に失敗しました。catering@palmandlight.co まで直接ご連絡ください。",
+    "fields": {
+      "fullName": "お名前",
+      "email": "メールアドレス",
+      "phone": "電話番号",
+      "eventType": "イベント種別",
+      "eventDate": "開催日",
+      "eventLocation": "開催場所",
+      "guestCount": "想定人数",
+      "services": "希望サービス",
+      "eventDetails": "イベント詳細",
+      "budgetRange": "ご予算（任意）"
+    },
+    "options": {
+      "eventType": {
+        "wedding": "ウェディング",
+        "corporate": "法人イベント",
+        "privateEvent": "プライベートイベント",
+        "other": "その他"
+      },
+      "services": {
+        "coffee": "コーヒーサービス",
+        "pastries": "ペストリー",
+        "fullService": "フルサービス設営"
+      },
+      "budget": {
+        "optional": "任意",
+        "under2k": "$2,000 未満",
+        "twoToFive": "$2,000 - $5,000",
+        "fiveToTen": "$5,000 - $10,000",
+        "tenPlus": "$10,000 以上"
+      }
+    }
+  },
+  "offline": {
+    "headline": "オフラインで進めたい方へ",
+    "body": "ケータリング申込フォームをダウンロードし、ご都合のよいペースでご記入のうえお送りください。",
+    "download": "ケータリングフォームをダウンロード (PDF)",
+    "email": "メールする →"
+  },
+  "images": {
+    "heroAlt": "自然光の中のコーヒーとペストリーのケータリング",
+    "experienceAlt": "エスプレッソマシン、花、シトラスを配した屋外セット",
+    "formAlt": "上質に盛り付けたペストリーとドリンク",
+    "offlineAlt": "Palm & Light のケータリング資料",
+    "optionalAlt": "ケータリング用コーヒーとペストリーのクローズアップ"
+  }
+}

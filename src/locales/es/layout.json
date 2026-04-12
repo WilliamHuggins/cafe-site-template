@@ -4,15 +4,15 @@
     "menu": "Menú",
     "family": "La familia Palm",
     "careers": "Empleos",
-    "mobileBar": "Barra móvil",
-    "giftCards": "Tarjetas de regalo",
     "instagramLabel": "Instagram",
     "toggleTheme": "Cambiar tema",
     "connect": "Conéctate con nosotros",
     "openMenu": "Abrir menú de navegación",
     "closeMenu": "Cerrar menú de navegación",
     "languageLabel": "Idioma",
-    "navigationMenu": "Menú de navegación"
+    "navigationMenu": "Menú de navegación",
+    "catering": "Catering",
+    "merchStore": "Tienda Merch"
   },
   "footer": {
     "tagline": "Creamos la taza perfecta con una mejora continua incansable.",
