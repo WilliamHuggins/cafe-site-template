@@ -16,7 +16,7 @@ type ButtonProps = {
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
-    'bg-accent-green text-white px-8 py-4 font-bold text-sm tracking-wide rounded-sm hover:bg-accent-green-hover transition-colors',
+    'bg-accent-green text-white px-8 py-4 font-bold text-sm tracking-wide rounded-sm hover:bg-accent-green-hover transition-colors duration-200 ease-in-out',
   outline:
     'inline-flex items-center rounded-full border px-6 py-2 text-sm font-semibold tracking-wide transition-colors border-foreground/20 text-foreground dark:text-dark-foreground dark:border-dark-foreground/20 hover:border-foreground hover:bg-foreground hover:text-dark-foreground dark:hover:border-dark-foreground dark:hover:bg-dark-foreground dark:hover:text-foreground',
   text:
