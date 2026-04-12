@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "skipToMain": "メインコンテンツへスキップ",
+    "menu": "メニュー",
+    "family": "カイゼン・ファミリー",
+    "careers": "採用情報",
+    "mobileBar": "モバイルバー",
+    "giftCards": "ギフトカード",
+    "instagramLabel": "インスタグラム",
+    "toggleTheme": "テーマを切り替え",
+    "connect": "お問い合わせ",
+    "openMenu": "ナビゲーションを開く",
+    "closeMenu": "ナビゲーションを閉じる",
+    "languageLabel": "言語",
+    "navigationMenu": "ナビゲーションメニュー"
+  },
+  "footer": {
+    "tagline": "より良い一杯を目指し、絶えず改善を続けます。",
+    "explore": "探す",
+    "connect": "つながる",
+    "shop": "ショップ",
+    "visit": "店舗情報",
+    "getDirections": "道順を見る",
+    "hours": "毎日 7:00〜16:00",
+    "rights": "All rights reserved.",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "emailButton": "Email Kaizen"
+  }
+}
