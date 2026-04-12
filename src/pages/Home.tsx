@@ -169,42 +169,42 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="mt-5 flex items-center gap-3">
+            <div className="mt-5 flex flex-wrap items-center gap-3 text-xs font-semibold tracking-wide text-white">
               <a
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram"
-                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
               >
-                <Instagram size={16} />
+                Instagram
               </a>
               <a
                 href="https://www.tiktok.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="TikTok"
-                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
               >
-                <Music2 size={16} />
+                TikTok
               </a>
               <a
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
-                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
               >
-                <Facebook size={16} />
+                Facebook
               </a>
               <a
                 href="https://x.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="X"
-                className="inline-flex items-center justify-center rounded-sm border border-white/30 p-2 text-white transition-colors hover:border-white hover:bg-white/10"
+                className="inline-flex items-center justify-center rounded-sm border border-white/30 px-3 py-1.5 transition-colors hover:border-white hover:bg-white/10"
               >
-                <Twitter size={16} />
+                X
               </a>
             </div>
           </div>
