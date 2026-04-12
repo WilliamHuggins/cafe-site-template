@@ -20,7 +20,7 @@ export default function Home() {
     const structuredData = {
       '@context': 'https://schema.org',
       '@type': 'CafeOrCoffeeShop',
-      name: 'Kaizen & Coffee',
+      name: 'Palm & Light Coffee',
       address: {
         '@type': 'PostalAddress',
         streetAddress: '2337 S El Camino Real',
@@ -117,7 +117,7 @@ export default function Home() {
                 <MapPin size={16} />
                 <span>2337 S El Camino Real</span>
                 <a
-                  href="https://www.google.com/maps/dir/?api=1&destination=Kaizen+and+Coffee"
+                  href="https://www.google.com/maps/dir/?api=1&destination=Palm+and+Light+Coffee"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center rounded-sm border border-white/40 px-3 py-1 font-semibold tracking-wide text-white transition-colors hover:border-white hover:bg-white/10"
@@ -134,14 +134,14 @@ export default function Home() {
 
           <div className="hidden lg:flex justify-end items-center flex-1">
             <img
-              src="https://cdn.prod.website-files.com/67b51f7e456c7eebdc981649/68840587b4916f147e2cb7c8_logo_badge_2x.webp"
-              alt="Kaizen & Coffee Badge"
+              src="https://i.postimg.cc/pR6YGfnK/Chat-GPT-Image-Apr-12-2026-12-08-52-PM.png"
+              alt="Palm & Light Coffee Badge"
               loading="lazy"
               decoding="async"
-              width={320}
-              height={320}
-              sizes="320px"
-              className="w-80 h-80 object-contain drop-shadow-2xl"
+              width={420}
+              height={420}
+              sizes="420px"
+              className="w-[26rem] h-[26rem] object-contain drop-shadow-2xl"
             />
           </div>
         </div>
