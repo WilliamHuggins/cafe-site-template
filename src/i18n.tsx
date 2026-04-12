@@ -13,7 +13,7 @@ const resources: Record<LanguageCode, TranslationTree> = {
       nav: {
         skipToMain: 'Skip to main content',
         menu: 'Menu',
-        family: 'The Kaizen Family',
+        family: 'The Palm Family',
         careers: 'Careers',
         mobileBar: 'Mobile Bar',
         giftCards: 'Gift Cards',
@@ -39,14 +39,14 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     home: {
-      seoTitle: 'Kaizen & Coffee | Specialty Coffee in San Mateo',
+      seoTitle: 'Palm & Light Coffee | Specialty Coffee in San Mateo',
       seoDescription:
-        'Visit Kaizen & Coffee in San Mateo for specialty coffee, seasonal drinks, pastries, and welcoming hospitality inspired by the philosophy of Kaizen.',
+        'Visit Palm & Light Coffee in San Mateo for specialty coffee, seasonal drinks, pastries, and welcoming hospitality inspired by the philosophy of Palm.',
       hero: {
         headingPrefix: 'The relentless pursuit of',
         headingEmphasis: 'the perfect cup.',
         description:
-          'A specialty coffee laboratory in San Mateo, CA. We apply the philosophy of Kaizen to every roast, every pour, and every interaction.',
+          'A specialty coffee laboratory in San Mateo, CA. We apply the philosophy of Palm to every roast, every pour, and every interaction.',
         viewMenu: 'VIEW MENU',
         bookMobileBar: 'BOOK MOBILE BAR',
         directions: 'DIRECTIONS',
@@ -54,9 +54,9 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     menuPage: {
-      seoTitle: 'Our Menu | Kaizen & Coffee',
+      seoTitle: 'Our Menu | Palm & Light Coffee',
       seoDescription:
-        'Explore the Kaizen & Coffee menu with espresso classics, signature seasonal creations, and curated offerings crafted in San Mateo.',
+        'Explore the Palm & Light Coffee menu with espresso classics, signature seasonal creations, and curated offerings crafted in San Mateo.',
       heading: 'Our Offerings',
       description:
         'A curated selection of specialty coffee, Japanese-inspired signature lattes, and elevated toast. Prepared with precision and care.',
@@ -67,7 +67,7 @@ const resources: Record<LanguageCode, TranslationTree> = {
       nav: {
         skipToMain: 'メインコンテンツへスキップ',
         menu: 'メニュー',
-        family: 'カイゼン・ファミリー',
+        family: 'Palmファミリー',
         careers: '採用情報',
         mobileBar: 'モバイルバー',
         giftCards: 'ギフトカード',
@@ -93,13 +93,13 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     home: {
-      seoTitle: 'Kaizen & Coffee | サンマテオのスペシャルティコーヒー',
-      seoDescription: 'サンマテオの Kaizen & Coffee で、季節のドリンクやペストリーをお楽しみください。',
+      seoTitle: 'Palm & Light Coffee | サンマテオのスペシャルティコーヒー',
+      seoDescription: 'サンマテオの Palm & Light Coffee で、季節のドリンクやペストリーをお楽しみください。',
       hero: {
         headingPrefix: '私たちが追い求めるのは',
         headingEmphasis: '完璧な一杯。',
         description:
-          'サンマテオのスペシャルティコーヒーラボ。焙煎から抽出、接客までカイゼンの哲学を貫きます。',
+          'サンマテオのスペシャルティコーヒーラボ。焙煎から抽出、接客までPalmの哲学を貫きます。',
         viewMenu: 'メニューを見る',
         bookMobileBar: 'モバイルバーを予約',
         directions: '道順',
@@ -107,8 +107,8 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     menuPage: {
-      seoTitle: 'メニュー | Kaizen & Coffee',
-      seoDescription: 'Kaizen & Coffee のメニューをご覧ください。',
+      seoTitle: 'メニュー | Palm & Light Coffee',
+      seoDescription: 'Palm & Light Coffee のメニューをご覧ください。',
       heading: 'ご提供メニュー',
       description: 'こだわりのスペシャルティコーヒーとシグネチャーラテをご用意しています。',
     },
@@ -118,7 +118,7 @@ const resources: Record<LanguageCode, TranslationTree> = {
       nav: {
         skipToMain: 'Saltar al contenido principal',
         menu: 'Menú',
-        family: 'La familia Kaizen',
+        family: 'La familia Palm',
         careers: 'Empleos',
         mobileBar: 'Barra móvil',
         giftCards: 'Tarjetas de regalo',
@@ -144,14 +144,14 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     home: {
-      seoTitle: 'Kaizen & Coffee | Café de especialidad en San Mateo',
+      seoTitle: 'Palm & Light Coffee | Café de especialidad en San Mateo',
       seoDescription:
-        'Visita Kaizen & Coffee en San Mateo para café de especialidad, bebidas de temporada y más.',
+        'Visita Palm & Light Coffee en San Mateo para café de especialidad, bebidas de temporada y más.',
       hero: {
         headingPrefix: 'La búsqueda incansable de',
         headingEmphasis: 'la taza perfecta.',
         description:
-          'Un laboratorio de café de especialidad en San Mateo, CA. Aplicamos la filosofía Kaizen en cada tostado y cada servicio.',
+          'Un laboratorio de café de especialidad en San Mateo, CA. Aplicamos la filosofía Palm en cada tostado y cada servicio.',
         viewMenu: 'VER MENÚ',
         bookMobileBar: 'RESERVAR BARRA MÓVIL',
         directions: 'CÓMO LLEGAR',
@@ -159,9 +159,9 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     menuPage: {
-      seoTitle: 'Nuestro menú | Kaizen & Coffee',
+      seoTitle: 'Nuestro menú | Palm & Light Coffee',
       seoDescription:
-        'Explora el menú de Kaizen & Coffee con clásicos de espresso y creaciones de temporada.',
+        'Explora el menú de Palm & Light Coffee con clásicos de espresso y creaciones de temporada.',
       heading: 'Nuestras opciones',
       description:
         'Una selección curada de café de especialidad, lattes inspirados en Japón y tostadas elevadas.',
@@ -172,7 +172,7 @@ const resources: Record<LanguageCode, TranslationTree> = {
       nav: {
         skipToMain: '跳到主要内容',
         menu: '菜单',
-        family: 'Kaizen 家族',
+        family: 'Palm 家族',
         careers: '招聘',
         mobileBar: '移动咖啡吧',
         giftCards: '礼品卡',
@@ -198,12 +198,12 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     home: {
-      seoTitle: 'Kaizen & Coffee | San Mateo 精品咖啡',
-      seoDescription: '欢迎来到 San Mateo 的 Kaizen & Coffee，体验精品咖啡与季节特饮。',
+      seoTitle: 'Palm & Light Coffee | San Mateo 精品咖啡',
+      seoDescription: '欢迎来到 San Mateo 的 Palm & Light Coffee，体验精品咖啡与季节特饮。',
       hero: {
         headingPrefix: '我们不断追求',
         headingEmphasis: '完美一杯。',
-        description: '位于 San Mateo 的精品咖啡实验室，我们将 Kaizen 理念应用到每一杯咖啡。',
+        description: '位于 San Mateo 的精品咖啡实验室，我们将 Palm 理念应用到每一杯咖啡。',
         viewMenu: '查看菜单',
         bookMobileBar: '预订移动咖啡吧',
         directions: '导航',
@@ -211,8 +211,8 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     menuPage: {
-      seoTitle: '菜单 | Kaizen & Coffee',
-      seoDescription: '浏览 Kaizen & Coffee 的咖啡与特色饮品菜单。',
+      seoTitle: '菜单 | Palm & Light Coffee',
+      seoDescription: '浏览 Palm & Light Coffee 的咖啡与特色饮品菜单。',
       heading: '我们的菜单',
       description: '精选精品咖啡、日式灵感拿铁与精致吐司。',
     },
@@ -222,7 +222,7 @@ const resources: Record<LanguageCode, TranslationTree> = {
       nav: {
         skipToMain: '메인 콘텐츠로 건너뛰기',
         menu: '메뉴',
-        family: '카이젠 패밀리',
+        family: 'Palm 패밀리',
         careers: '채용',
         mobileBar: '모바일 바',
         giftCards: '기프트 카드',
@@ -248,12 +248,12 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     home: {
-      seoTitle: 'Kaizen & Coffee | 산마테오 스페셜티 커피',
-      seoDescription: '산마테오의 Kaizen & Coffee에서 스페셜티 커피와 시즌 음료를 만나보세요.',
+      seoTitle: 'Palm & Light Coffee | 산마테오 스페셜티 커피',
+      seoDescription: '산마테오의 Palm & Light Coffee에서 스페셜티 커피와 시즌 음료를 만나보세요.',
       hero: {
         headingPrefix: '우리는 끊임없이',
         headingEmphasis: '완벽한 한 잔을 추구합니다.',
-        description: '산마테오의 스페셜티 커피 랩. 모든 로스팅과 추출에 카이젠 철학을 담았습니다.',
+        description: '산마테오의 스페셜티 커피 랩. 모든 로스팅과 추출에 Palm 철학을 담았습니다.',
         viewMenu: '메뉴 보기',
         bookMobileBar: '모바일 바 예약',
         directions: '길찾기',
@@ -261,8 +261,8 @@ const resources: Record<LanguageCode, TranslationTree> = {
       },
     },
     menuPage: {
-      seoTitle: '메뉴 | Kaizen & Coffee',
-      seoDescription: 'Kaizen & Coffee 메뉴를 살펴보세요.',
+      seoTitle: '메뉴 | Palm & Light Coffee',
+      seoDescription: 'Palm & Light Coffee 메뉴를 살펴보세요.',
       heading: '메뉴 안내',
       description: '스페셜티 커피와 시그니처 라테, 토스트를 정성껏 준비합니다.',
     },

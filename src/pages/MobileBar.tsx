@@ -54,7 +54,7 @@ export default function MobileBar() {
           <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl relative">
             <img
               src="https://cdn.prod.website-files.com/67b51f7e456c7eebdc981649/695e36ad4f4b2e9a7f54c156_Screenshot%202026-01-07%20at%202.04.44%E2%80%AFAM.png"
-              alt="Kaizen Mobile Bar Setup"
+              alt="Palm Mobile Bar Setup"
               loading="lazy"
               decoding="async"
               width={900}
@@ -122,7 +122,7 @@ export default function MobileBar() {
             <div className="mt-16 aspect-[4/5] rounded-2xl overflow-hidden shadow-xl">
               <img
                 src="https://cdn.prod.website-files.com/67b51f7e456c7eebdc981649/695e36ad90072b0f6df8523f_Screenshot%202026-01-07%20at%202.03.55%E2%80%AFAM.png"
-                alt="Kaizen team member loading van"
+                alt="Palm team member loading van"
                 loading="lazy"
                 decoding="async"
                 width={1000}
@@ -180,7 +180,7 @@ export default function MobileBar() {
                 width="100%"
                 height="100%"
                 className="w-full min-h-[800px] border-0 bg-transparent relative z-10 rounded-xl"
-                title="Kaizen Mobile Bar Inquiry Form"
+                title="Palm Mobile Bar Inquiry Form"
               >
                 Loading…
               </iframe>

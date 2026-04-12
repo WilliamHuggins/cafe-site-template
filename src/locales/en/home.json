@@ -1,10 +1,10 @@
 {
-  "seoTitle": "Kaizen & Coffee | Specialty Coffee in San Mateo",
-  "seoDescription": "Visit Kaizen & Coffee in San Mateo for specialty coffee, seasonal drinks, pastries, and welcoming hospitality inspired by the philosophy of Kaizen.",
+  "seoTitle": "Palm & Light Coffee | Specialty Coffee in San Mateo",
+  "seoDescription": "Visit Palm & Light Coffee in San Mateo for specialty coffee, seasonal drinks, pastries, and welcoming hospitality inspired by the philosophy of Palm.",
   "hero": {
     "headingPrefix": "The relentless pursuit of",
     "headingEmphasis": "the perfect cup.",
-    "description": "A specialty coffee laboratory in San Mateo, CA. We apply the philosophy of Kaizen to every roast, every pour, and every interaction.",
+    "description": "A specialty coffee laboratory in San Mateo, CA. We apply the philosophy of Palm to every roast, every pour, and every interaction.",
     "viewMenu": "VIEW MENU",
     "bookMobileBar": "BOOK MOBILE BAR",
     "directions": "DIRECTIONS",
@@ -14,8 +14,8 @@
     "label": "Our Story",
     "title": "The pursuit of better,",
     "emphasis": "every single day.",
-    "p1": "\"Kaizen\" is a Japanese philosophy that translates to \"continuous improvement.\" It is the belief that small, ongoing positive changes can reap major improvements.",
-    "p2": "At Kaizen & Coffee, this isn't just a name—it's the operational framework for our entire café. From the precision of our espresso extraction to the sourcing of our matcha from Kagoshima, we are obsessed with refining the details.",
+    "p1": "\"Palm\" is a Japanese philosophy that translates to \"continuous improvement.\" It is the belief that small, ongoing positive changes can reap major improvements.",
+    "p2": "At Palm & Light Coffee, this isn't just a name—it's the operational framework for our entire café. From the precision of our espresso extraction to the sourcing of our matcha from Kagoshima, we are obsessed with refining the details.",
     "p3": "We built this space in San Mateo to be a laboratory of hospitality. A place where the coffee is treated with deep reverence, but the service is always warm, approachable, and rooted in the neighborhood."
   },
   "pillars": {
@@ -34,10 +34,10 @@
   },
   "philosophy": {
     "label": "The Philosophy",
-    "title": "Kaizen:",
+    "title": "Palm:",
     "emphasis": "Continuous Improvement.",
-    "description": "Every cup is an iteration. Every roast is a refinement. We apply the Japanese philosophy of Kaizen to the art of coffee, ensuring your daily ritual is never static, but always evolving toward perfection.",
-    "cta": "The Kaizen Family"
+    "description": "Every cup is an iteration. Every roast is a refinement. We apply the Japanese philosophy of Palm to the art of coffee, ensuring your daily ritual is never static, but always evolving toward perfection.",
+    "cta": "The Palm Family"
   },
   "menu": {
     "signatureLabel": "Signature Offerings",
@@ -50,7 +50,7 @@
   "services": {
     "mobileBar": {
       "title": "Mobile Coffee Bar",
-      "description": "Bring the Kaizen experience to your private events, weddings, and corporate gatherings.",
+      "description": "Bring the Palm experience to your private events, weddings, and corporate gatherings.",
       "cta": "Book Now"
     },
     "community": {

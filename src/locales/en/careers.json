@@ -1,6 +1,6 @@
 {
-  "seoTitle": "Careers | Kaizen & Coffee",
-  "seoDescription": "Join the Kaizen & Coffee team in San Mateo and help create exceptional coffee experiences rooted in hospitality and continuous improvement.",
+  "seoTitle": "Careers | Palm & Light Coffee",
+  "seoDescription": "Join the Palm & Light Coffee team in San Mateo and help create exceptional coffee experiences rooted in hospitality and continuous improvement.",
   "hero": {
     "label": "Join The Team",
     "title": "Craft, Care, and",
@@ -15,7 +15,7 @@
   "values": {
     "title": "Our Values",
     "items": [
-      { "name": "Kaizen", "description": "We are never finished learning. We seek feedback and strive for daily refinement." },
+      { "name": "Palm", "description": "We are never finished learning. We seek feedback and strive for daily refinement." },
       { "name": "Radical Hospitality", "description": "We treat every guest like they are entering our home." },
       { "name": "Precision", "description": "We respect the ingredients by preparing them with exacting standards." }
     ]
@@ -28,6 +28,6 @@
       { "title": "Barista", "type": "Full-time / Part-time • San Mateo, CA" },
       { "title": "Mobile Bar Lead", "type": "Part-time (Weekends) • Bay Area" }
     ],
-    "fallback": "Don't see a role that fits? Send your resume to careers@kaizencoffee.com and tell us why you'd be a great addition to the team."
+    "fallback": "Don't see a role that fits? Send your resume to careers@palmlightcoffee.com and tell us why you'd be a great addition to the team."
   }
 }
