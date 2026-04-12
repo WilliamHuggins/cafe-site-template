@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "skipToMain": "메인 콘텐츠로 건너뛰기",
+    "menu": "메뉴",
+    "family": "카이젠 패밀리",
+    "careers": "채용",
+    "mobileBar": "모바일 바",
+    "giftCards": "기프트 카드",
+    "instagramLabel": "인스타그램",
+    "toggleTheme": "테마 전환",
+    "connect": "문의하기",
+    "openMenu": "내비게이션 메뉴 열기",
+    "closeMenu": "내비게이션 메뉴 닫기",
+    "languageLabel": "언어",
+    "navigationMenu": "내비게이션 메뉴"
+  },
+  "footer": {
+    "tagline": "끊임없는 개선으로 완벽한 한 잔을 만듭니다.",
+    "explore": "탐색",
+    "connect": "연결",
+    "shop": "쇼핑",
+    "visit": "매장 안내",
+    "getDirections": "길찾기",
+    "hours": "매일 오전 7시 - 오후 4시",
+    "rights": "모든 권리 보유.",
+    "privacy": "개인정보",
+    "terms": "이용약관",
+    "emailButton": "Email Kaizen"
+  }
+}
