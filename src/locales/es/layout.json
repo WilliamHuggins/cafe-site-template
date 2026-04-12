@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "skipToMain": "Saltar al contenido principal",
+    "menu": "Menú",
+    "family": "La familia Kaizen",
+    "careers": "Empleos",
+    "mobileBar": "Barra móvil",
+    "giftCards": "Tarjetas de regalo",
+    "instagramLabel": "Instagram",
+    "toggleTheme": "Cambiar tema",
+    "connect": "Conéctate con nosotros",
+    "openMenu": "Abrir menú de navegación",
+    "closeMenu": "Cerrar menú de navegación",
+    "languageLabel": "Idioma",
+    "navigationMenu": "Menú de navegación"
+  },
+  "footer": {
+    "tagline": "Creamos la taza perfecta con una mejora continua incansable.",
+    "explore": "Explorar",
+    "connect": "Conectar",
+    "shop": "Tienda",
+    "visit": "Visítanos",
+    "getDirections": "Cómo llegar",
+    "hours": "Todos los días 7am - 4pm",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Privacidad",
+    "terms": "Términos"
+  }
+}
