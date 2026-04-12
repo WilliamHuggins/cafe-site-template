@@ -49,19 +49,19 @@
   },
   "services": {
     "mobileBar": {
-      "title": "移动咖啡吧",
-      "description": "将 Palm 体验带到您的私人活动、婚礼和企业聚会。",
-      "cta": "立即预约"
+      "title": "餐饮服务",
+      "description": "把 Palm & Light 带到你的聚会中——私密活动、婚礼与用心策划的庆祝场合都很合适。",
+      "cta": "咨询 →"
     },
     "community": {
-      "title": "社区",
-      "description": "抢先体验季节限定、杯测工作坊优先邀请以及社区活动。",
-      "cta": "加入我们"
+      "title": "Palm 家庭",
+      "description": "与咖啡馆更紧密地连接——抢先体验、季节限定与围绕常客设计的活动。",
+      "cta": "加入 →"
     },
     "giftCards": {
-      "title": "礼品卡",
-      "description": "赠送一份完美的礼物。可在店内兑换咖啡豆、冲泡器具或饮品。",
-      "cta": "购买"
+      "title": "周边",
+      "description": "把一份 Palm & Light 带回家——咖啡豆、陶瓷器皿与为慢节奏清晨设计的日常好物。",
+      "cta": "选购 →"
     }
   }
 }

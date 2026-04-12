@@ -49,19 +49,19 @@
   },
   "services": {
     "mobileBar": {
-      "title": "Mobile Coffee Bar",
-      "description": "Bring the Palm experience to your private events, weddings, and corporate gatherings.",
-      "cta": "Book Now"
+      "title": "Catering",
+      "description": "Bring Palm & Light to your gatherings—intimate events, weddings, and thoughtfully hosted celebrations.",
+      "cta": "Inquire →"
     },
     "community": {
-      "title": "The Community",
-      "description": "Exclusive access to seasonal drops, early invites to cupping workshops, and neighborhood events.",
-      "cta": "Join Us"
+      "title": "The Palm Family",
+      "description": "A closer connection to the café—early access, seasonal offerings, and events designed around our regulars.",
+      "cta": "Join →"
     },
     "giftCards": {
-      "title": "Gift Cards",
-      "description": "Give the gift of perfection. Redeemable in-store for beans, brew gear, or beverages.",
-      "cta": "Purchase"
+      "title": "Merch",
+      "description": "Take a piece of Palm & Light with you—coffee beans, ceramics, and everyday essentials designed for slow mornings.",
+      "cta": "Shop →"
     }
   }
 }
