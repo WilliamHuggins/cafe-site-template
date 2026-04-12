@@ -487,7 +487,7 @@ export default function Layout() {
             <div className="flex flex-col gap-4">
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.visit')}</span>
               <p className="text-sm text-secondary-text dark:text-dark-secondary-text">73455 Twentynine Palms Highway<br/>Twentynine Palms, CA 92277</p>
-              <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-accent-green dark:hover:text-accent-green transition-colors">{t('layout.footer.getDirections')}</a>
+              <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-accent-green dark:hover:text-accent-green transition-colors duration-200 ease-in-out">{t('layout.footer.getDirections')}</a>
               <p className="text-sm text-secondary-text dark:text-dark-secondary-text">{t('layout.footer.hours')}</p>
             </div>
           </div>

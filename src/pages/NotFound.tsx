@@ -17,7 +17,7 @@ export default function NotFound() {
       <p className="text-secondary-text dark:text-dark-secondary-text text-lg mb-10">{t('notFound.message')}</p>
       <Link
         to="/"
-        className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold tracking-wide rounded-sm bg-accent-green text-white hover:bg-accent-green-hover transition-colors"
+        className="inline-flex items-center justify-center px-6 py-3 text-sm font-bold tracking-wide rounded-sm bg-accent-green text-white hover:bg-accent-green-hover transition-colors duration-200 ease-in-out"
       >
         {t('notFound.backHome')}
       </Link>
