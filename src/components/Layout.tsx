@@ -289,7 +289,7 @@ export default function Layout() {
               ))}
             </select>
             <a
-              href="https://www.instagram.com/palmandlightcoffee/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               className={`p-2 rounded-sm transition-colors ${
@@ -411,7 +411,7 @@ export default function Layout() {
               );
             })}
             <a
-              href="https://www.instagram.com/palmandlightcoffee/"
+              href="https://www.instagram.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-2xl font-bold tracking-tight text-black dark:text-white flex items-center gap-3"
@@ -470,9 +470,14 @@ export default function Layout() {
               <span className="text-xs font-bold tracking-widest uppercase text-muted-text dark:text-dark-muted-text">{t('layout.footer.connect')}</span>
               <Link to={localizePath("/careers")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.careers')}</Link>
               <Link to={localizePath("/subscribe")} className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">{t('layout.nav.connect')}</Link>
-              <a href="https://www.instagram.com/palmandlightcoffee/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors flex items-center gap-1">
-                {t('layout.nav.instagramLabel')} <Instagram size={14} />
-              </a>
+              <div className="flex flex-col gap-2">
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors flex items-center gap-1">
+                  {t('layout.nav.instagramLabel')} <Instagram size={14} />
+                </a>
+                <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">TikTok</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">Facebook</a>
+                <a href="https://x.com/" target="_blank" rel="noopener noreferrer" className="text-sm text-secondary-text dark:text-dark-secondary-text hover:text-black dark:hover:text-white transition-colors">X</a>
+              </div>
               <a
                 href="mailto:palmandlightcoffee@gmail.com"
                 className="inline-flex w-fit items-center justify-center rounded-sm bg-black px-3 py-2 text-xs font-semibold tracking-wide text-white transition-colors hover:bg-cta-hover-dark dark:bg-white dark:text-black dark:hover:bg-surface-light"
