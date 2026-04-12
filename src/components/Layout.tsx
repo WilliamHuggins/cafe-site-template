@@ -1,5 +1,5 @@
 import { Link, Outlet, useLocation, useNavigate } from 'react-router-dom';
-import { Menu as MenuIcon, X, Moon, Sun } from 'lucide-react';
+import { Menu as MenuIcon, X, Moon, Sun, Instagram } from 'lucide-react';
 import { useState, useEffect, useRef, type MouseEvent } from 'react';
 import { AnimatePresence, motion } from 'motion/react';
 import { useTranslation } from 'react-i18next';
