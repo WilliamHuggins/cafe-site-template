@@ -444,8 +444,12 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-12 gap-12">
           <div className="md:col-span-4 space-y-6">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 bg-black dark:bg-white rounded-sm flex items-center justify-center text-white dark:text-black">
-                <Coffee size={16} />
+              <div className="w-8 h-8 overflow-hidden bg-black dark:bg-white rounded-sm flex items-center justify-center">
+                <img
+                  src="https://i.postimg.cc/rp0nbjNf/Chat-GPT-Image-Apr-12-2026-12-14-15-PM.png"
+                  alt="Palm and Light Coffee footer icon"
+                  className="h-full w-full object-cover"
+                />
               </div>
               <span className="text-lg font-bold tracking-tight text-black dark:text-white">PALM & LIGHT COFFEE</span>
             </div>
