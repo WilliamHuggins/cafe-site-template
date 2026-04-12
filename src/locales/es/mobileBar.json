@@ -1,0 +1,38 @@
+{
+  "seoTitle": "Barra de Espresso Móvil | Kaizen & Coffee",
+  "seoDescription": "Reserva la barra de espresso móvil de Kaizen & Coffee para bodas, eventos corporativos y reuniones privadas en el Bay Area con servicio de café de especialidad.",
+  "hero": {
+    "titleLine1": "¿Lo mejor de tu próximo evento?",
+    "emphasis": "El Café.",
+    "description": "¿Quieres llevar una experiencia de café memorable a tu evento? Envíanos los detalles y trabajaremos contigo para crear una propuesta personalizada.",
+    "cta": "PLANIFICA TU EVENTO"
+  },
+  "talkCoffee": {
+    "title": "Hablemos de Café",
+    "description": "Un buen café hace mucho más que darte energía: une a las personas y marca el tono del evento. Kaizen & Coffee lleva la experiencia de café artesanal de nuestra cafetería en San Mateo. Ofrecemos una barra de espresso móvil premium que sirve como el punto de encuentro perfecto para la conversación, la conexión y un café realmente bueno."
+  },
+  "experience": {
+    "title": "La Experiencia,",
+    "emphasis": "Simplificada.",
+    "description": "Nos obsesionamos con los detalles para que tú no tengas que hacerlo. Nuestro servicio está diseñado para ser impecable, autónomo y un momento memorable garantizado para tus invitados. Esto es lo que incluye:",
+    "features": [
+      { "title": "Baristas Apasionados y Profesionales", "description": "Nuestro equipo amable y cercano domina su oficio y se dedica a brindar una experiencia excepcional y acogedora." },
+      { "title": "Menú de Especialidad Curado", "description": "Un menú completo de cafetería con nuestros granos de autor, tostados localmente. Desde espressos y lattes clásicos hasta cortados perfectamente preparados, tenemos algo para todos." },
+      { "title": "Todo lo Necesario", "description": "Traemos todo, incluyendo nuestra selección completa de leches premium, lácteas y vegetales (sí, tenemos leche de avena), y todos los elementos esenciales para una experiencia de cafetería completa." }
+    ]
+  },
+  "events": {
+    "title": "Una Mejor Experiencia para",
+    "emphasis": "Cualquier Ocasión.",
+    "description": "Nuestros baristas profesionales y nuestra barra móvil con diseño cuidado crean un punto focal memorable para cualquier evento. Estamos aquí para ayudarte a crear el ambiente perfecto.",
+    "types": [
+      { "title": "Eventos Corporativos y Retiros de Equipo", "description": "Impulsa la próxima gran idea de tu equipo y fomenta la conversación. Una barra de café dedicada es la mejora perfecta para conferencias, hitos de empresa o eventos de agradecimiento a clientes." },
+      { "title": "Bodas y Ensayos", "description": "Añade un toque moderno y considerado a tu celebración. Deleita a tus invitados con una experiencia de café artesanal durante el cóctel o como el broche perfecto después de la cena." },
+      { "title": "Fiestas Privadas y Encuentros Comunitarios", "description": "Desde cumpleaños importantes hasta reuniones informales, haremos que tu evento destaque con un servicio de café dedicado y profesional." }
+    ]
+  },
+  "form": {
+    "title": "Planifica Tu Evento",
+    "description": "Completa el formulario a continuación para solicitar una propuesta personalizada para tu próxima reunión."
+  }
+}

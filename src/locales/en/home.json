@@ -1,0 +1,67 @@
+{
+  "seoTitle": "Kaizen & Coffee | Specialty Coffee in San Mateo",
+  "seoDescription": "Visit Kaizen & Coffee in San Mateo for specialty coffee, seasonal drinks, pastries, and welcoming hospitality inspired by the philosophy of Kaizen.",
+  "hero": {
+    "headingPrefix": "The relentless pursuit of",
+    "headingEmphasis": "the perfect cup.",
+    "description": "A specialty coffee laboratory in San Mateo, CA. We apply the philosophy of Kaizen to every roast, every pour, and every interaction.",
+    "viewMenu": "VIEW MENU",
+    "bookMobileBar": "BOOK MOBILE BAR",
+    "directions": "DIRECTIONS",
+    "hours": "Open Daily 7am - 4pm"
+  },
+  "story": {
+    "label": "Our Story",
+    "title": "The pursuit of better,",
+    "emphasis": "every single day.",
+    "p1": "\"Kaizen\" is a Japanese philosophy that translates to \"continuous improvement.\" It is the belief that small, ongoing positive changes can reap major improvements.",
+    "p2": "At Kaizen & Coffee, this isn't just a name—it's the operational framework for our entire café. From the precision of our espresso extraction to the sourcing of our matcha from Kagoshima, we are obsessed with refining the details.",
+    "p3": "We built this space in San Mateo to be a laboratory of hospitality. A place where the coffee is treated with deep reverence, but the service is always warm, approachable, and rooted in the neighborhood."
+  },
+  "pillars": {
+    "coffee": {
+      "title": "The Coffee",
+      "description": "We partner with Black & White Roasters for our core espresso and filter offerings, ensuring a consistent, chocolate-and-berry forward profile. Our single-origin rotation highlights the best seasonal harvests from around the world."
+    },
+    "ingredients": {
+      "title": "The Ingredients",
+      "description": "Our signature lattes are built on house-made syrups and sauces. We import black sesame paste and Okinawa brown sugar directly from Japan, and craft our miso caramel from scratch to achieve the perfect umami balance."
+    },
+    "hospitality": {
+      "title": "The Hospitality",
+      "description": "Precision in the cup means nothing without warmth in the interaction. We believe a great café is a cornerstone of its community. We are here to remember your name, your order, and make your day slightly better."
+    }
+  },
+  "philosophy": {
+    "label": "The Philosophy",
+    "title": "Kaizen:",
+    "emphasis": "Continuous Improvement.",
+    "description": "Every cup is an iteration. Every roast is a refinement. We apply the Japanese philosophy of Kaizen to the art of coffee, ensuring your daily ritual is never static, but always evolving toward perfection.",
+    "cta": "The Kaizen Family"
+  },
+  "menu": {
+    "signatureLabel": "Signature Offerings",
+    "signatureTitle": "Crafted with",
+    "signatureEmphasis": "intention.",
+    "title": "The Menu",
+    "description": "A curated selection of specialty coffee, Japanese-inspired signature lattes, and elevated toast. Prepared with precision and care.",
+    "featured": "Featured"
+  },
+  "services": {
+    "mobileBar": {
+      "title": "Mobile Coffee Bar",
+      "description": "Bring the Kaizen experience to your private events, weddings, and corporate gatherings.",
+      "cta": "Book Now"
+    },
+    "community": {
+      "title": "The Community",
+      "description": "Exclusive access to seasonal drops, early invites to cupping workshops, and neighborhood events.",
+      "cta": "Join Us"
+    },
+    "giftCards": {
+      "title": "Gift Cards",
+      "description": "Give the gift of perfection. Redeemable in-store for beans, brew gear, or beverages.",
+      "cta": "Purchase"
+    }
+  }
+}

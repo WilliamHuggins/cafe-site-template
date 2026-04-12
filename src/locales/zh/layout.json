@@ -1,0 +1,30 @@
+{
+  "nav": {
+    "skipToMain": "跳到主要内容",
+    "menu": "菜单",
+    "family": "Kaizen 家族",
+    "careers": "招聘",
+    "mobileBar": "移动咖啡吧",
+    "giftCards": "礼品卡",
+    "instagramLabel": "Instagram",
+    "toggleTheme": "切换主题",
+    "connect": "联系我们",
+    "openMenu": "打开导航菜单",
+    "closeMenu": "关闭导航菜单",
+    "languageLabel": "语言",
+    "navigationMenu": "导航菜单"
+  },
+  "footer": {
+    "tagline": "通过不断改进，打造每一杯理想咖啡。",
+    "explore": "探索",
+    "connect": "联系",
+    "shop": "商店",
+    "visit": "到店",
+    "getDirections": "导航路线",
+    "hours": "每日 7am - 4pm",
+    "rights": "版权所有。",
+    "privacy": "隐私",
+    "terms": "条款",
+    "emailButton": "Email Kaizen"
+  }
+}

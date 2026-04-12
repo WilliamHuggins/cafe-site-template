@@ -1,0 +1,67 @@
+{
+  "seoTitle": "Kaizen & Coffee | San Mateo 精品咖啡",
+  "seoDescription": "欢迎来到 San Mateo 的 Kaizen & Coffee，品尝精品咖啡、季节特饮、精致糕点，感受源自 Kaizen 理念的温暖待客之道。",
+  "hero": {
+    "headingPrefix": "我们不断追求",
+    "headingEmphasis": "完美一杯。",
+    "description": "位于加州 San Mateo 的精品咖啡实验室。我们将 Kaizen 理念融入每一次烘焙、每一次冲泡、每一次交流。",
+    "viewMenu": "查看菜单",
+    "bookMobileBar": "预订移动咖啡吧",
+    "directions": "导航",
+    "hours": "每日营业 7am - 4pm"
+  },
+  "story": {
+    "label": "我们的故事",
+    "title": "追求更好，",
+    "emphasis": "日复一日。",
+    "p1": "\u201cKaizen\u201d是一种日本哲学，意为\u201c持续改善\u201d。它相信微小而持续的积极改变，终能带来巨大的提升。",
+    "p2": "在 Kaizen & Coffee，这不仅仅是一个名字——它是我们整间咖啡馆的运营理念。从意式浓缩的精准萃取，到来自鹿儿岛抹茶的严选采购，我们执着于打磨每一个细节。",
+    "p3": "我们在 San Mateo 打造这个空间，使其成为一间待客实验室。一个以虔诚之心对待咖啡，同时始终保持温暖、亲切、扎根社区的地方。"
+  },
+  "pillars": {
+    "coffee": {
+      "title": "咖啡",
+      "description": "我们与 Black & White Roasters 合作，提供核心的意式浓缩和手冲产品，确保稳定的巧克力与浆果风味。我们的单品轮换精选来自世界各地的当季最佳收获。"
+    },
+    "ingredients": {
+      "title": "原料",
+      "description": "我们的招牌拿铁采用自制糖浆和酱料。我们从日本直接进口黑芝麻酱和冲绳黑糖，并从零开始手工制作味噌焦糖，以达到完美的鲜味平衡。"
+    },
+    "hospitality": {
+      "title": "待客之道",
+      "description": "杯中的精准若没有互动中的温暖便毫无意义。我们相信一间好的咖啡馆是社区的基石。我们会记住你的名字、你的喜好，让你的每一天都更美好一点。"
+    }
+  },
+  "philosophy": {
+    "label": "理念",
+    "title": "Kaizen：",
+    "emphasis": "持续改善。",
+    "description": "每一杯都是一次迭代，每一次烘焙都是一次精进。我们将日本的 Kaizen 哲学融入咖啡艺术，确保你的日常仪式永不停滞，始终向完美进化。",
+    "cta": "Kaizen 大家庭"
+  },
+  "menu": {
+    "signatureLabel": "招牌特饮",
+    "signatureTitle": "用心",
+    "signatureEmphasis": "精制。",
+    "title": "菜单",
+    "description": "精选精品咖啡、日式风味招牌拿铁与精致吐司，以匠心和细致呈现。",
+    "featured": "推荐"
+  },
+  "services": {
+    "mobileBar": {
+      "title": "移动咖啡吧",
+      "description": "将 Kaizen 体验带到您的私人活动、婚礼和企业聚会。",
+      "cta": "立即预约"
+    },
+    "community": {
+      "title": "社区",
+      "description": "抢先体验季节限定、杯测工作坊优先邀请以及社区活动。",
+      "cta": "加入我们"
+    },
+    "giftCards": {
+      "title": "礼品卡",
+      "description": "赠送一份完美的礼物。可在店内兑换咖啡豆、冲泡器具或饮品。",
+      "cta": "购买"
+    }
+  }
+}
