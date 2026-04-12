@@ -1,219 +1,43 @@
 {
   "menu": {
     "categories": {
-      "signature_lattes": {
-        "name": "シグネチャーラテ",
-        "notes": [
-          "エスプレッソダブルショット",
-          "ミルク / 代替ミルクを選択",
-          "ホットまたはアイス",
-          "甘さ調整可"
-        ],
-        "items": [
-          "tahitian_vanilla_bean",
-          "miso_caramel",
-          "ube",
-          "black_sesame",
-          "okinawa_brown_sugar",
-          "mission_mocha"
-        ]
-      },
-      "coffee": {
-        "name": "コーヒー",
-        "notes": [
-          "ミルク / 代替ミルクを選択",
-          "ホットまたはアイス"
-        ],
-        "items": [
-          "pour_over_blend",
-          "single_origin_pour_over",
-          "cold_brew_blend",
-          "slow_drip_cold_brew"
-        ]
-      },
-      "espresso": {
-        "name": "エスプレッソ",
-        "notes": [
-          "ロースター: Black & White",
-          "Palm & Light Coffee 通年ブレンド",
-          "テイスティングノート: ベリー、チョコレート"
-        ],
-        "items": [
-          "espresso",
-          "espresso_tonic",
-          "cortado",
-          "flat_white",
-          "latte",
-          "mocha",
-          "single_origin_espresso"
-        ]
-      },
-      "matcha_hojicha": {
-        "name": "抹茶 / ほうじ茶",
-        "notes": [
-          "Rishi Tea",
-          "鹿児島産の抹茶（セレモニアルグレード）",
-          "自家製シロップで甘さ調整可",
-          "シグネチャーソース追加 +$1"
-        ],
-        "items": [
-          "matcha_americano",
-          "matcha_latte",
-          "hojicha_latte",
-          "strawberry_matcha",
-          "earl_grey_matcha_latte"
-        ]
-      },
-      "tea": {
-        "name": "ティー",
-        "notes": [],
-        "items": [
-          "earl_grey_supreme",
-          "iron_goddess_of_mercy",
-          "moonlight_jasmine",
-          "scarlett",
-          "london_fog"
-        ]
-      },
-      "toast": {
-        "name": "トースト",
-        "notes": [
-          "8:00〜15:00 提供",
-          "半熟卵追加 +$2.5"
-        ],
-        "items": [
-          "pb_and_banana",
-          "ricotta_toast",
-          "avocado_toast",
-          "smoked_salmon_toast"
-        ]
-      }
+      "coffee": {"name": "コーヒー", "notes": [], "items": ["espresso", "americano", "drip_coffee", "cold_brew", "latte", "cappuccino", "flat_white"]},
+      "specialty": {"name": "スペシャルティ", "notes": [], "items": ["matcha_latte", "iced_matcha", "golden_milk_latte", "london_fog", "chai_latte"]},
+      "signature": {"name": "シグネチャー", "notes": [], "items": ["candied_orange_latte", "lavender_latte", "coconut_palm_latte", "rum_latte"]},
+      "kitchen": {"name": "キッチン", "notes": [], "items": ["yogurt_fruit_granola_bowl", "fruit_bowl", "cinnamon_bun_house_made", "chocolate_croissant", "plain_croissant", "biscotti", "madeleine_cookies", "chocolate_chip_cookie", "strawberry_tart", "chocolate_cake", "tres_leches_cake"]},
+      "savory": {"name": "セイボリー", "notes": [], "items": ["half_baguette_blt_served_with_sun_chips", "cheese_plate", "hummus_and_vegetables"]}
     },
     "items": {
-      "tahitian_vanilla_bean": {
-        "name": "Tahitian Vanilla Bean",
-        "description": "House-made syrup using Tahitian vanilla beans"
-      },
-      "miso_caramel": {
-        "name": "Miso Caramel",
-        "description": "Caramel made from scratch with an umami, creamy finish (contains dairy)"
-      },
-      "ube": {
-        "name": "Ube",
-        "description": "House-made sauce with purple yams (contains condensed milk)"
-      },
-      "black_sesame": {
-        "name": "Black Sesame",
-        "description": "House-made sauce with black sesame paste imported from Japan"
-      },
-      "okinawa_brown_sugar": {
-        "name": "Okinawa Brown Sugar",
-        "description": "House-made syrup with brown sugar imported from Japan"
-      },
-      "mission_mocha": {
-        "name": "Mission Mocha",
-        "description": "Dandelion chocolate, Vietnamese cinnamon, and gochugaru red pepper (contains dairy)"
-      },
-      "pour_over_blend": {
-        "name": "Pour Over (blend)",
-        "description": "Roaster: Black & White | Roast: Medium-Dark | Tasting notes: berries, chocolate"
-      },
-      "single_origin_pour_over": {
-        "name": "Single-Origin Pour Over",
-        "description": "Ask about current rotation"
-      },
-      "cold_brew_blend": {
-        "name": "Cold Brew (blend)",
-        "description": "Roaster: Black & White | Roast: Medium-Dark | Tasting notes: berries, chocolate"
-      },
-      "slow_drip_cold_brew": {
-        "name": "Slow-Drip Cold Brew",
-        "description": "Ask about current rotation"
-      },
-      "espresso": {
-        "name": "Espresso",
-        "description": ""
-      },
-      "espresso_tonic": {
-        "name": "Espresso tonic",
-        "description": "add-on to espresso"
-      },
-      "cortado": {
-        "name": "Cortado",
-        "description": ""
-      },
-      "flat_white": {
-        "name": "Flat White",
-        "description": ""
-      },
-      "latte": {
-        "name": "Latte",
-        "description": ""
-      },
-      "mocha": {
-        "name": "Mocha",
-        "description": "Single-origin chocolate from Dandelion Chocolate"
-      },
-      "single_origin_espresso": {
-        "name": "Single-Origin Espresso",
-        "description": "Ask about current rotation"
-      },
-      "matcha_americano": {
-        "name": "Matcha Americano",
-        "description": "Matcha + water, unsweetened"
-      },
-      "matcha_latte": {
-        "name": "Matcha Latte",
-        "description": ""
-      },
-      "hojicha_latte": {
-        "name": "Hojicha Latte",
-        "description": ""
-      },
-      "strawberry_matcha": {
-        "name": "Strawberry Matcha",
-        "description": "Iced only"
-      },
-      "earl_grey_matcha_latte": {
-        "name": "Earl Grey Matcha Latte",
-        "description": "High caffeine content"
-      },
-      "earl_grey_supreme": {
-        "name": "Earl Grey Supreme",
-        "description": "Organic black tea"
-      },
-      "iron_goddess_of_mercy": {
-        "name": "Iron Goddess of Mercy",
-        "description": "Oolong tea"
-      },
-      "moonlight_jasmine": {
-        "name": "Moonlight Jasmine",
-        "description": "Organic green tea"
-      },
-      "scarlett": {
-        "name": "Scarlett",
-        "description": "Botanical tea, no caffeine"
-      },
-      "london_fog": {
-        "name": "London Fog",
-        "description": "Earl Grey, house vanilla, steamed milk"
-      },
-      "pb_and_banana": {
-        "name": "PB & Banana",
-        "description": "Toasted milk bread, peanut butter, organic banana, organic honey, chia seeds, Vietnamese cinnamon"
-      },
-      "ricotta_toast": {
-        "name": "Ricotta",
-        "description": "Toasted milk bread, ricotta cheese, organic cherry tomatoes, basil, yuzu kosho furikake, organic balsamic glaze"
-      },
-      "avocado_toast": {
-        "name": "Avocado",
-        "description": "Toasted milk bread, organic avocado, yuzu kosho furikake, organic cherry tomatoes, basil, organic balsamic glaze"
-      },
-      "smoked_salmon_toast": {
-        "name": "Smoked Salmon",
-        "description": "Toasted milk bread, smoked salmon, ricotta cheese, cucumber, organic red onion, yuzu kosho furikake, microgreens, capers"
-      }
+      "espresso": { "name": "エスプレッソ", "description": "" },
+      "americano": { "name": "アメリカーノ", "description": "" },
+      "drip_coffee": { "name": "ドリップコーヒー", "description": "" },
+      "cold_brew": { "name": "コールドブリュー", "description": "" },
+      "latte": { "name": "ラテ", "description": "" },
+      "cappuccino": { "name": "カプチーノ", "description": "" },
+      "flat_white": { "name": "フラットホワイト", "description": "" },
+      "matcha_latte": { "name": "抹茶ラテ", "description": "" },
+      "iced_matcha": { "name": "アイス抹茶", "description": "" },
+      "golden_milk_latte": { "name": "ゴールデンミルクラテ", "description": "" },
+      "london_fog": { "name": "ロンドンフォグ", "description": "" },
+      "chai_latte": { "name": "チャイラテ", "description": "" },
+      "candied_orange_latte": { "name": "キャンディドオレンジラテ", "description": "" },
+      "lavender_latte": { "name": "ラベンダーラテ", "description": "" },
+      "coconut_palm_latte": { "name": "ココナッツパームラテ", "description": "" },
+      "rum_latte": { "name": "ラムラテ", "description": "ダークラム使用。注文は21歳以上に限ります。" },
+      "yogurt_fruit_granola_bowl": { "name": "ヨーグルト・フルーツ＆グラノーラボウル", "description": "" },
+      "fruit_bowl": { "name": "フルーツボウル", "description": "" },
+      "cinnamon_bun_house_made": { "name": "シナモンバン（自家製）", "description": "" },
+      "chocolate_croissant": { "name": "チョコレートクロワッサン", "description": "" },
+      "plain_croissant": { "name": "プレーンクロワッサン", "description": "" },
+      "biscotti": { "name": "ビスコッティ", "description": "" },
+      "madeleine_cookies": { "name": "マドレーヌクッキー", "description": "" },
+      "chocolate_chip_cookie": { "name": "チョコチップクッキー", "description": "" },
+      "strawberry_tart": { "name": "ストロベリータルト", "description": "" },
+      "chocolate_cake": { "name": "チョコレートケーキ", "description": "" },
+      "tres_leches_cake": { "name": "トレスレチェケーキ", "description": "" },
+      "half_baguette_blt_served_with_sun_chips": { "name": "ハーフバゲットBLT（Sun Chips付き）", "description": "" },
+      "cheese_plate": { "name": "チーズプレート", "description": "" },
+      "hummus_and_vegetables": { "name": "フムス＆ベジタブル", "description": "" }
     }
   }
 }
