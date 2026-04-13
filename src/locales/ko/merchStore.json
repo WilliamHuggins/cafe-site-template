@@ -1,8 +1,62 @@
 {
-  "seoTitle": "머치 스토어 | Palm & Light Coffee",
-  "seoDescription": "Palm & Light Coffee 머치와 한정 드롭을 확인해 보세요.",
-  "title": "머치 스토어",
-  "description": "머치 컬렉션이 곧 공개됩니다. 예정 드롭 예약이나 팀/이벤트 맞춤 제작을 원하시면 문의해 주세요.",
-  "contact": "이메일 보내기",
-  "instagram": "인스타그램 보기"
+  "seoTitle": "샵 | Palm & Light Coffee",
+  "seoDescription": "Palm & Light Coffee의 기프트 카드, 커피, 큐레이션 굿즈를 만나보세요.",
+  "hero": {
+    "eyebrow": "SHOP",
+    "headline": "Palm & Light의 감성을 일상으로 가져가세요.",
+    "body": "기프트 카드, 커피, 그리고 느린 아침을 위한 데일리 오브제.",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light 샵 메인 이미지"
+  },
+  "giftCards": {
+    "headline": "기프트 카드",
+    "body": "커피와 페이스트리, 그리고 여유로운 아침을 위한 단정하고 사려 깊은 선물.",
+    "options": [
+      { "label": "$25" },
+      { "label": "$50" },
+      { "label": "$100" }
+    ],
+    "cta": "기프트 카드 구매",
+    "integrationNote": "Square 기프트 카드 결제는 새 탭에서 열립니다.",
+    "embedTitle": "Palm & Light Square 기프트 카드 결제",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light 기프트 카드"
+  },
+  "products": {
+    "headline": "큐레이션 상품",
+    "items": [
+      {
+        "name": "Palm & Light 티셔츠",
+        "price": "$38",
+        "description": "은은한 Palm & Light 브랜딩이 들어간 부드러운 데일리 티셔츠.",
+        "image": "https://i.postimg.cc/QxSNX2FQ/Chat-GPT-Image-Apr-12-2026-04-36-12-PM.png",
+        "cta": "장바구니 담기"
+      },
+      {
+        "name": "Palm & Light 스티커 세트",
+        "price": "$12",
+        "description": "노트북, 노트, 텀블러에 잘 어울리는 카페 감성 스티커 컬렉션.",
+        "image": "https://i.postimg.cc/fT5WwGVv/Chat-GPT-Image-Apr-12-2026-04-36-53-PM.png",
+        "cta": "장바구니 담기"
+      },
+      {
+        "name": "Palm & Light 다이너 머그",
+        "price": "$24",
+        "description": "매일의 한 잔을 위해 만든 클래식한 헤비웨이트 머그.",
+        "image": "https://i.postimg.cc/SNVQyBnf/Chat-GPT-Image-Apr-12-2026-04-38-24-PM.png",
+        "cta": "장바구니 담기"
+      },
+      {
+        "name": "원두 컬렉션",
+        "price": "하우스 블렌드 $22 · 시트러스 그로브 $24 · 골든 아워 에스프레소 $24 · 디카페인 $23",
+        "description": "균형감과 선명함, 그리고 일상의 루틴을 위해 로스팅한 원두 셀렉션.",
+        "image": "https://i.postimg.cc/fT5WwGV2/Chat-GPT-Image-Apr-12-2026-04-39-38-PM.png",
+        "cta": "자세히 보기"
+      }
+    ]
+  },
+  "coffeeFeature": {
+    "headline": "집에서 즐기는 커피",
+    "body": "카페의 시간을 아침 루틴으로 가져오세요."
+  }
 }
