@@ -12,6 +12,16 @@
       "body2": "サイトの不正利用、運用妨害、またはシステム・データへの不正アクセスを試みないことに同意するものとします。"
     },
     {
+      "title": "商品とサービス",
+      "body1": "すべての商品およびサービスは在庫状況に応じて提供されます。",
+      "body2": "当社は、提供内容の変更・中止、および価格の調整をいつでも行う権利を有します。"
+    },
+    {
+      "title": "ギフトカード",
+      "body1": "ギフトカードは Square を通じて処理され、Square の利用規約が適用されます。",
+      "body2": "ギフトカードの購入・利用に関する詳細は、Square のポリシーをご確認ください。"
+    },
+    {
       "title": "コンテンツと知的財産",
       "body1": "本サイト上の文章、デザイン、画像、ロゴ、写真その他のコンテンツは、Palm & Light Coffee が保有するか、許諾を得て使用しています。",
       "body2": "法令で認められる場合を除き、事前の書面同意なく複製、再配布、改変、二次利用を行うことはできません。"
@@ -43,9 +53,9 @@
     }
   ],
   "contact": {
-    "title": "規約に関するお問い合わせ",
-    "body": "本利用規約に関するご質問は、下記までご連絡ください。",
-    "emailLabel": "チームへメール",
-    "emailHref": "mailto:hello@palmandlightcoffee.com"
+    "title": "お問い合わせ",
+    "body": "Palm & Light Coffee\nSouth Bay, California\nhello@palmandlight.co",
+    "emailLabel": "Palm & Light Coffee にメール",
+    "emailHref": "mailto:hello@palmandlight.co"
   }
 }

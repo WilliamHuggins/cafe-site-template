@@ -2,7 +2,7 @@
   "seoTitle": "Palm 大家庭 | 我们的故事",
   "seoDescription": "以更具酒店感的方式认识 Palm & Light Coffee：关于空间、节奏与归属感的温暖故事。",
   "hero": {
-    "eyebrow": "THE PALM FAMILY",
+    "eyebrow": "PALM 大家庭",
     "headline": "不止是一家咖啡馆。",
     "body": "这是一个由光线、咖啡，以及每天都会再回来的人共同塑造的空间。"
   },
@@ -12,7 +12,7 @@
     "body2": "在这里，清晨更有仪式感，午后更松弛，每一次到访都像回到熟悉之处。"
   },
   "people": {
-    "eyebrow": "THE PEOPLE",
+    "eyebrow": "我们的团队",
     "headline": "由在乎空间感受的人们共同打造。",
     "body1": "我们是一支扎根 South Bay 的小团队，相信好咖啡只是体验的一部分。",
     "body2": "窗边的光影、空间的节奏，以及再次被温柔欢迎的感觉，同样重要。"
@@ -21,21 +21,21 @@
     "eyebrow": "让人再来的原因",
     "items": [
       {
-        "title": "Light",
+        "title": "光",
         "body": "开放、平静、充满阳光的空间设计。"
       },
       {
-        "title": "Coffee",
+        "title": "咖啡",
         "body": "用心制作，克制而精致。"
       },
       {
-        "title": "Connection",
+        "title": "连接",
         "body": "一个让人一次又一次回来的地方。"
       }
     ]
   },
   "feature": {
-    "eyebrow": "PART OF YOUR DAY",
+    "eyebrow": "你一天的一部分",
     "headline": "成为你一天的一部分。",
     "body1": "晨间咖啡，午间重启。无论会面、工作，还是短暂停留，都刚刚好。",
     "body2": "Palm & Light 自然融入你的生活节奏。"
