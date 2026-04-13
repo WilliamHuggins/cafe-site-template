@@ -1,8 +1,62 @@
 {
-  "seoTitle": "グッズストア | Palm & Light Coffee",
-  "seoDescription": "Palm & Light Coffee のグッズと限定ドロップ情報。",
-  "title": "グッズストア",
-  "description": "グッズコレクションはまもなく公開予定です。先行案内やチーム・イベント向けのカスタム制作をご希望の方はご連絡ください。",
-  "contact": "メールする",
-  "instagram": "Instagramを見る"
+  "seoTitle": "ショップ | Palm & Light Coffee",
+  "seoDescription": "Palm & Light Coffee のギフトカード、コーヒー、厳選グッズ。",
+  "hero": {
+    "eyebrow": "SHOP",
+    "headline": "Palm & Light を、あなたの日常に。",
+    "body": "ギフトカード、コーヒー、そしてゆっくりした朝のためのデイリーアイテム。",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light ショップのメインビジュアル"
+  },
+  "giftCards": {
+    "headline": "ギフトカード",
+    "body": "コーヒーやペストリー、穏やかな朝に寄り添う、シンプルで気の利いた贈りもの。",
+    "options": [
+      { "label": "$25" },
+      { "label": "$50" },
+      { "label": "$100" }
+    ],
+    "cta": "ギフトカードを購入",
+    "integrationNote": "Square のギフトカード購入画面が新しいタブで開きます。",
+    "embedTitle": "Palm & Light Square ギフトカード購入",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light ギフトカード"
+  },
+  "products": {
+    "headline": "セレクトアイテム",
+    "items": [
+      {
+        "name": "Palm & Light Tシャツ",
+        "price": "$38",
+        "description": "控えめな Palm & Light ロゴをあしらった、やわらかなデイリーTシャツ。",
+        "image": "https://i.postimg.cc/QxSNX2FQ/Chat-GPT-Image-Apr-12-2026-04-36-12-PM.png",
+        "cta": "カートに追加"
+      },
+      {
+        "name": "Palm & Light ステッカーセット",
+        "price": "$12",
+        "description": "ノートPCやノート、トラベルマグに映える、カフェ着想のステッカーセット。",
+        "image": "https://i.postimg.cc/fT5WwGVv/Chat-GPT-Image-Apr-12-2026-04-36-53-PM.png",
+        "cta": "カートに追加"
+      },
+      {
+        "name": "Palm & Light ダイナーマグ",
+        "price": "$24",
+        "description": "毎日の一杯のためにつくられた、クラシックなヘビーウェイトマグ。",
+        "image": "https://i.postimg.cc/SNVQyBnf/Chat-GPT-Image-Apr-12-2026-04-38-24-PM.png",
+        "cta": "カートに追加"
+      },
+      {
+        "name": "ホールビーンズ コレクション",
+        "price": "House Blend $22 ・ Citrus Grove $24 ・ Golden Hour Espresso $24 ・ Decaf $23",
+        "description": "バランスと透明感、そして日々の儀式のために焙煎したホールビーンズのローテーション。",
+        "image": "https://i.postimg.cc/fT5WwGV2/Chat-GPT-Image-Apr-12-2026-04-39-38-PM.png",
+        "cta": "詳細を見る"
+      }
+    ]
+  },
+  "coffeeFeature": {
+    "headline": "おうちで楽しむコーヒー",
+    "body": "カフェの時間を、朝のルーティンに。"
+  }
 }

@@ -1,8 +1,62 @@
 {
-  "seoTitle": "Merch Store | Palm & Light Coffee",
-  "seoDescription": "Explore Palm & Light Coffee merch and limited shop drops.",
-  "title": "Merch Store",
-  "description": "Our merch collection is on the way. Reach out if you'd like to reserve upcoming drops or collaborate on custom pieces for your team or event.",
-  "contact": "Email Us",
-  "instagram": "Follow on Instagram"
+  "seoTitle": "Shop | Palm & Light Coffee",
+  "seoDescription": "Gift cards, coffee, and curated goods from Palm & Light Coffee.",
+  "hero": {
+    "eyebrow": "SHOP",
+    "headline": "Take a piece of Palm & Light with you.",
+    "body": "Gift cards, coffee, and everyday objects designed for slow mornings.",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light shop hero"
+  },
+  "giftCards": {
+    "headline": "Gift Cards",
+    "body": "A simple, thoughtful gift for coffee, pastries, and slow mornings.",
+    "options": [
+      { "label": "$25" },
+      { "label": "$50" },
+      { "label": "$100" }
+    ],
+    "cta": "Buy Gift Card",
+    "integrationNote": "Square gift card checkout opens in a new tab.",
+    "embedTitle": "Palm & Light Square gift card checkout",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light gift cards"
+  },
+  "products": {
+    "headline": "Curated Goods",
+    "items": [
+      {
+        "name": "Palm & Light Tee",
+        "price": "$38",
+        "description": "A soft everyday tee with understated Palm & Light branding.",
+        "image": "https://i.postimg.cc/QxSNX2FQ/Chat-GPT-Image-Apr-12-2026-04-36-12-PM.png",
+        "cta": "Add to Cart"
+      },
+      {
+        "name": "Palm & Light Sticker Set",
+        "price": "$12",
+        "description": "A small collection of café-inspired stickers for laptops, notebooks, and travel mugs.",
+        "image": "https://i.postimg.cc/fT5WwGVv/Chat-GPT-Image-Apr-12-2026-04-36-53-PM.png",
+        "cta": "Add to Cart"
+      },
+      {
+        "name": "Palm & Light Diner Mug",
+        "price": "$24",
+        "description": "A classic heavyweight mug made for your everyday cup.",
+        "image": "https://i.postimg.cc/SNVQyBnf/Chat-GPT-Image-Apr-12-2026-04-38-24-PM.png",
+        "cta": "Add to Cart"
+      },
+      {
+        "name": "Whole Bean Collection",
+        "price": "House Blend $22 · Citrus Grove $24 · Golden Hour Espresso $24 · Decaf $23",
+        "description": "A rotating selection of whole beans, roasted for balance, clarity, and everyday ritual.",
+        "image": "https://i.postimg.cc/fT5WwGV2/Chat-GPT-Image-Apr-12-2026-04-39-38-PM.png",
+        "cta": "View Details"
+      }
+    ]
+  },
+  "coffeeFeature": {
+    "headline": "Coffee for home",
+    "body": "Bring the café into your morning ritual."
+  }
 }
