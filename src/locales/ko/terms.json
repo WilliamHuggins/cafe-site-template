@@ -52,6 +52,14 @@
       "body2": "업데이트 이후에도 사이트를 계속 이용하면 변경된 약관에 동의한 것으로 간주됩니다."
     }
   ],
+  "license": {
+    "title": "라이선스",
+    "body1": "이 페이지는 Apache License, Version 2.0(이하 \"라이선스\")에 따라 라이선스가 부여됩니다. 라이선스를 준수하지 않는 한 이 콘텐츠를 사용할 수 없습니다. 라이선스 사본은 다음에서 얻을 수 있습니다:",
+    "linkLabel": "https://www.apache.org/licenses/LICENSE-2.0",
+    "linkHref": "https://www.apache.org/licenses/LICENSE-2.0",
+    "body2": "관련 법률에서 요구하거나 서면으로 합의하지 않는 한, 라이선스에 따라 배포되는 콘텐츠는 명시적이든 묵시적이든 어떠한 종류의 보증이나 조건 없이 \"있는 그대로\" 배포됩니다. 라이선스에 따른 권한과 제한 사항에 대한 구체적인 내용은 라이선스를 참조하세요.",
+    "attribution": "Will Huggins의 기여로 개작되었습니다."
+  },
   "contact": {
     "title": "문의하기",
     "body": "Palm & Light Coffee\nSouth Bay, California\nhello@palmandlight.co",
