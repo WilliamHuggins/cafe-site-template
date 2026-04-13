@@ -1,0 +1,18 @@
+# Palm & Light Coffee - robots.txt
+
+# Allow all crawlers full access
+User-agent: *
+Allow: /
+
+# AI-friendly access
+User-agent: GPTBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# Sitemap
+Sitemap: https://palmandlightcoffee.com/sitemap.xml

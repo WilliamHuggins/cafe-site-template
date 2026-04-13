@@ -65,6 +65,14 @@
       "body2": "更新内容はこのページに掲載されます。"
     }
   ],
+  "license": {
+    "title": "ライセンス",
+    "body1": "本ページは Apache License, Version 2.0（以下「本ライセンス」）に基づきライセンスされています。本ライセンスに準拠しない限り、本コンテンツを使用することはできません。本ライセンスのコピーは以下から入手できます：",
+    "linkLabel": "https://www.apache.org/licenses/LICENSE-2.0",
+    "linkHref": "https://www.apache.org/licenses/LICENSE-2.0",
+    "body2": "適用法令で義務付けられている場合または書面で同意した場合を除き、本ライセンスに基づいて配布されるコンテンツは、明示・黙示を問わず、いかなる種類の保証も条件も伴わない「現状のまま」の状態で配布されます。本ライセンスに基づく許可と制限の具体的な内容については、本ライセンスをご参照ください。",
+    "attribution": "Will Huggins の貢献により改変されています。"
+  },
   "contact": {
     "title": "お問い合わせ",
     "body": "Palm & Light Coffee",

@@ -50,7 +50,26 @@ export default function Privacy() {
             ))}
           </div>
 
-          <section className="mt-10 rounded-2xl border border-border-light dark:border-border-dark p-6 md:p-8">
+          <section className="mt-10 rounded-2xl border border-border-light dark:border-border-dark bg-section-bg dark:bg-dark-section-bg p-6 md:p-8">
+            <h2 className="font-serif text-2xl md:text-3xl mb-4">{t('privacy.license.title')}</h2>
+            <div className="space-y-3 text-secondary-text dark:text-dark-secondary-text leading-relaxed">
+              <p>{t('privacy.license.body1')}</p>
+              <p>
+                <a
+                  href={t('privacy.license.linkHref')}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-accent-brown hover:text-black dark:hover:text-white transition-colors underline"
+                >
+                  {t('privacy.license.linkLabel')}
+                </a>
+              </p>
+              <p>{t('privacy.license.body2')}</p>
+              <p className="text-sm text-muted-text dark:text-dark-muted-text italic">{t('privacy.license.attribution')}</p>
+            </div>
+          </section>
+
+          <section className="mt-6 rounded-2xl border border-border-light dark:border-border-dark p-6 md:p-8">
             <h2 className="font-serif text-2xl md:text-3xl mb-4">{t('privacy.contact.title')}</h2>
             <p className="text-secondary-text dark:text-dark-secondary-text leading-relaxed mb-4">{t('privacy.contact.body')}</p>
             <a
