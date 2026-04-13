@@ -12,6 +12,8 @@ import enMerchStore from './locales/en/merchStore.json';
 import enSubscribe from './locales/en/subscribe.json';
 import enComingSoon from './locales/en/comingSoon.json';
 import enNotFound from './locales/en/notFound.json';
+import enPrivacy from './locales/en/privacy.json';
+import enTerms from './locales/en/terms.json';
 
 import jaLayout from './locales/ja/layout.json';
 import jaHome from './locales/ja/home.json';
@@ -24,6 +26,8 @@ import jaMerchStore from './locales/ja/merchStore.json';
 import jaSubscribe from './locales/ja/subscribe.json';
 import jaComingSoon from './locales/ja/comingSoon.json';
 import jaNotFound from './locales/ja/notFound.json';
+import jaPrivacy from './locales/ja/privacy.json';
+import jaTerms from './locales/ja/terms.json';
 
 import esLayout from './locales/es/layout.json';
 import esHome from './locales/es/home.json';
@@ -36,6 +40,8 @@ import esMerchStore from './locales/es/merchStore.json';
 import esSubscribe from './locales/es/subscribe.json';
 import esComingSoon from './locales/es/comingSoon.json';
 import esNotFound from './locales/es/notFound.json';
+import esPrivacy from './locales/es/privacy.json';
+import esTerms from './locales/es/terms.json';
 
 import zhLayout from './locales/zh/layout.json';
 import zhHome from './locales/zh/home.json';
@@ -48,6 +54,8 @@ import zhMerchStore from './locales/zh/merchStore.json';
 import zhSubscribe from './locales/zh/subscribe.json';
 import zhComingSoon from './locales/zh/comingSoon.json';
 import zhNotFound from './locales/zh/notFound.json';
+import zhPrivacy from './locales/zh/privacy.json';
+import zhTerms from './locales/zh/terms.json';
 
 import koLayout from './locales/ko/layout.json';
 import koHome from './locales/ko/home.json';
@@ -60,6 +68,8 @@ import koMerchStore from './locales/ko/merchStore.json';
 import koSubscribe from './locales/ko/subscribe.json';
 import koComingSoon from './locales/ko/comingSoon.json';
 import koNotFound from './locales/ko/notFound.json';
+import koPrivacy from './locales/ko/privacy.json';
+import koTerms from './locales/ko/terms.json';
 
 export const supportedLocales = ['en', 'ja', 'es', 'zh', 'ko'] as const;
 type LanguageCode = (typeof supportedLocales)[number];
@@ -70,11 +80,11 @@ export const isSupportedLocale = (locale: string): locale is LanguageCode =>
 
 
 const resources = {
-  en: { translation: { layout: enLayout, home: enHome, menuPage: enMenuPage, menuData: enMenuData, about: enAbout, catering: enCatering, careers: enCareers, merchStore: enMerchStore, subscribe: enSubscribe, comingSoon: enComingSoon, notFound: enNotFound } },
-  ja: { translation: { layout: jaLayout, home: jaHome, menuPage: jaMenuPage, menuData: jaMenuData, about: jaAbout, catering: jaCatering, careers: jaCareers, merchStore: jaMerchStore, subscribe: jaSubscribe, comingSoon: jaComingSoon, notFound: jaNotFound } },
-  es: { translation: { layout: esLayout, home: esHome, menuPage: esMenuPage, menuData: esMenuData, about: esAbout, catering: esCatering, careers: esCareers, merchStore: esMerchStore, subscribe: esSubscribe, comingSoon: esComingSoon, notFound: esNotFound } },
-  zh: { translation: { layout: zhLayout, home: zhHome, menuPage: zhMenuPage, menuData: zhMenuData, about: zhAbout, catering: zhCatering, careers: zhCareers, merchStore: zhMerchStore, subscribe: zhSubscribe, comingSoon: zhComingSoon, notFound: zhNotFound } },
-  ko: { translation: { layout: koLayout, home: koHome, menuPage: koMenuPage, menuData: koMenuData, about: koAbout, catering: koCatering, careers: koCareers, merchStore: koMerchStore, subscribe: koSubscribe, comingSoon: koComingSoon, notFound: koNotFound } },
+  en: { translation: { layout: enLayout, home: enHome, menuPage: enMenuPage, menuData: enMenuData, about: enAbout, catering: enCatering, careers: enCareers, merchStore: enMerchStore, subscribe: enSubscribe, comingSoon: enComingSoon, notFound: enNotFound, privacy: enPrivacy, terms: enTerms } },
+  ja: { translation: { layout: jaLayout, home: jaHome, menuPage: jaMenuPage, menuData: jaMenuData, about: jaAbout, catering: jaCatering, careers: jaCareers, merchStore: jaMerchStore, subscribe: jaSubscribe, comingSoon: jaComingSoon, notFound: jaNotFound, privacy: jaPrivacy, terms: jaTerms } },
+  es: { translation: { layout: esLayout, home: esHome, menuPage: esMenuPage, menuData: esMenuData, about: esAbout, catering: esCatering, careers: esCareers, merchStore: esMerchStore, subscribe: esSubscribe, comingSoon: esComingSoon, notFound: esNotFound, privacy: esPrivacy, terms: esTerms } },
+  zh: { translation: { layout: zhLayout, home: zhHome, menuPage: zhMenuPage, menuData: zhMenuData, about: zhAbout, catering: zhCatering, careers: zhCareers, merchStore: zhMerchStore, subscribe: zhSubscribe, comingSoon: zhComingSoon, notFound: zhNotFound, privacy: zhPrivacy, terms: zhTerms } },
+  ko: { translation: { layout: koLayout, home: koHome, menuPage: koMenuPage, menuData: koMenuData, about: koAbout, catering: koCatering, careers: koCareers, merchStore: koMerchStore, subscribe: koSubscribe, comingSoon: koComingSoon, notFound: koNotFound, privacy: koPrivacy, terms: koTerms } },
 };
 
 const readLanguage = (): LanguageCode => {

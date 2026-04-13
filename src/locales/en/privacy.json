@@ -1,0 +1,46 @@
+{
+  "seoTitle": "Privacy Policy | Palm & Light Coffee",
+  "seoDescription": "Read how Palm & Light Coffee collects, uses, and protects your information across our website and services.",
+  "eyebrow": "LEGAL",
+  "title": "Privacy Policy",
+  "lastUpdated": "Last updated: April 12, 2026",
+  "intro": "This Privacy Policy explains what information we collect, how we use it, and the choices you have. It applies to our website, inquiry forms, and communications.",
+  "sections": [
+    {
+      "title": "Information We Collect",
+      "body1": "We may collect information you provide directly, such as your name, email address, and any details you include in inquiry forms or messages.",
+      "body2": "We may also collect technical information automatically, such as browser type, pages visited, referral links, and approximate location based on IP address."
+    },
+    {
+      "title": "How We Use Information",
+      "body1": "We use information to respond to requests, improve our website, share updates you opt into, and maintain service quality and security.",
+      "body2": "We process information only when needed for legitimate business operations or to meet legal obligations."
+    },
+    {
+      "title": "Cookies and Analytics",
+      "body1": "Our site may use cookies and similar technologies to remember preferences, understand traffic trends, and improve performance.",
+      "body2": "You can manage or disable cookies in your browser settings, though some website features may be limited."
+    },
+    {
+      "title": "Information Sharing",
+      "body1": "We do not sell your personal information. We may share data with trusted service providers who help operate the website, process communications, or support analytics.",
+      "body2": "These providers are expected to handle data securely and only for the services they provide to us."
+    },
+    {
+      "title": "Data Retention and Security",
+      "body1": "We retain information only as long as reasonably necessary for the purposes described in this policy or as required by law.",
+      "body2": "We maintain reasonable safeguards to protect information, but no internet transmission or storage system can be guaranteed 100% secure."
+    },
+    {
+      "title": "Your Rights and Choices",
+      "body1": "Depending on your location, you may have rights to request access, correction, deletion, or limitation of your personal information.",
+      "body2": "To make a request, contact us using the details below. We may need to verify your identity before completing the request."
+    }
+  ],
+  "contact": {
+    "title": "Contact Us",
+    "body": "If you have privacy questions or requests, please contact our team.",
+    "emailLabel": "Email Privacy Team",
+    "emailHref": "mailto:hello@palmandlightcoffee.com"
+  }
+}

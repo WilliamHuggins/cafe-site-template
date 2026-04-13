@@ -1,0 +1,51 @@
+{
+  "seoTitle": "Términos de servicio | Palm & Light Coffee",
+  "seoDescription": "Consulta los términos que regulan el uso del sitio web y servicios digitales de Palm & Light Coffee.",
+  "eyebrow": "LEGAL",
+  "title": "Términos de servicio",
+  "lastUpdated": "Última actualización: 12 de abril de 2026",
+  "intro": "Estos Términos de servicio regulan el acceso y uso de nuestro sitio web y contenido digital. Al usar este sitio, aceptas estos términos.",
+  "sections": [
+    {
+      "title": "Uso del sitio web",
+      "body1": "Puedes usar este sitio para fines legales personales o comerciales relacionados con los servicios y productos de Palm & Light Coffee.",
+      "body2": "Aceptas no hacer un uso indebido del sitio, no interferir en su funcionamiento y no intentar accesos no autorizados a sistemas o datos."
+    },
+    {
+      "title": "Contenido y propiedad intelectual",
+      "body1": "Todo el texto, diseño, gráficos, logotipos, fotos y demás contenido de este sitio pertenece a Palm & Light Coffee o se usa con permiso.",
+      "body2": "No puedes copiar, reproducir, distribuir ni crear obras derivadas sin consentimiento previo por escrito, salvo lo permitido por ley."
+    },
+    {
+      "title": "Pedidos, servicios y disponibilidad",
+      "body1": "Los productos del menú, precios, horarios y disponibilidad de servicios pueden cambiar en cualquier momento sin previo aviso.",
+      "body2": "Nos reservamos el derecho de modificar, suspender o discontinuar servicios, y de rechazar servicio cuando la ley lo permita."
+    },
+    {
+      "title": "Enlaces de terceros",
+      "body1": "Este sitio puede incluir enlaces a terceros como mapas, redes sociales o servicios de pago por conveniencia.",
+      "body2": "No somos responsables del contenido ni de las políticas o prácticas de terceros, y accedes a esos servicios bajo tu propio criterio."
+    },
+    {
+      "title": "Exenciones de garantía",
+      "body1": "El sitio y su contenido se proporcionan “tal cual” y “según disponibilidad”, sin garantías de ningún tipo, en la medida permitida por la ley.",
+      "body2": "No garantizamos acceso ininterrumpido, funcionamiento sin errores ni ausencia permanente de componentes dañinos."
+    },
+    {
+      "title": "Limitación de responsabilidad",
+      "body1": "En la máxima medida permitida por la ley, Palm & Light Coffee no será responsable por daños indirectos, incidentales, especiales o consecuentes derivados del uso del sitio.",
+      "body2": "Cuando la responsabilidad no pueda excluirse, se limitará al mínimo permitido por la legislación aplicable."
+    },
+    {
+      "title": "Cambios en estos términos",
+      "body1": "Podemos actualizar estos términos periódicamente. Los cambios entran en vigor cuando se publican en esta página con la fecha revisada.",
+      "body2": "El uso continuado del sitio después de dichas actualizaciones implica tu aceptación de los términos actualizados."
+    }
+  ],
+  "contact": {
+    "title": "Preguntas sobre estos términos",
+    "body": "Si tienes preguntas sobre estos Términos de servicio, contáctanos.",
+    "emailLabel": "Enviar correo a nuestro equipo",
+    "emailHref": "mailto:hello@palmandlightcoffee.com"
+  }
+}
