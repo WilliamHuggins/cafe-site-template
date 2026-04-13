@@ -50,6 +50,11 @@ const fallbackHeroImage = 'https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2
 
 export default function MerchStore() {
   const { t } = useTranslation();
+  const giftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as GiftCardOption[];
+  const products = t('merchStore.products.items', { returnObjects: true }) as MerchProduct[];
+
+  const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
+  const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
 
   const translatedGiftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as unknown;
   const giftCardOptions = (Array.isArray(translatedGiftCardOptions) ? translatedGiftCardOptions : fallbackGiftCardOptions) as GiftCardOption[];
