@@ -299,16 +299,18 @@ export default function Layout() {
             >
               {theme === 'light' ? <Moon size={20} /> : <Sun size={20} />}
             </button>
-            <Link
-              to={localizePath("/subscribe")}
-              className={`px-6 py-2.5 text-sm font-medium rounded-sm transition-all whitespace-nowrap ${
-                transparentNav
-                  ? 'bg-white text-black hover:bg-surface-light'
-                  : 'bg-black dark:bg-white text-white dark:text-black hover:bg-cta-hover-dark dark:hover:bg-surface-light'
-              }`}
-            >
-              {t('layout.nav.connect')}
-            </Link>
+            {!isHomePath(location.pathname) && (
+              <Link
+                to={localizePath("/subscribe")}
+                className={`px-6 py-2.5 text-sm font-medium rounded-sm transition-all whitespace-nowrap ${
+                  transparentNav
+                    ? 'bg-white text-black hover:bg-surface-light'
+                    : 'bg-black dark:bg-white text-white dark:text-black hover:bg-cta-hover-dark dark:hover:bg-surface-light'
+                }`}
+              >
+                {t('layout.nav.connect')}
+              </Link>
+            )}
           </div>
 
           <div className="lg:hidden flex items-center gap-3 ml-auto">
@@ -405,13 +407,15 @@ export default function Layout() {
               {t('layout.nav.toggleTheme')}
               {theme === 'light' ? <Moon size={24} /> : <Sun size={24} />}
             </button>
-            <Link
-              to={localizePath("/subscribe")}
-              onClick={() => setMobileMenuOpen(false)}
-              className="mt-4 bg-black dark:bg-white text-white dark:text-black px-6 py-4 text-center font-bold rounded-sm"
-            >
-              {t('layout.nav.connect')}
-            </Link>
+            {!isHomePath(location.pathname) && (
+              <Link
+                to={localizePath("/subscribe")}
+                onClick={() => setMobileMenuOpen(false)}
+                className="mt-4 bg-black dark:bg-white text-white dark:text-black px-6 py-4 text-center font-bold rounded-sm"
+              >
+                {t('layout.nav.connect')}
+              </Link>
+            )}
           </motion.div>
         )}
       </AnimatePresence>
