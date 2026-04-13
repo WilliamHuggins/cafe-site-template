@@ -1,10 +1,16 @@
 import { Helmet } from '../components/Helmet';
 import { useTranslation } from 'react-i18next';
 
+type PrivacySection = {
+  title: string;
+  body1: string;
+  body2: string;
+  items?: string[];
+};
+
 export default function Privacy() {
   const { t } = useTranslation();
-
-  const sections = [0, 1, 2, 3, 4, 5];
+  const sections = t('privacy.sections', { returnObjects: true }) as PrivacySection[];
 
   return (
     <>
@@ -23,15 +29,22 @@ export default function Privacy() {
           </p>
 
           <div className="space-y-6">
-            {sections.map((index) => (
+            {sections.map((section, index) => (
               <section
                 key={index}
                 className="rounded-2xl border border-border-light dark:border-border-dark bg-section-bg dark:bg-dark-section-bg p-6 md:p-8"
               >
-                <h2 className="font-serif text-2xl md:text-3xl mb-4">{t(`privacy.sections.${index}.title`)}</h2>
+                <h2 className="font-serif text-2xl md:text-3xl mb-4">{section.title}</h2>
                 <div className="space-y-3 text-secondary-text dark:text-dark-secondary-text leading-relaxed">
-                  <p>{t(`privacy.sections.${index}.body1`)}</p>
-                  <p>{t(`privacy.sections.${index}.body2`)}</p>
+                  <p>{section.body1}</p>
+                  {section.items && section.items.length > 0 && (
+                    <ul className="list-disc pl-6 space-y-1">
+                      {section.items.map((item, itemIndex) => (
+                        <li key={itemIndex}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+                  <p>{section.body2}</p>
                 </div>
               </section>
             ))}
@@ -46,6 +59,7 @@ export default function Privacy() {
             >
               {t('privacy.contact.emailLabel')}
             </a>
+            <p className="text-sm text-muted-text dark:text-dark-muted-text mt-4">{t('privacy.contact.location')}</p>
           </section>
         </div>
       </div>

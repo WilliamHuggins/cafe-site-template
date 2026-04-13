@@ -479,7 +479,7 @@ export default function Layout() {
         <div className="max-w-7xl mx-auto px-6 md:px-12 mt-16 pt-8 border-t border-border-light dark:border-border-dark flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-muted-text dark:text-dark-muted-text tracking-wider uppercase">© {new Date().getFullYear()} Palm & Light Coffee. {t('layout.footer.rights')}</p>
           <div className="flex gap-6">
-            <Link to={localizePath("/privacy")} className="text-xs text-muted-text dark:text-dark-muted-text hover:text-black dark:hover:text-white transition-colors">{t('layout.footer.privacy')}</Link>
+            <Link to={localizePath("/privacy-policy")} className="text-xs text-muted-text dark:text-dark-muted-text hover:text-black dark:hover:text-white transition-colors">{t('layout.footer.privacy')}</Link>
             <Link to={localizePath("/terms")} className="text-xs text-muted-text dark:text-dark-muted-text hover:text-black dark:hover:text-white transition-colors">{t('layout.footer.terms')}</Link>
           </div>
         </div>
