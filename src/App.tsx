@@ -8,6 +8,7 @@ import { BrowserRouter, Navigate, Outlet, Route, Routes, useLocation, useParams 
 import { useTranslation } from 'react-i18next';
 import Layout from './components/Layout';
 import { isSupportedLocale, supportedLocales } from './i18n';
+import { enablePrototypePage } from './config';
 
 const Home = lazy(() => import('./pages/Home'));
 const Menu = lazy(() => import('./pages/Menu'));
@@ -19,6 +20,7 @@ const Subscribe = lazy(() => import('./pages/Subscribe'));
 const NotFound = lazy(() => import('./pages/NotFound'));
 const Privacy = lazy(() => import('./pages/Privacy'));
 const Terms = lazy(() => import('./pages/Terms'));
+const PrototypeNotes = lazy(() => import('./pages/PrototypeNotes'));
 
 function RouteLoadingFallback() {
   return (
@@ -74,6 +76,7 @@ export default function App() {
             <Route path="privacy" element={<Privacy />} />
             <Route path="privacy-policy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
+            {enablePrototypePage && <Route path="prototype-notes" element={<PrototypeNotes />} />}
           </Route>
         </Route>
         <Route path=":locale" element={<LocaleLayout />}>
@@ -90,6 +93,7 @@ export default function App() {
             <Route path="privacy" element={<Privacy />} />
             <Route path="privacy-policy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
+            {enablePrototypePage && <Route path="prototype-notes" element={<PrototypeNotes />} />}
             <Route path="*" element={<NotFound />} />
           </Route>
         </Route>
