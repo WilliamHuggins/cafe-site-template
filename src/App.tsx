@@ -16,8 +16,9 @@ const Catering = lazy(() => import('./pages/Catering'));
 const Careers = lazy(() => import('./pages/Careers'));
 const MerchStore = lazy(() => import('./pages/MerchStore'));
 const Subscribe = lazy(() => import('./pages/Subscribe'));
-const ComingSoon = lazy(() => import('./pages/ComingSoon'));
 const NotFound = lazy(() => import('./pages/NotFound'));
+const Privacy = lazy(() => import('./pages/Privacy'));
+const Terms = lazy(() => import('./pages/Terms'));
 
 function RouteLoadingFallback() {
   return (
@@ -70,8 +71,8 @@ export default function App() {
             <Route path="merch-store" element={<MerchStore />} />
             <Route path="gift-cards" element={<Navigate to="../merch-store" replace />} />
             <Route path="subscribe" element={<Subscribe />} />
-            <Route path="privacy" element={<ComingSoon />} />
-            <Route path="terms" element={<ComingSoon />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="terms" element={<Terms />} />
           </Route>
         </Route>
         <Route path=":locale" element={<LocaleLayout />}>
@@ -85,8 +86,8 @@ export default function App() {
             <Route path="merch-store" element={<MerchStore />} />
             <Route path="gift-cards" element={<Navigate to="../merch-store" replace />} />
             <Route path="subscribe" element={<Subscribe />} />
-            <Route path="privacy" element={<ComingSoon />} />
-            <Route path="terms" element={<ComingSoon />} />
+            <Route path="privacy" element={<Privacy />} />
+            <Route path="terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Route>
