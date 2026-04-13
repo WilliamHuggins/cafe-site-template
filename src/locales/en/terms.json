@@ -3,49 +3,49 @@
   "seoDescription": "Review the terms that govern use of the Palm & Light Coffee website and related services.",
   "eyebrow": "LEGAL",
   "title": "Terms of Service",
-  "lastUpdated": "Last updated: April 12, 2026",
-  "intro": "These Terms of Service govern access to and use of our website and digital content. By using this site, you agree to these terms.",
+  "lastUpdated": "Effective Date: April 13, 2026",
+  "intro": "By accessing or using this website, you agree to the following terms.",
   "sections": [
     {
-      "title": "Use of the Website",
-      "body1": "You may use this website for lawful personal or business purposes related to learning about Palm & Light Coffee services and offerings.",
-      "body2": "You agree not to misuse the site, interfere with its operation, or attempt unauthorized access to systems or data."
+      "title": "Use of Site",
+      "body1": "You agree to use this site for lawful purposes only.",
+      "body2": "You may not misuse the website, attempt to gain unauthorized access, or interfere with site functionality."
     },
     {
-      "title": "Content and Intellectual Property",
-      "body1": "All text, design, graphics, logos, photos, and other content on this site are owned by Palm & Light Coffee or used with permission.",
+      "title": "Products & Services",
+      "body1": "All products and services are subject to availability.",
+      "body2": "We reserve the right to modify or discontinue offerings and adjust pricing at any time."
+    },
+    {
+      "title": "Gift Cards",
+      "body1": "Gift cards are processed through Square and subject to Square’s terms and conditions.",
+      "body2": "Please review Square’s policies for additional details related to gift card purchases and redemption."
+    },
+    {
+      "title": "Intellectual Property",
+      "body1": "All content on this site—including text, images, branding, and design—is the property of Palm & Light Coffee unless otherwise noted.",
       "body2": "You may not copy, reproduce, distribute, or create derivative works without prior written consent, except where allowed by law."
     },
     {
-      "title": "Orders, Services, and Availability",
-      "body1": "Menu items, pricing, hours, and service availability may change at any time without notice.",
-      "body2": "We reserve the right to modify, suspend, or discontinue offerings and to refuse service where permitted by law."
+      "title": "Limitation of Liability",
+      "body1": "Palm & Light Coffee is not liable for indirect or incidental damages, loss of data or business interruption.",
+      "body2": "This includes issues arising from third-party services connected to or referenced on this website."
     },
     {
       "title": "Third-Party Links",
-      "body1": "This website may include links to third-party sites such as maps, social platforms, or payment services for convenience.",
-      "body2": "We are not responsible for third-party content, policies, or practices, and you access those services at your own discretion."
+      "body1": "This site may include links to third-party services.",
+      "body2": "We are not responsible for their content, policies, or practices."
     },
     {
-      "title": "Disclaimers",
-      "body1": "The website and its content are provided on an “as is” and “as available” basis without warranties of any kind, to the extent permitted by law.",
-      "body2": "We do not guarantee uninterrupted access, error-free operation, or that the site will always be free from harmful components."
-    },
-    {
-      "title": "Limitation of Liability",
-      "body1": "To the maximum extent permitted by law, Palm & Light Coffee is not liable for indirect, incidental, special, or consequential damages arising from site use.",
-      "body2": "Where liability cannot be excluded, it is limited to the minimum extent allowed under applicable law."
-    },
-    {
-      "title": "Changes to These Terms",
-      "body1": "We may update these terms from time to time. Changes become effective when posted on this page with a revised date.",
-      "body2": "Continued use of the website after updates means you accept the updated terms."
+      "title": "Changes to Terms",
+      "body1": "We may update these terms at any time.",
+      "body2": "Continued use of the site constitutes acceptance of any changes."
     }
   ],
   "contact": {
-    "title": "Questions About These Terms",
-    "body": "If you have questions about these Terms of Service, please contact us.",
-    "emailLabel": "Email Our Team",
-    "emailHref": "mailto:hello@palmandlightcoffee.com"
+    "title": "Contact",
+    "body": "Palm & Light Coffee\nSouth Bay, California\nhello@palmandlight.co",
+    "emailLabel": "Email Palm & Light Coffee",
+    "emailHref": "mailto:hello@palmandlight.co"
   }
 }

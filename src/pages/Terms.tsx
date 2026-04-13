@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 
 export default function Terms() {
   const { t } = useTranslation();
-  const sections = [0, 1, 2, 3, 4, 5, 6];
+  const sections = t('terms.sections', { returnObjects: true }) as Array<{ title: string; body1: string; body2: string }>;
 
   return (
     <>
@@ -22,15 +22,15 @@ export default function Terms() {
           </p>
 
           <div className="space-y-6">
-            {sections.map((index) => (
+            {sections.map((section) => (
               <section
-                key={index}
+                key={section.title}
                 className="rounded-2xl border border-border-light dark:border-border-dark bg-section-bg dark:bg-dark-section-bg p-6 md:p-8"
               >
-                <h2 className="font-serif text-2xl md:text-3xl mb-4">{t(`terms.sections.${index}.title`)}</h2>
+                <h2 className="font-serif text-2xl md:text-3xl mb-4">{section.title}</h2>
                 <div className="space-y-3 text-secondary-text dark:text-dark-secondary-text leading-relaxed">
-                  <p>{t(`terms.sections.${index}.body1`)}</p>
-                  <p>{t(`terms.sections.${index}.body2`)}</p>
+                  <p>{section.body1}</p>
+                  <p>{section.body2}</p>
                 </div>
               </section>
             ))}
