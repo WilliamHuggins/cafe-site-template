@@ -1,8 +1,62 @@
 {
-  "seoTitle": "周边商店 | Palm & Light Coffee",
-  "seoDescription": "探索 Palm & Light Coffee 周边与限量发售。",
-  "title": "周边商店",
-  "description": "我们的周边系列即将上线。如需预留新品或定制团队/活动周边，欢迎联系我们。",
-  "contact": "给我们发邮件",
-  "instagram": "关注 Instagram"
+  "seoTitle": "商店 | Palm & Light Coffee",
+  "seoDescription": "探索 Palm & Light Coffee 的礼品卡、咖啡与精选周边。",
+  "hero": {
+    "eyebrow": "SHOP",
+    "headline": "把 Palm & Light 带回你的日常。",
+    "body": "礼品卡、咖啡与为慢节奏清晨设计的日常物件。",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light 商店主视觉"
+  },
+  "giftCards": {
+    "headline": "礼品卡",
+    "body": "一份简单而贴心的礼物，适用于咖啡、烘焙与慢节奏清晨。",
+    "options": [
+      { "label": "$25" },
+      { "label": "$50" },
+      { "label": "$100" }
+    ],
+    "cta": "购买礼品卡",
+    "integrationNote": "Square 礼品卡结账将在新标签页打开。",
+    "embedTitle": "Palm & Light Square 礼品卡结账",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Palm & Light 礼品卡"
+  },
+  "products": {
+    "headline": "精选商品",
+    "items": [
+      {
+        "name": "Palm & Light T 恤",
+        "price": "$38",
+        "description": "柔软舒适的日常 T 恤，低调呈现 Palm & Light 品牌标识。",
+        "image": "https://i.postimg.cc/QxSNX2FQ/Chat-GPT-Image-Apr-12-2026-04-36-12-PM.png",
+        "cta": "加入购物车"
+      },
+      {
+        "name": "Palm & Light 贴纸套装",
+        "price": "$12",
+        "description": "一组受咖啡馆灵感启发的贴纸，适合笔记本、手账与随行杯。",
+        "image": "https://i.postimg.cc/fT5WwGVv/Chat-GPT-Image-Apr-12-2026-04-36-53-PM.png",
+        "cta": "加入购物车"
+      },
+      {
+        "name": "Palm & Light 复古马克杯",
+        "price": "$24",
+        "description": "经典厚重杯型，为你的每日咖啡而生。",
+        "image": "https://i.postimg.cc/SNVQyBnf/Chat-GPT-Image-Apr-12-2026-04-38-24-PM.png",
+        "cta": "加入购物车"
+      },
+      {
+        "name": "整豆系列",
+        "price": "House Blend $22 · Citrus Grove $24 · Golden Hour Espresso $24 · Decaf $23",
+        "description": "轮换上新的整豆选择，为平衡风味、清晰层次与日常仪式感而烘焙。",
+        "image": "https://i.postimg.cc/fT5WwGV2/Chat-GPT-Image-Apr-12-2026-04-39-38-PM.png",
+        "cta": "查看详情"
+      }
+    ]
+  },
+  "coffeeFeature": {
+    "headline": "把咖啡带回家",
+    "body": "把咖啡馆的体验带入你的晨间仪式。"
+  }
 }
