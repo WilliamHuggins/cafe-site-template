@@ -1,158 +1,189 @@
-# Palm & Light Coffee Website — Beginner Guide
+# Cafe Website Template — Business Owner Setup Guide
 
-This guide is written for **non-developers** and walks you through:
+This guide is written for **non-developers** and shows you how to:
 
-1. Forking this project on GitHub
-2. Publishing it on Vercel
-3. Connecting your custom domain: **palmandlightcoffee.com**
-
----
-
-## Before You Start
-
-You only need:
-- A **GitHub account** (free)
-- A **Vercel account** (free)
-- Access to your domain DNS settings for **palmandlightcoffee.com** (at your domain registrar, such as GoDaddy, Namecheap, Google Domains, Cloudflare, etc.)
-
-> Tip: Keep two browser tabs open—one for **Vercel**, one for your **domain provider**.
+1. Fork this repo into your own GitHub account
+2. Publish your own copy on Vercel
+3. Connect your own custom domain
+4. Customize content/design quickly with Claude Code or OpenAI Codex
+5. Enable optional prototype-only features using environment variables
 
 ---
 
-## Part 1: Fork the Repository on GitHub
+## 1) Fork this repo to your own account
 
-“Forking” means making your own copy of this project in your GitHub account.
+Forking makes a private working copy under your GitHub account.
 
-1. Go to the original repository page on GitHub.
-2. Click the **Fork** button (top-right area).
-3. On the next screen:
-   - Keep the owner as your account.
-   - Keep the repo name (or rename if you prefer).
-   - Click **Create fork**.
-4. Wait a few seconds. You now have your own copy of the repo.
+1. Open this repository on GitHub.
+2. Click **Fork** (top-right).
+3. Choose your account as the owner.
+4. Keep or rename the repository.
+5. Click **Create fork**.
 
-✅ You’re done with forking.
+You now own your own version and can safely customize it for your business.
 
 ---
 
-## Part 2: Publish to Vercel
+## 2) Deploy your fork to Vercel
 
-Vercel can deploy your site directly from GitHub.
-
-1. Go to [https://vercel.com](https://vercel.com) and sign in.
-2. Click **Add New...** → **Project**.
-3. Under “Import Git Repository,” find your forked repo and click **Import**.
-4. Vercel usually detects the settings automatically for this project.
-   - Framework: should auto-detect (Vite)
-   - Build command: usually `npm run build`
-   - Output directory: usually `dist`
+1. Sign in at [vercel.com](https://vercel.com).
+2. Click **Add New → Project**.
+3. Import your forked GitHub repository.
+4. Keep default Vite settings (Vercel auto-detects these in most cases):
+   - Build command: `npm run build`
+   - Output directory: `dist`
 5. Click **Deploy**.
-6. Wait for deployment to complete.
 
-When it finishes, Vercel gives you a default URL like:
-`your-project-name.vercel.app`
-
-Open that URL and confirm the site loads.
-
-✅ Your website is now live on Vercel.
+After deploy, Vercel gives you a temporary URL like:
+`your-project.vercel.app`
 
 ---
 
-## Part 3: Add Custom Domain in Vercel
-
-Now connect **palmandlightcoffee.com**.
-
-### Step A — Add the domain in Vercel
+## 3) Connect your custom domain after publish
 
 1. In Vercel, open your project.
-2. Go to **Settings** → **Domains**.
-3. Enter: `palmandlightcoffee.com`
-4. Click **Add**.
-5. Also add: `www.palmandlightcoffee.com` (recommended)
+2. Go to **Settings → Domains**.
+3. Add your root domain (example: `yourbusiness.com`).
+4. Add your `www` domain (example: `www.yourbusiness.com`).
+5. Copy the DNS records Vercel asks for into your registrar (GoDaddy, Namecheap, Cloudflare, etc.).
+6. Wait for DNS propagation and domain verification.
 
-Vercel will show DNS records you need to create.
+Typical DNS setup:
 
----
+- Root (`@`) record: **A** → `76.76.21.21`
+- `www` record: **CNAME** → `cname.vercel-dns.com`
 
-### Step B — Update DNS at your domain provider
-
-Go to where you bought/manage **palmandlightcoffee.com** and open DNS settings.
-
-Create/update records to match what Vercel asks for. In most cases:
-
-#### For root domain (`palmandlightcoffee.com`)
-- Type: **A**
-- Name/Host: `@`
-- Value: `76.76.21.21`
-
-#### For `www` subdomain (`www.palmandlightcoffee.com`)
-- Type: **CNAME**
-- Name/Host: `www`
-- Value: `cname.vercel-dns.com`
-
-> Important: If your provider already has conflicting A/CNAME records for `@` or `www`, remove old/conflicting ones first.
-
-Save changes.
+> If records already exist for `@` or `www`, remove conflicting entries first.
 
 ---
 
-### Step C — Wait for verification
+## 4) Customize quickly with Claude Code or OpenAI Codex
 
-1. Return to Vercel’s **Domains** page.
-2. Click **Refresh** (if needed).
-3. Wait for status to become **Valid**.
+You can use either tool to speed up edits in your fork.
 
-DNS updates can be quick (a few minutes) or take up to 24–48 hours.
+### What these tools are best for
 
-✅ Once valid, your site should work on:
-- `https://palmandlightcoffee.com`
-- `https://www.palmandlightcoffee.com`
+- **Styling updates:** colors, spacing, typography, button styles
+- **Naming conventions:** rename brand text, section headings, product names
+- **Menus & navigation:** add/remove menu items, reorder links, route updates
+- **Copy/content edits:** hero section text, about text, CTA wording, contact language
+
+### Prompt examples you can use directly
+
+#### Styling
+
+```txt
+Update the site to use a warm neutral palette with deep green accents.
+Keep contrast WCAG-compliant and preserve all existing page layouts.
+```
+
+#### Naming conventions
+
+```txt
+Replace all brand mentions with "<YOUR BUSINESS NAME>" and keep title case
+for navigation labels.
+```
+
+#### Menu + links
+
+```txt
+Update header nav to: Home, Menu, Catering, About, Contact.
+Remove Careers and Merch links, and ensure mobile nav matches desktop.
+```
+
+#### Copy rewrite
+
+```txt
+Rewrite homepage copy for a premium neighborhood cafe tone.
+Keep sections the same length and avoid changing page structure.
+```
+
+### Recommended workflow
+
+1. Ask AI to propose a plan first.
+2. Approve only one focused change at a time.
+3. Run local checks (`npm run build`).
+4. Commit and push.
+5. Let Vercel auto-deploy and review live.
 
 ---
 
-## Optional: Make one version the “main” domain
+## 5) Dual version (Production + Prototype) via environment variables
 
-In Vercel Domains settings, you can set either:
-- `palmandlightcoffee.com` as primary, or
-- `www.palmandlightcoffee.com` as primary.
+This template now supports a simple dual-version setup:
 
-Vercel will redirect the other one automatically.
+- **Production mode** (default): clean public-facing site
+- **Prototype mode**: optional banner + prototype-only page for internal demos
+
+### Add these Environment Variables in Vercel
+
+In **Vercel → Project → Settings → Environment Variables**, add:
+
+| Variable | Value | What it does |
+|---|---|---|
+| `VITE_SITE_VARIANT` | `production` or `prototype` | Switches app behavior by environment |
+| `VITE_SHOW_PROTOTYPE_BANNER` | `true` or `false` | Controls the top prototype banner |
+| `VITE_ENABLE_PROTOTYPE_PAGE` | `true` or `false` | Enables the `/prototype-notes` route |
+
+### Recommended values
+
+- **Production environment:**
+  - `VITE_SITE_VARIANT=production`
+  - `VITE_SHOW_PROTOTYPE_BANNER=false`
+  - `VITE_ENABLE_PROTOTYPE_PAGE=false`
+
+- **Preview / prototype environment:**
+  - `VITE_SITE_VARIANT=prototype`
+  - `VITE_SHOW_PROTOTYPE_BANNER=true`
+  - `VITE_ENABLE_PROTOTYPE_PAGE=true`
+
+> Tip: Set these per Vercel environment (Production / Preview / Development) so only your prototype builds show prototype content.
 
 ---
 
-## Updating the Website Later
+## 6) Additional prototype-only page included
 
-When you make changes in your GitHub fork and push them:
-- Vercel automatically redeploys the site.
-- Your domain stays connected.
+A prototype-only page is now available at:
+
+- `/prototype-notes`
+
+It is automatically hidden unless `VITE_ENABLE_PROTOTYPE_PAGE=true`.
+
+Use it for:
+
+- Temporary client notes
+- In-progress feature checklist
+- Internal links not ready for public launch
 
 ---
 
-## Troubleshooting (Simple)
+## Troubleshooting
 
-### “Domain not verified” in Vercel
-- Re-check DNS values are exactly correct.
-- Remove conflicting old records.
-- Wait longer for DNS propagation.
+### Domain not verifying
 
-### “Site works on vercel.app but not custom domain”
-- Usually DNS is still propagating.
-- Confirm both `@` and `www` records are correct.
+- Re-check DNS entries exactly match Vercel requirements
+- Remove conflicting old records
+- Wait up to 48 hours for propagation
 
-### SSL/HTTPS warning
-- Vercel auto-generates SSL after domain verifies.
-- Give it a little time and refresh.
+### Site loads on `vercel.app` but not your domain
+
+- DNS likely still propagating
+- Confirm both root and `www` entries are correct
+
+### HTTPS warning
+
+- SSL is auto-provisioned after domain verification
+- Wait and refresh
 
 ---
 
 ## License
 
-This project is licensed under the **MIT License**, which allows free use, modification, and distribution.
-See the [LICENSE](./LICENSE) file for full details.
+MIT License. See [LICENSE](./LICENSE).
 
 ---
 
-## Need Help?
+## Helpful links
 
-- Vercel domain docs: [https://vercel.com/docs/domains](https://vercel.com/docs/domains)
-- Vercel support: [https://vercel.com/help](https://vercel.com/help)
+- [Vercel Domains Docs](https://vercel.com/docs/domains)
+- [Vercel Support](https://vercel.com/help)
