@@ -20,8 +20,14 @@ export function useTranslation() {
     };
   }, []);
 
-  return {
-    t: (key: string) => i18n.t(key),
-    i18n,
-  };
+  type TranslationValue = ReturnType<typeof i18n.t>;
+
+  const t: {
+    (key: string): string;
+    (key: string, defaultValue: string): string;
+    (key: string, options: { returnObjects: true; [k: string]: unknown }): TranslationValue;
+  } = (key: string, optionsOrDefault?: string | { returnObjects?: boolean; [k: string]: unknown }) =>
+    i18n.t(key, optionsOrDefault as string);
+
+  return { t, i18n };
 }

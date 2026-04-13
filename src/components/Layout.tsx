@@ -16,7 +16,7 @@ export default function Layout() {
   const mobileMenuButtonRef = useRef<HTMLButtonElement>(null);
   const mobileMenuRef = useRef<HTMLDivElement>(null);
   const wasMobileMenuOpen = useRef(false);
-  const showPrototypeBanner = import.meta.env.NEXT_PUBLIC_SHOW_PROTOTYPE_BANNER === 'true';
+  const showPrototypeBanner = import.meta.env.NEXT_PUBLIC_SHOW_PROTOTYPE_BANNER !== 'false';
   const bannerRef = useRef<HTMLDivElement>(null);
   const [bannerHeight, setBannerHeight] = useState(0);
   const location = useLocation();
