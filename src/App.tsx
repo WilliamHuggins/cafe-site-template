@@ -72,6 +72,7 @@ export default function App() {
             <Route path="gift-cards" element={<Navigate to="../merch-store" replace />} />
             <Route path="subscribe" element={<Subscribe />} />
             <Route path="privacy" element={<Privacy />} />
+            <Route path="privacy-policy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
           </Route>
         </Route>
@@ -87,6 +88,7 @@ export default function App() {
             <Route path="gift-cards" element={<Navigate to="../merch-store" replace />} />
             <Route path="subscribe" element={<Subscribe />} />
             <Route path="privacy" element={<Privacy />} />
+            <Route path="privacy-policy" element={<Privacy />} />
             <Route path="terms" element={<Terms />} />
             <Route path="*" element={<NotFound />} />
           </Route>
