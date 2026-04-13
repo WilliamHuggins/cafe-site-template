@@ -1,8 +1,62 @@
 {
-  "seoTitle": "Tienda Merch | Palm & Light Coffee",
-  "seoDescription": "Descubre el merch y los lanzamientos limitados de Palm & Light Coffee.",
-  "title": "Tienda Merch",
-  "description": "Nuestra colección de merch está en camino. Escríbenos si quieres reservar próximos lanzamientos o colaborar en piezas personalizadas para tu equipo o evento.",
-  "contact": "Envíanos un correo",
-  "instagram": "Síguenos en Instagram"
+  "seoTitle": "Tienda | Palm & Light Coffee",
+  "seoDescription": "Tarjetas de regalo, café y artículos seleccionados de Palm & Light Coffee.",
+  "hero": {
+    "eyebrow": "TIENDA",
+    "headline": "Llévate un pedacito de Palm & Light.",
+    "body": "Tarjetas de regalo, café y objetos cotidianos diseñados para mañanas tranquilas.",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Imagen principal de la tienda Palm & Light"
+  },
+  "giftCards": {
+    "headline": "Tarjetas de regalo",
+    "body": "Un regalo simple y pensado para café, pastelería y mañanas tranquilas.",
+    "options": [
+      { "label": "$25" },
+      { "label": "$50" },
+      { "label": "$100" }
+    ],
+    "cta": "Comprar tarjeta de regalo",
+    "integrationNote": "La compra de tarjetas de regalo con Square se abre en una nueva pestaña.",
+    "embedTitle": "Compra de tarjetas de regalo de Palm & Light en Square",
+    "image": "https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png",
+    "imageAlt": "Tarjetas de regalo de Palm & Light"
+  },
+  "products": {
+    "headline": "Selección de productos",
+    "items": [
+      {
+        "name": "Camiseta Palm & Light",
+        "price": "$38",
+        "description": "Una camiseta suave para todos los días con la marca Palm & Light de forma sutil.",
+        "image": "https://i.postimg.cc/QxSNX2FQ/Chat-GPT-Image-Apr-12-2026-04-36-12-PM.png",
+        "cta": "Añadir al carrito"
+      },
+      {
+        "name": "Set de stickers Palm & Light",
+        "price": "$12",
+        "description": "Una pequeña colección de stickers inspirados en la cafetería para laptops, cuadernos y mugs de viaje.",
+        "image": "https://i.postimg.cc/fT5WwGVv/Chat-GPT-Image-Apr-12-2026-04-36-53-PM.png",
+        "cta": "Añadir al carrito"
+      },
+      {
+        "name": "Mug diner Palm & Light",
+        "price": "$24",
+        "description": "Un mug clásico de gran peso hecho para tu taza diaria.",
+        "image": "https://i.postimg.cc/SNVQyBnf/Chat-GPT-Image-Apr-12-2026-04-38-24-PM.png",
+        "cta": "Añadir al carrito"
+      },
+      {
+        "name": "Colección de granos enteros",
+        "price": "House Blend $22 · Citrus Grove $24 · Golden Hour Espresso $24 · Descafeinado $23",
+        "description": "Una selección rotativa de granos enteros, tostados para lograr equilibrio, claridad y ritual diario.",
+        "image": "https://i.postimg.cc/fT5WwGV2/Chat-GPT-Image-Apr-12-2026-04-39-38-PM.png",
+        "cta": "Ver detalles"
+      }
+    ]
+  },
+  "coffeeFeature": {
+    "headline": "Café para casa",
+    "body": "Lleva la cafetería a tu ritual de cada mañana."
+  }
 }
