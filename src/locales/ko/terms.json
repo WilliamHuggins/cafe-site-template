@@ -12,6 +12,16 @@
       "body2": "사이트를 오용하거나 운영을 방해하거나, 시스템/데이터에 무단 접근을 시도하지 않을 것에 동의합니다."
     },
     {
+      "title": "상품 및 서비스",
+      "body1": "모든 상품과 서비스는 재고 상황에 따라 제공됩니다.",
+      "body2": "당사는 언제든지 제공 내용을 변경 또는 중단하고 가격을 조정할 권리를 보유합니다."
+    },
+    {
+      "title": "기프트카드",
+      "body1": "기프트카드는 Square를 통해 처리되며 Square의 이용약관이 적용됩니다.",
+      "body2": "기프트카드 구매 및 사용에 관한 자세한 내용은 Square의 정책을 확인해 주세요."
+    },
+    {
       "title": "콘텐츠 및 지식재산권",
       "body1": "사이트의 텍스트, 디자인, 그래픽, 로고, 사진 및 기타 콘텐츠는 Palm & Light Coffee 소유이거나 적법한 허가를 받아 사용됩니다.",
       "body2": "법에서 허용하는 경우를 제외하고 사전 서면 동의 없이 복제, 배포, 재가공 또는 2차 저작물 제작을 할 수 없습니다."
@@ -43,9 +53,9 @@
     }
   ],
   "contact": {
-    "title": "약관 문의",
-    "body": "본 서비스 약관에 대한 문의 사항이 있으면 연락해 주세요.",
-    "emailLabel": "팀에 이메일 보내기",
-    "emailHref": "mailto:hello@palmandlightcoffee.com"
+    "title": "문의하기",
+    "body": "Palm & Light Coffee\nSouth Bay, California\nhello@palmandlight.co",
+    "emailLabel": "Palm & Light Coffee에 이메일 보내기",
+    "emailHref": "mailto:hello@palmandlight.co"
   }
 }

@@ -12,24 +12,24 @@
   },
   "story": {
     "label": "Nuestra Historia",
-    "title": "A pursuit of light,",
-    "emphasis": "every single day.",
-    "p1": "At Palm & Light, we believe great coffee begins with how a space feels. Light, air, and intention shape everything—from the first pour to the last sip.",
-    "p2": "Our café is designed as a place to slow down. Sunlight moves through the room, greenery softens the edges, and every detail is considered but never overstated.",
-    "p3": "We approach coffee with quiet precision—sourcing thoughtfully, preparing simply, and letting each cup speak for itself. The result is an experience that feels effortless, warm, and worth returning to."
+    "title": "Una búsqueda de luz,",
+    "emphasis": "cada día.",
+    "p1": "En Palm & Light, creemos que un gran café comienza con cómo se siente un espacio. La luz, el aire y la intención lo moldean todo, desde el primer vertido hasta el último sorbo.",
+    "p2": "Nuestra cafetería está diseñada como un lugar para ir más despacio. La luz del sol recorre la sala, la vegetación suaviza los bordes y cada detalle está cuidado sin resultar excesivo.",
+    "p3": "Abordamos el café con precisión tranquila: seleccionando con esmero, preparando con sencillez y dejando que cada taza hable por sí misma. El resultado es una experiencia que se siente natural, cálida y a la que dan ganas de volver."
   },
   "pillars": {
     "coffee": {
-      "title": "The Coffee",
-      "description": "Thoughtfully sourced and seasonally rotating, our coffee highlights clarity, balance, and approachability. Each cup is crafted to feel as good as it tastes."
+      "title": "El Café",
+      "description": "Seleccionado con esmero y con rotación estacional, nuestro café destaca por su claridad, equilibrio y cercanía. Cada taza está elaborada para que se sienta tan bien como sabe."
     },
     "ingredients": {
-      "title": "The Ingredients",
-      "description": "We keep things simple and intentional—fresh milk, house-made elements, and flavors that complement rather than compete."
+      "title": "Los Ingredientes",
+      "description": "Mantenemos las cosas simples e intencionales: leche fresca, elementos hechos en casa y sabores que complementan en lugar de competir."
     },
     "hospitality": {
-      "title": "The Space",
-      "description": "Designed for light, calm, and connection. Whether you’re here to work, meet, or pause, the space invites you to stay a little longer."
+      "title": "El Espacio",
+      "description": "Diseñado para la luz, la calma y la conexión. Ya sea que vengas a trabajar, encontrarte o hacer una pausa, el espacio te invita a quedarte un poco más."
     }
   },
   "philosophy": {
@@ -37,12 +37,13 @@
     "title": "Hecho a mano,",
     "emphasis": "moldeado con el tiempo.",
     "description": "Palm & Light nació de una idea simple: crear una cafetería que se sienta tan bien como se ve.\n\nComo residentes de South Bay desde hace años, quisimos construir un espacio que reflejara cómo nos gusta vivir nuestras propias mañanas: buen café, luz natural y espacio para ir más despacio.\n\nCada detalle, desde el menú hasta los materiales, ha sido pensado con cuidado. No para impresionar, sino para crear algo que se sienta natural, acogedor y al que den ganas de volver.",
-    "cta": "The Palm Family →"
+    "cta": "La Familia Palm →"
   },
   "menu": {
-    "signatureLabel": "SIGNATURE OFFERINGS",
-    "signatureTitle": "Thoughtfully made,",
-    "signatureEmphasis": "simply served.",
+    "filterAll": "Todo el Menú",
+    "signatureLabel": "SELECCIÓN EXCLUSIVA",
+    "signatureTitle": "Elaborado con esmero,",
+    "signatureEmphasis": "servido con sencillez.",
     "title": "El Menú",
     "description": "Una selección curada de café de especialidad, lattes de inspiración japonesa y tostadas gourmet. Preparados con precisión y cuidado.",
     "featured": "Destacado"

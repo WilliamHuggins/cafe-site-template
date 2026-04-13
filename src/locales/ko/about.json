@@ -2,7 +2,7 @@
   "seoTitle": "Palm 패밀리 | 우리의 이야기",
   "seoDescription": "Palm & Light Coffee를 장소의 분위기, 리듬, 연결감을 담은 차분한 호스피탈리티 스토리로 만나보세요.",
   "hero": {
-    "eyebrow": "THE PALM FAMILY",
+    "eyebrow": "팜 패밀리",
     "headline": "카페 그 이상.",
     "body": "빛과 커피, 그리고 매일 다시 찾아오는 사람들이 함께 만드는 공간입니다."
   },
@@ -12,7 +12,7 @@
     "body2": "아침은 의도 있게, 오후는 여유롭게, 그리고 방문할 때마다 익숙함이 느껴지는 곳입니다."
   },
   "people": {
-    "eyebrow": "THE PEOPLE",
+    "eyebrow": "사람들",
     "headline": "공간의 감각을 소중히 여기는 사람들이 만든 곳.",
     "body1": "우리는 South Bay에 뿌리를 둔 작은 팀이며, 훌륭한 커피는 경험의 일부일 뿐이라고 믿습니다.",
     "body2": "창으로 들어오는 빛, 공간의 리듬, 다시 반갑게 맞이받는 느낌이 이곳을 완성합니다."
@@ -21,21 +21,21 @@
     "eyebrow": "사람들이 다시 오는 이유",
     "items": [
       {
-        "title": "Light",
+        "title": "빛",
         "body": "열려 있고, 차분하며, 햇살로 가득한 공간."
       },
       {
-        "title": "Coffee",
+        "title": "커피",
         "body": "정성스럽게 만들고, 조용히 정제한 커피."
       },
       {
-        "title": "Connection",
+        "title": "연결",
         "body": "사람들이 다시, 또 다시 찾게 되는 장소."
       }
     ]
   },
   "feature": {
-    "eyebrow": "PART OF YOUR DAY",
+    "eyebrow": "당신의 하루의 일부",
     "headline": "당신의 하루의 일부.",
     "body1": "아침 커피. 한낮의 리셋. 만나고, 일하고, 잠시 쉬어가는 곳.",
     "body2": "Palm & Light는 하루의 리듬 속에 자연스럽게 스며듭니다."

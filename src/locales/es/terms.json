@@ -12,6 +12,16 @@
       "body2": "Aceptas no hacer un uso indebido del sitio, no interferir en su funcionamiento y no intentar accesos no autorizados a sistemas o datos."
     },
     {
+      "title": "Productos y servicios",
+      "body1": "Todos los productos y servicios están sujetos a disponibilidad.",
+      "body2": "Nos reservamos el derecho de modificar o descontinuar ofertas y ajustar precios en cualquier momento."
+    },
+    {
+      "title": "Tarjetas de regalo",
+      "body1": "Las tarjetas de regalo se procesan a través de Square y están sujetas a los términos y condiciones de Square.",
+      "body2": "Consulta las políticas de Square para obtener más detalles sobre la compra y el canje de tarjetas de regalo."
+    },
+    {
       "title": "Contenido y propiedad intelectual",
       "body1": "Todo el texto, diseño, gráficos, logotipos, fotos y demás contenido de este sitio pertenece a Palm & Light Coffee o se usa con permiso.",
       "body2": "No puedes copiar, reproducir, distribuir ni crear obras derivadas sin consentimiento previo por escrito, salvo lo permitido por ley."
@@ -43,9 +53,9 @@
     }
   ],
   "contact": {
-    "title": "Preguntas sobre estos términos",
-    "body": "Si tienes preguntas sobre estos Términos de servicio, contáctanos.",
-    "emailLabel": "Enviar correo a nuestro equipo",
-    "emailHref": "mailto:hello@palmandlightcoffee.com"
+    "title": "Contacto",
+    "body": "Palm & Light Coffee\nSouth Bay, California\nhello@palmandlight.co",
+    "emailLabel": "Enviar correo a Palm & Light Coffee",
+    "emailHref": "mailto:hello@palmandlight.co"
   }
 }

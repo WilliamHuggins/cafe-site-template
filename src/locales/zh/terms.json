@@ -12,6 +12,16 @@
       "body2": "您同意不滥用网站、不干扰网站运行，也不尝试未经授权访问系统或数据。"
     },
     {
+      "title": "产品与服务",
+      "body1": "所有产品和服务视供应情况而定。",
+      "body2": "我们保留随时修改或停止产品供应及调整价格的权利。"
+    },
+    {
+      "title": "礼品卡",
+      "body1": "礼品卡通过 Square 处理，适用 Square 的条款和条件。",
+      "body2": "有关礼品卡购买和兑换的更多详情，请查看 Square 的政策。"
+    },
+    {
       "title": "内容与知识产权",
       "body1": "本网站的文字、设计、图形、标识、照片及其他内容均归 Palm & Light Coffee 所有，或经授权使用。",
       "body2": "除法律允许外，未经事先书面同意，您不得复制、传播、再制作或创建衍生作品。"
@@ -43,9 +53,9 @@
     }
   ],
   "contact": {
-    "title": "条款相关问题",
-    "body": "如果您对本服务条款有疑问，请联系我们。",
-    "emailLabel": "发送邮件给团队",
-    "emailHref": "mailto:hello@palmandlightcoffee.com"
+    "title": "联系我们",
+    "body": "Palm & Light Coffee\nSouth Bay, California\nhello@palmandlight.co",
+    "emailLabel": "发送邮件给 Palm & Light Coffee",
+    "emailHref": "mailto:hello@palmandlight.co"
   }
 }

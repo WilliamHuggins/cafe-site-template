@@ -8,39 +8,68 @@
   "sections": [
     {
       "title": "Información que recopilamos",
-      "body1": "Podemos recopilar información que proporcionas directamente, como nombre, correo electrónico y detalles incluidos en formularios o mensajes.",
-      "body2": "También podemos recopilar información técnica automática, como tipo de navegador, páginas visitadas, enlaces de referencia y ubicación aproximada por dirección IP."
+      "body1": "Podemos recopilar la siguiente información:",
+      "items": [
+        "Nombre",
+        "Dirección de correo electrónico",
+        "Número de teléfono",
+        "Detalles de eventos o consultas (para catering o formularios de contacto)",
+        "Cualquier información que envíes voluntariamente a través de formularios en nuestro sitio"
+      ],
+      "body2": "No recopilamos intencionalmente datos personales sensibles a menos que los proporciones expresamente."
     },
     {
       "title": "Cómo usamos la información",
-      "body1": "Usamos la información para responder solicitudes, mejorar el sitio, compartir actualizaciones a las que te suscribas y mantener calidad y seguridad del servicio.",
-      "body2": "Procesamos la información solo cuando es necesaria para operaciones comerciales legítimas o para cumplir obligaciones legales."
+      "body1": "Usamos la información recopilada para:",
+      "items": [
+        "Responder consultas",
+        "Procesar solicitudes de catering",
+        "Comunicar sobre servicios",
+        "Mejorar nuestro sitio y la experiencia del usuario"
+      ],
+      "body2": "No vendemos ni alquilamos tu información personal."
     },
     {
-      "title": "Cookies y analítica",
-      "body1": "Nuestro sitio puede usar cookies y tecnologías similares para recordar preferencias, entender tendencias de tráfico y mejorar el rendimiento.",
-      "body2": "Puedes administrar o desactivar cookies en tu navegador, aunque algunas funciones del sitio pueden verse limitadas."
+      "title": "Servicios de terceros",
+      "body1": "Podemos utilizar servicios de terceros como:",
+      "items": [
+        "Square (para transacciones de tarjetas de regalo)",
+        "Proveedores de alojamiento web",
+        "Herramientas de analítica"
+      ],
+      "body2": "Estos proveedores pueden procesar tus datos de acuerdo con sus propias políticas de privacidad."
     },
     {
-      "title": "Compartición de información",
-      "body1": "No vendemos tu información personal. Podemos compartir datos con proveedores confiables que nos ayudan a operar el sitio, gestionar comunicaciones o analítica.",
-      "body2": "Se espera que estos proveedores manejen los datos de forma segura y solo para los servicios que nos prestan."
+      "title": "Cookies",
+      "body1": "Nuestro sitio puede usar cookies o tecnologías similares para mejorar la funcionalidad y la experiencia del usuario.",
+      "body2": "Puedes controlar el comportamiento de las cookies a través de la configuración de tu navegador."
     },
     {
-      "title": "Retención y seguridad de datos",
-      "body1": "Conservamos la información solo durante el tiempo razonablemente necesario para los fines de esta política o según lo exija la ley.",
-      "body2": "Mantenemos medidas de seguridad razonables, pero ningún sistema de internet o almacenamiento puede garantizar seguridad total al 100%."
+      "title": "Seguridad de datos",
+      "body1": "Tomamos medidas razonables para proteger tu información.",
+      "body2": "Sin embargo, ningún método de transmisión por internet es completamente seguro."
     },
     {
-      "title": "Tus derechos y opciones",
-      "body1": "Según tu ubicación, puedes tener derecho a solicitar acceso, corrección, eliminación o limitación del uso de tu información personal.",
-      "body2": "Para hacer una solicitud, contáctanos con los datos que aparecen abajo. Es posible que debamos verificar tu identidad."
+      "title": "Tus derechos",
+      "body1": "Puedes solicitar:",
+      "items": [
+        "Acceder a tus datos",
+        "Corregir o actualizar tus datos",
+        "Solicitar la eliminación de tus datos"
+      ],
+      "body2": "Contáctanos en privacy@palmandlight.co para solicitudes de privacidad."
+    },
+    {
+      "title": "Cambios",
+      "body1": "Podemos actualizar esta política de vez en cuando.",
+      "body2": "Las actualizaciones se publicarán en esta página."
     }
   ],
   "contact": {
-    "title": "Contáctanos",
-    "body": "Si tienes preguntas o solicitudes sobre privacidad, comunícate con nuestro equipo.",
-    "emailLabel": "Enviar correo al equipo",
-    "emailHref": "mailto:hello@palmandlightcoffee.com"
+    "title": "Contacto",
+    "body": "Palm & Light Coffee",
+    "emailLabel": "privacy@palmandlight.co",
+    "emailHref": "mailto:privacy@palmandlight.co",
+    "location": "South Bay, California"
   }
 }

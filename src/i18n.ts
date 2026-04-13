@@ -10,6 +10,8 @@ import enCatering from './locales/en/catering.json';
 import enCareers from './locales/en/careers.json';
 import enMerchStore from './locales/en/merchStore.json';
 import enSubscribe from './locales/en/subscribe.json';
+import enMobileBar from './locales/en/mobileBar.json';
+import enGiftCards from './locales/en/giftCards.json';
 import enComingSoon from './locales/en/comingSoon.json';
 import enNotFound from './locales/en/notFound.json';
 import enPrivacy from './locales/en/privacy.json';
@@ -24,6 +26,8 @@ import jaCatering from './locales/ja/catering.json';
 import jaCareers from './locales/ja/careers.json';
 import jaMerchStore from './locales/ja/merchStore.json';
 import jaSubscribe from './locales/ja/subscribe.json';
+import jaMobileBar from './locales/ja/mobileBar.json';
+import jaGiftCards from './locales/ja/giftCards.json';
 import jaComingSoon from './locales/ja/comingSoon.json';
 import jaNotFound from './locales/ja/notFound.json';
 import jaPrivacy from './locales/ja/privacy.json';
@@ -38,6 +42,8 @@ import esCatering from './locales/es/catering.json';
 import esCareers from './locales/es/careers.json';
 import esMerchStore from './locales/es/merchStore.json';
 import esSubscribe from './locales/es/subscribe.json';
+import esMobileBar from './locales/es/mobileBar.json';
+import esGiftCards from './locales/es/giftCards.json';
 import esComingSoon from './locales/es/comingSoon.json';
 import esNotFound from './locales/es/notFound.json';
 import esPrivacy from './locales/es/privacy.json';
@@ -52,6 +58,8 @@ import zhCatering from './locales/zh/catering.json';
 import zhCareers from './locales/zh/careers.json';
 import zhMerchStore from './locales/zh/merchStore.json';
 import zhSubscribe from './locales/zh/subscribe.json';
+import zhMobileBar from './locales/zh/mobileBar.json';
+import zhGiftCards from './locales/zh/giftCards.json';
 import zhComingSoon from './locales/zh/comingSoon.json';
 import zhNotFound from './locales/zh/notFound.json';
 import zhPrivacy from './locales/zh/privacy.json';
@@ -66,6 +74,8 @@ import koCatering from './locales/ko/catering.json';
 import koCareers from './locales/ko/careers.json';
 import koMerchStore from './locales/ko/merchStore.json';
 import koSubscribe from './locales/ko/subscribe.json';
+import koMobileBar from './locales/ko/mobileBar.json';
+import koGiftCards from './locales/ko/giftCards.json';
 import koComingSoon from './locales/ko/comingSoon.json';
 import koNotFound from './locales/ko/notFound.json';
 import koPrivacy from './locales/ko/privacy.json';
@@ -80,11 +90,11 @@ export const isSupportedLocale = (locale: string): locale is LanguageCode =>
 
 
 const resources = {
-  en: { translation: { layout: enLayout, home: enHome, menuPage: enMenuPage, menuData: enMenuData, about: enAbout, catering: enCatering, careers: enCareers, merchStore: enMerchStore, subscribe: enSubscribe, comingSoon: enComingSoon, notFound: enNotFound, privacy: enPrivacy, terms: enTerms } },
-  ja: { translation: { layout: jaLayout, home: jaHome, menuPage: jaMenuPage, menuData: jaMenuData, about: jaAbout, catering: jaCatering, careers: jaCareers, merchStore: jaMerchStore, subscribe: jaSubscribe, comingSoon: jaComingSoon, notFound: jaNotFound, privacy: jaPrivacy, terms: jaTerms } },
-  es: { translation: { layout: esLayout, home: esHome, menuPage: esMenuPage, menuData: esMenuData, about: esAbout, catering: esCatering, careers: esCareers, merchStore: esMerchStore, subscribe: esSubscribe, comingSoon: esComingSoon, notFound: esNotFound, privacy: esPrivacy, terms: esTerms } },
-  zh: { translation: { layout: zhLayout, home: zhHome, menuPage: zhMenuPage, menuData: zhMenuData, about: zhAbout, catering: zhCatering, careers: zhCareers, merchStore: zhMerchStore, subscribe: zhSubscribe, comingSoon: zhComingSoon, notFound: zhNotFound, privacy: zhPrivacy, terms: zhTerms } },
-  ko: { translation: { layout: koLayout, home: koHome, menuPage: koMenuPage, menuData: koMenuData, about: koAbout, catering: koCatering, careers: koCareers, merchStore: koMerchStore, subscribe: koSubscribe, comingSoon: koComingSoon, notFound: koNotFound, privacy: koPrivacy, terms: koTerms } },
+  en: { translation: { layout: enLayout, home: enHome, menuPage: enMenuPage, menuData: enMenuData, about: enAbout, catering: enCatering, careers: enCareers, merchStore: enMerchStore, mobileBar: enMobileBar, giftCards: enGiftCards, subscribe: enSubscribe, comingSoon: enComingSoon, notFound: enNotFound, privacy: enPrivacy, terms: enTerms } },
+  ja: { translation: { layout: jaLayout, home: jaHome, menuPage: jaMenuPage, menuData: jaMenuData, about: jaAbout, catering: jaCatering, careers: jaCareers, merchStore: jaMerchStore, mobileBar: jaMobileBar, giftCards: jaGiftCards, subscribe: jaSubscribe, comingSoon: jaComingSoon, notFound: jaNotFound, privacy: jaPrivacy, terms: jaTerms } },
+  es: { translation: { layout: esLayout, home: esHome, menuPage: esMenuPage, menuData: esMenuData, about: esAbout, catering: esCatering, careers: esCareers, merchStore: esMerchStore, mobileBar: esMobileBar, giftCards: esGiftCards, subscribe: esSubscribe, comingSoon: esComingSoon, notFound: esNotFound, privacy: esPrivacy, terms: esTerms } },
+  zh: { translation: { layout: zhLayout, home: zhHome, menuPage: zhMenuPage, menuData: zhMenuData, about: zhAbout, catering: zhCatering, careers: zhCareers, merchStore: zhMerchStore, mobileBar: zhMobileBar, giftCards: zhGiftCards, subscribe: zhSubscribe, comingSoon: zhComingSoon, notFound: zhNotFound, privacy: zhPrivacy, terms: zhTerms } },
+  ko: { translation: { layout: koLayout, home: koHome, menuPage: koMenuPage, menuData: koMenuData, about: koAbout, catering: koCatering, careers: koCareers, merchStore: koMerchStore, mobileBar: koMobileBar, giftCards: koGiftCards, subscribe: koSubscribe, comingSoon: koComingSoon, notFound: koNotFound, privacy: koPrivacy, terms: koTerms } },
 };
 
 const readLanguage = (): LanguageCode => {

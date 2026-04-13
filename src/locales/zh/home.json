@@ -12,24 +12,24 @@
   },
   "story": {
     "label": "我们的故事",
-    "title": "A pursuit of light,",
-    "emphasis": "every single day.",
-    "p1": "At Palm & Light, we believe great coffee begins with how a space feels. Light, air, and intention shape everything—from the first pour to the last sip.",
-    "p2": "Our café is designed as a place to slow down. Sunlight moves through the room, greenery softens the edges, and every detail is considered but never overstated.",
-    "p3": "We approach coffee with quiet precision—sourcing thoughtfully, preparing simply, and letting each cup speak for itself. The result is an experience that feels effortless, warm, and worth returning to."
+    "title": "追寻光，",
+    "emphasis": "每一天。",
+    "p1": "在 Palm & Light，我们相信好咖啡始于空间的感受。光线、空气和用心塑造着一切——从第一次冲泡到最后一口。",
+    "p2": "我们的咖啡馆是一个让人放慢脚步的地方。阳光穿过房间，绿植柔化了棱角，每一个细节都经过考量却不显刻意。",
+    "p3": "我们以安静的精准对待咖啡——用心挑选、简单制作，让每一杯自己诉说。最终呈现的是一种自然、温暖、值得一来再来的体验。"
   },
   "pillars": {
     "coffee": {
-      "title": "The Coffee",
-      "description": "Thoughtfully sourced and seasonally rotating, our coffee highlights clarity, balance, and approachability. Each cup is crafted to feel as good as it tastes."
+      "title": "咖啡",
+      "description": "精心挑选、随季更换，我们的咖啡强调清澈、平衡与亲和力。每一杯都旨在让感受与味道一样美好。"
     },
     "ingredients": {
-      "title": "The Ingredients",
-      "description": "We keep things simple and intentional—fresh milk, house-made elements, and flavors that complement rather than compete."
+      "title": "食材",
+      "description": "我们保持简单而用心——新鲜牛奶、自制原料，以及互相衬托而非彼此抢夺的风味。"
     },
     "hospitality": {
-      "title": "The Space",
-      "description": "Designed for light, calm, and connection. Whether you’re here to work, meet, or pause, the space invites you to stay a little longer."
+      "title": "空间",
+      "description": "为光线、宁静和连接而设计。无论你是来工作、会面还是小憩，这个空间都邀请你多停留片刻。"
     }
   },
   "philosophy": {
@@ -37,12 +37,13 @@
     "title": "亲手打造，",
     "emphasis": "在时间中成形。",
     "description": "Palm & Light 起初只有一个简单的想法：做一家看起来好看、待起来也舒服的咖啡馆。\n\n作为在 South Bay 生活多年的本地人，我们想打造一个能映照我们理想晨间节奏的空间——好咖啡、自然光，以及可以慢下来的余地。\n\n从菜单到材质，每一个细节都经过认真考量。不是为了取悦谁，而是为了做出一个自然、友好、值得一来再来的地方。",
-    "cta": "The Palm Family →"
+    "cta": "Palm 家庭 →"
   },
   "menu": {
-    "signatureLabel": "SIGNATURE OFFERINGS",
-    "signatureTitle": "Thoughtfully made,",
-    "signatureEmphasis": "simply served.",
+    "filterAll": "全部菜单",
+    "signatureLabel": "招牌精选",
+    "signatureTitle": "用心制作，",
+    "signatureEmphasis": "简约呈现。",
     "title": "菜单",
     "description": "精选精品咖啡、日式风味招牌拿铁与精致吐司，以匠心和细致呈现。",
     "featured": "推荐"
