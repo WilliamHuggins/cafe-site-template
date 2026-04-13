@@ -54,6 +54,20 @@ const resolveTranslatedArray = <T,>(value: unknown, fallback: T[]): T[] => {
 
 export default function MerchStore() {
   const { t } = useTranslation();
+  const giftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as GiftCardOption[];
+  const products = t('merchStore.products.items', { returnObjects: true }) as MerchProduct[];
+
+  const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
+  const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
+
+  const translatedGiftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as unknown;
+  const giftCardOptions = (Array.isArray(translatedGiftCardOptions) ? translatedGiftCardOptions : fallbackGiftCardOptions) as GiftCardOption[];
+
+  const translatedProducts = t('merchStore.products.items', { returnObjects: true }) as unknown;
+  const products = (Array.isArray(translatedProducts) ? translatedProducts : fallbackProducts) as MerchProduct[];
+
+  const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
+  const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
 
   const translatedGiftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as unknown;
   const giftCardOptions = resolveTranslatedArray<GiftCardOption>(translatedGiftCardOptions, fallbackGiftCardOptions);
