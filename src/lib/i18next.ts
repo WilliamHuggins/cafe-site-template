@@ -36,15 +36,25 @@ class I18n {
     return Promise.resolve(this);
   }
 
-  t(key: string): string {
-    const primary = this.getNestedValue(this.resources[this.language]?.translation, key);
+  t(key: string): string;
+  t(key: string, defaultValue: string): string;
+  t(key: string, options: { returnObjects: true; [k: string]: unknown }): TranslationValue;
+  t(key: string, optionsOrDefault?: string | { returnObjects?: boolean; [k: string]: unknown }): string | TranslationValue {
+    const returnObjects = typeof optionsOrDefault === 'object' && optionsOrDefault?.returnObjects === true;
+    const defaultValue = typeof optionsOrDefault === 'string' ? optionsOrDefault : undefined;
+
+    const primary = this.getNestedValue(this.resources[this.language]?.translation, key, returnObjects);
     if (primary !== undefined) {
       return primary;
     }
 
-    const fallback = this.getNestedValue(this.resources[this.fallbackLng]?.translation, key);
+    const fallback = this.getNestedValue(this.resources[this.fallbackLng]?.translation, key, returnObjects);
     if (fallback !== undefined) {
       return fallback;
+    }
+
+    if (defaultValue !== undefined) {
+      return defaultValue;
     }
 
     return key;
@@ -68,7 +78,7 @@ class I18n {
     }
   }
 
-  private getNestedValue(tree: TranslationTree | undefined, key: string): string | undefined {
+  private getNestedValue(tree: TranslationTree | undefined, key: string, returnObjects = false): TranslationValue | undefined {
     if (!tree) {
       return undefined;
     }
@@ -89,6 +99,14 @@ class I18n {
 
       return acc[segment];
     }, tree);
+
+    if (resolved === undefined) {
+      return undefined;
+    }
+
+    if (returnObjects) {
+      return resolved;
+    }
 
     return typeof resolved === 'string' ? resolved : undefined;
   }
