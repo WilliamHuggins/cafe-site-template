@@ -48,6 +48,10 @@ const fallbackProducts: MerchProduct[] = [
 
 const fallbackHeroImage = 'https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png';
 
+const resolveTranslatedArray = <T,>(value: unknown, fallback: T[]): T[] => {
+  return Array.isArray(value) ? (value as T[]) : fallback;
+};
+
 export default function MerchStore() {
   const { t } = useTranslation();
   const giftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as GiftCardOption[];
@@ -61,6 +65,15 @@ export default function MerchStore() {
 
   const translatedProducts = t('merchStore.products.items', { returnObjects: true }) as unknown;
   const products = (Array.isArray(translatedProducts) ? translatedProducts : fallbackProducts) as MerchProduct[];
+
+  const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
+  const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
+
+  const translatedGiftCardOptions = t('merchStore.giftCards.options', { returnObjects: true }) as unknown;
+  const giftCardOptions = resolveTranslatedArray<GiftCardOption>(translatedGiftCardOptions, fallbackGiftCardOptions);
+
+  const translatedProducts = t('merchStore.products.items', { returnObjects: true }) as unknown;
+  const products = resolveTranslatedArray<MerchProduct>(translatedProducts, fallbackProducts);
 
   const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
   const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
