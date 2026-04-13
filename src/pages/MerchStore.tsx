@@ -14,6 +14,7 @@ type GiftCardOption = {
 };
 
 const fallbackGiftCardOptions: GiftCardOption[] = [{ label: '$25' }, { label: '$50' }, { label: '$100' }];
+const fallbackHeroImage = 'https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png';
 
 const fallbackProducts: MerchProduct[] = [
   {
@@ -46,11 +47,7 @@ const fallbackProducts: MerchProduct[] = [
   },
 ];
 
-const fallbackHeroImage = 'https://i.postimg.cc/J4K71fsj/Chat-GPT-Image-Apr-12-2026-04-34-14-PM.png';
-
-const resolveTranslatedArray = <T,>(value: unknown, fallback: T[]): T[] => {
-  return Array.isArray(value) ? (value as T[]) : fallback;
-};
+const resolveTranslatedArray = <T,>(value: unknown, fallback: T[]): T[] => (Array.isArray(value) ? (value as T[]) : fallback);
 
 export default function MerchStore() {
   const { t } = useTranslation();
@@ -74,6 +71,19 @@ export default function MerchStore() {
 
   const translatedProducts = t('merchStore.products.items', { returnObjects: true }) as unknown;
   const products = resolveTranslatedArray<MerchProduct>(translatedProducts, fallbackProducts);
+
+  const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
+  const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
+
+  const giftCardOptions = resolveTranslatedArray<GiftCardOption>(
+    t('merchStore.giftCards.options', { returnObjects: true }) as unknown,
+    fallbackGiftCardOptions,
+  );
+
+  const products = resolveTranslatedArray<MerchProduct>(
+    t('merchStore.products.items', { returnObjects: true }) as unknown,
+    fallbackProducts,
+  );
 
   const squareGiftCardCheckoutUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_CHECKOUT_URL || '#';
   const squareGiftCardEmbedUrl = import.meta.env.VITE_SQUARE_GIFT_CARD_EMBED_URL;
@@ -166,12 +176,7 @@ export default function MerchStore() {
                   key={`${product.name}-${product.price}`}
                   className="rounded-2xl bg-[#f8f4f1] dark:bg-panel-dark p-5 border border-[#e4d8cf] dark:border-border-deep shadow-[0_12px_25px_rgba(45,33,24,0.08)] hover:-translate-y-1 hover:shadow-[0_18px_30px_rgba(45,33,24,0.16)] transition-all"
                 >
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="w-full h-48 object-cover rounded-xl mb-4"
-                    loading="lazy"
-                  />
+                  <img src={product.image} alt={product.name} className="w-full h-48 object-cover rounded-xl mb-4" loading="lazy" />
                   <div className="space-y-2">
                     <h3 className="font-serif text-2xl leading-tight text-heading-dark dark:text-white">{product.name}</h3>
                     <p className="text-sm font-semibold text-[#C9703E]">{product.price}</p>
@@ -189,9 +194,7 @@ export default function MerchStore() {
           </section>
 
           <section className="rounded-3xl border border-border-tan dark:border-border-deep bg-card-light dark:bg-panel-dark p-8 md:p-10 text-center shadow-[0_18px_45px_rgba(28,24,19,0.08)]">
-            <h2 className="font-serif text-4xl text-black dark:text-white mb-3">
-              {t('merchStore.coffeeFeature.headline', 'Coffee for home')}
-            </h2>
+            <h2 className="font-serif text-4xl text-black dark:text-white mb-3">{t('merchStore.coffeeFeature.headline', 'Coffee for home')}</h2>
             <p className="text-base md:text-lg leading-[1.8] text-secondary-text dark:text-dark-secondary-text max-w-2xl mx-auto">
               {t('merchStore.coffeeFeature.body', 'Bring the café into your morning ritual.')}
             </p>
