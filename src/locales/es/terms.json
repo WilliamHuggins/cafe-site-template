@@ -53,12 +53,12 @@
     }
   ],
   "license": {
-    "title": "Licencia",
-    "body1": "Esta página está licenciada bajo la Licencia Apache, Versión 2.0 (la \"Licencia\"). No puede utilizar este contenido salvo en cumplimiento con la Licencia. Puede obtener una copia de la Licencia en:",
+    "title": "Licencia y uso",
+    "body1": "Palm & Light Coffee es un negocio ficticio generado por IA, creado con fines educativos y de demostración. Todos los nombres de marca, logotipos, imágenes y contenido de este proyecto no representan una empresa, producto o servicio real. Este proyecto está licenciado bajo la Licencia Apache, Versión 2.0. Puede obtener una copia de la Licencia en:",
     "linkLabel": "https://www.apache.org/licenses/LICENSE-2.0",
     "linkHref": "https://www.apache.org/licenses/LICENSE-2.0",
-    "body2": "A menos que lo exija la ley aplicable o se acuerde por escrito, el contenido distribuido bajo la Licencia se distribuye \"TAL CUAL\", SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas. Consulte la Licencia para conocer el lenguaje específico que rige los permisos y las limitaciones bajo la Licencia.",
-    "attribution": "Adaptado con contribuciones de Will Huggins."
+    "body2": "Puede usar, modificar y redistribuir libremente este proyecto y su contenido para aprendizaje, enseñanza, creación de prototipos, trabajo de portafolio o cualquier otro propósito permitido por la Licencia Apache 2.0. A menos que lo exija la ley aplicable o se acuerde por escrito, el contenido distribuido bajo la Licencia se distribuye \"TAL CUAL\", SIN GARANTÍAS NI CONDICIONES DE NINGÚN TIPO, ya sean expresas o implícitas.",
+    "attribution": "Creado con la plantilla del sitio Palm & Light Coffee."
   },
   "contact": {
     "title": "Contacto",
